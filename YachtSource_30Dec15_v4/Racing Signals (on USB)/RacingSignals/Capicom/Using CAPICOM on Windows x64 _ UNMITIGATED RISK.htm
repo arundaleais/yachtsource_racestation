@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en-US">
+<![endif]-->
+<!--[if !(IE 7) & !(IE 8)]><!-->
+<html lang="en-US"><!--<![endif]--><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<title>Using CAPICOM on Windows x64 | UNMITIGATED RISK</title>
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="http://unmitigatedrisk.com/xmlrpc.php">
+<!--[if lt IE 9]>
+<script src="//unmitigatedrisk.com/wp-content/themes/twentytwelve/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+<script src="Using%20CAPICOM%20on%20Windows%20x64%20_%20UNMITIGATED%20RISK_files/ga.js" async="" type="text/javascript"></script><script>
+       var browserid_common = {"urlLoginSubmit":"http://unmitigatedrisk.com/","urlLoginRedirect":"http://unmitigatedrisk.com/wp-admin/","urlRegistrationRedirect":"http://unmitigatedrisk.com/wp-admin/profile.php","urlLogoutRedirect":"http://unmitigatedrisk.com/wp-login.php?action=logout&amp;_wpnonce=b2f02bbdd1","msgError":null,"msgFailed":"Verification failed","isPersonaOnlyAuth":"","isPersonaUsedWithComments":false,"siteName":"UNMITIGATED RISK","siteLogo":"","backgroundColor":"","termsOfService":"","privacyPolicy":"","loggedInUser":null}</script>
+<link rel="alternate" type="application/rss+xml" title="UNMITIGATED RISK » Feed" href="http://unmitigatedrisk.com/?feed=rss2">
+<link rel="alternate" type="application/rss+xml" title="UNMITIGATED RISK » Comments Feed" href="http://unmitigatedrisk.com/?feed=comments-rss2">
+<link rel="alternate" type="application/rss+xml" title="UNMITIGATED RISK » Using CAPICOM on Windows x64 Comments Feed" href="http://unmitigatedrisk.com/?feed=rss2&amp;p=246">
+<link rel="stylesheet" id="persona-style-css" href="Using%20CAPICOM%20on%20Windows%20x64%20_%20UNMITIGATED%20RISK_files/browserid.css" type="text/css" media="all">
+<link rel="stylesheet" id="gllr_stylesheet-css" href="Using%20CAPICOM%20on%20Windows%20x64%20_%20UNMITIGATED%20RISK_files/frontend_style.css" type="text/css" media="all">
+<link rel="stylesheet" id="gllr_fancybox_stylesheet-css" href="Using%20CAPICOM%20on%20Windows%20x64%20_%20UNMITIGATED%20RISK_files/jquery.css" type="text/css" media="all">
+<link rel="stylesheet" id="twentytwelve-fonts-css" href="Using%20CAPICOM%20on%20Windows%20x64%20_%20UNMITIGATED%20RISK_files/css.css" type="text/css" media="all">
+<link rel="stylesheet" id="twentytwelve-style-css" href="Using%20CAPICOM%20on%20Windows%20x64%20_%20UNMITIGATED%20RISK_files/style.css" type="text/css" media="all">
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='twentytwelve-ie-css'  href='//unmitigatedrisk.com/wp-content/themes/twentytwelve/css/ie.css?ver=20121010' type='text/css' media='all' />
+<![endif]-->
+<!-- This site uses the Google Analytics by Yoast plugin v5.3.3 - Universal disabled - https://yoast.com/wordpress/plugins/google-analytics/ -->
+<script type="text/javascript">
+
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-23110766-1']);
+	_gaq.push(['_gat._forceSSL']);
+	_gaq.push(['_trackPageview']);
+
+	(function () {
+		var ga = document.createElement('script');
+		ga.type = 'text/javascript';
+		ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(ga, s);
+	})();
+
+</script>
+<!-- / Google Analytics by Yoast -->
+<script type="text/javascript" src="Using%20CAPICOM%20on%20Windows%20x64%20_%20UNMITIGATED%20RISK_files/jquery_003.js"></script>
+<script type="text/javascript" src="Using%20CAPICOM%20on%20Windows%20x64%20_%20UNMITIGATED%20RISK_files/jquery-migrate.js"></script>
+<script type="text/javascript" src="Using%20CAPICOM%20on%20Windows%20x64%20_%20UNMITIGATED%20RISK_files/jquery.js"></script>
+<script type="text/javascript" src="Using%20CAPICOM%20on%20Windows%20x64%20_%20UNMITIGATED%20RISK_files/jquery_002.js"></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://unmitigatedrisk.com/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://unmitigatedrisk.com/wp-includes/wlwmanifest.xml"> 
+<link rel="prev" title="Priming the OCSP cache in Nginx" href="http://unmitigatedrisk.com/?p=241">
+<link rel="next" title="Making a Windows smartcard login certificate with OpenSSL." href="http://unmitigatedrisk.com/?p=247">
+<link rel="canonical" href="http://unmitigatedrisk.com/?p=246">
+<link rel="shortlink" href="http://unmitigatedrisk.com/?p=246">
+		<!-- Start ios -->
+		<script type="text/javascript">
+			(function($){
+				$(document).ready( function() {
+					$( '#fancybox-overlay' ).css({
+						'width' : $(document).width()
+					});	
+				});	
+			})(jQuery);
+		</script>
+		<!-- End ios -->
+		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+</head>
+
+<body class="single single-post postid-246 single-format-standard custom-background custom-font-enabled">
+<div id="page" class="hfeed site">
+	<header id="masthead" class="site-header" role="banner">
+		<hgroup>
+			<h1 class="site-title"><a href="http://unmitigatedrisk.com/" title="UNMITIGATED RISK" rel="home">UNMITIGATED RISK</a></h1>
+			<h2 class="site-description">un.mit.i.gat.ed: Adj. Not diminished or 
+moderated in intensity or severity; unrelieved. risk: N. The possibiity 
+of suffering harm or loss; danger.</h2>
+		</hgroup>
+
+		<nav id="site-navigation" class="main-navigation" role="navigation">
+			<button class="menu-toggle">Menu</button>
+			<a class="assistive-text" href="#content" title="Skip to content">Skip to content</a>
+			<div class="nav-menu"><ul><li><a href="http://unmitigatedrisk.com/">Home</a></li><li class="page_item page-item-2"><a href="http://unmitigatedrisk.com/?page_id=2">About</a></li></ul></div>
+		</nav><!-- #site-navigation -->
+
+			</header><!-- #masthead -->
+
+	<div id="main" class="wrapper">
+	<div id="primary" class="site-content">
+		<div id="content" role="main">
+
+			
+				
+	<article id="post-246" class="post-246 post type-post status-publish format-standard hentry category-security tag-capicom tag-x509">
+				<header class="entry-header">
+			
+						<h1 class="entry-title">Using CAPICOM on Windows x64</h1>
+										<div class="comments-link">
+					<a href="http://unmitigatedrisk.com/?p=246#comments" title="Comment on Using CAPICOM on Windows x64">8 Replies</a>				</div><!-- .comments-link -->
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p>So CAPICOM was one of the project I was responsible for while at 
+Microsoft, its been discontinued but I always find it useful – it is 
+kind of a Swiss Army knife for CryptoAPI certificate stores when paired 
+with its VBS samples.</p>
+<p>One of it’s problems is we never shipped with x64 bit version, you 
+can do similar things with PowerShell and the .NET classes (this is why 
+it was discontinued) but I still find this the quickest way to do stuff 
+sometimes so I keep it in my toolbelt.</p>
+<p>Here is what you need to know to make it work:</p>
+<ol>
+<li>Windows can run 32bit things in 64bit environments.</li>
+<li>You cannot have a 64bit thing call a 32bit thing.</li>
+<li>Windows ships a 32bit cmd prompt.</li>
+<li>Windows ships a 32bit regsrv32.</li>
+</ol>
+<p>To use CAPICOM you need to:</p>
+<ol>
+<li>Download CAPICOM – <a href="http://www.microsoft.com/en-us/download/details.aspx?id=25281" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'http://www.microsoft.com/en-us/download/details.aspx?id=25281', 'http://www.microsoft.com/en-us/download/details.aspx?id=25281']);">http://www.microsoft.com/en-us/download/details.aspx?id=25281</a></li>
+<li>Install CAPICOM</li>
+<li>Register CAPICOM</li>
+</ol>
+<ul>
+<li>Open an administrative command prompt</li>
+<li>cd to “C:\Program Files (x86)\Microsoft CAPICOM 2.1.0.2 SDK\Lib\X86”</li>
+<li>copy CAPICOM.DLL %windir%\syswow64</li>
+<li>%windir%\syswow64\regsvr32.exe %windir%\syswow64\capicom.dll</li>
+<li>“exit” the command prompt</li>
+</ul>
+<p>So what can you do? There are lots of things, tonight I used it to 
+enumerate the extensions included in a PFX file, you can do this with 
+OpenSSL too by looking at the ASN.1 but this way you get some of the 
+Microsoft specific stuff expanded out to human readable things.</p>
+<p>I should note that its old, its unsupported and it may have 
+vulnerabilities in it — as such I unregister it when its not in use and I
+ recomend you do the same.</p>
+<p>Hope this helps someone,</p>
+<p>Ryan</p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+			This entry was posted in <a href="http://unmitigatedrisk.com/?cat=3" rel="category">Security</a> and tagged <a href="http://unmitigatedrisk.com/?tag=capicom" rel="tag">CAPICOM</a>, <a href="http://unmitigatedrisk.com/?tag=x509" rel="tag">X509</a> on <a href="http://unmitigatedrisk.com/?p=246" title="9:45 pm" rel="bookmark"><time class="entry-date" datetime="2012-11-18T21:45:33+00:00">November 18, 2012</time></a><span class="by-author"> by <span class="author vcard"><a class="url fn n" href="http://unmitigatedrisk.com/?author=2" title="View all posts by rmhrisk" rel="author">rmhrisk</a></span></span>.								</footer><!-- .entry-meta -->
+	</article><!-- #post -->
+
+				<nav class="nav-single">
+					<h3 class="assistive-text">Post navigation</h3>
+					<span class="nav-previous"><a href="http://unmitigatedrisk.com/?p=241" rel="prev"><span class="meta-nav">←</span> Priming the OCSP cache in Nginx</a></span>
+					<span class="nav-next"><a href="http://unmitigatedrisk.com/?p=247" rel="next">Making a Windows smartcard login certificate with OpenSSL. <span class="meta-nav">→</span></a></span>
+				</nav><!-- .nav-single -->
+
+				
+<div id="comments" class="comments-area">
+
+	
+			<h2 class="comments-title">
+			8 thoughts on “<span>Using CAPICOM on Windows x64</span>”		</h2>
+
+		<ol class="commentlist">
+				<li class="comment even thread-even depth-1" id="li-comment-432">
+		<article id="comment-432" class="comment">
+			<header class="comment-meta comment-author vcard">
+				<img alt="" src="Using%20CAPICOM%20on%20Windows%20x64%20_%20UNMITIGATED%20RISK_files/1ba8459f9bb297bbea1dcb8dd3586726.png" class="avatar avatar-44 photo" width="44" height="44"><cite><b class="fn"><a href="http://www.demandsolutions.com/" rel="external nofollow" class="url">Tom Gielow</a></b> </cite><a href="http://unmitigatedrisk.com/?p=246#comment-432"><time datetime="2012-12-04T07:59:17+00:00">December 4, 2012 at 7:59 am</time></a>			</header><!-- .comment-meta -->
+
+			
+			<section class="comment-content comment">
+				<p>So is there a cmdlet for signing an EXE? What classes would you use in .NET ?</p>
+							</section><!-- .comment-content -->
+
+			<div class="reply">
+				<a class="comment-reply-link" href="http://unmitigatedrisk.com/?p=246&amp;replytocom=432#respond" onclick='return addComment.moveForm( "comment-432", "432", "respond", "246" )' aria-label="Reply to Tom Gielow">Reply</a> <span>↓</span>			</div><!-- .reply -->
+		</article><!-- #comment-## -->
+	</li><!-- #comment-## -->
+	<li class="comment odd alt thread-odd thread-alt depth-1" id="li-comment-611">
+		<article id="comment-611" class="comment">
+			<header class="comment-meta comment-author vcard">
+				<img alt="" src="Using%20CAPICOM%20on%20Windows%20x64%20_%20UNMITIGATED%20RISK_files/3c81687efe2a14ceeb0b0cef292a71ad.png" class="avatar avatar-44 photo" width="44" height="44"><cite><b class="fn"><a href="http://holataipei.wordpress.com/" rel="external nofollow" class="url">Robert Machado</a></b> </cite><a href="http://unmitigatedrisk.com/?p=246#comment-611"><time datetime="2013-03-25T01:45:08+00:00">March 25, 2013 at 1:45 am</time></a>			</header><!-- .comment-meta -->
+
+			
+			<section class="comment-content comment">
+				<p>Thanks a lot, it was very useful!</p>
+							</section><!-- .comment-content -->
+
+			<div class="reply">
+				<a class="comment-reply-link" href="http://unmitigatedrisk.com/?p=246&amp;replytocom=611#respond" onclick='return addComment.moveForm( "comment-611", "611", "respond", "246" )' aria-label="Reply to Robert Machado">Reply</a> <span>↓</span>			</div><!-- .reply -->
+		</article><!-- #comment-## -->
+	</li><!-- #comment-## -->
+	<li class="comment even thread-even depth-1" id="li-comment-659">
+		<article id="comment-659" class="comment">
+			<header class="comment-meta comment-author vcard">
+				<img alt="" src="Using%20CAPICOM%20on%20Windows%20x64%20_%20UNMITIGATED%20RISK_files/46f2d2307d234d255a846774cafb29a2.png" class="avatar avatar-44 photo" width="44" height="44"><cite><b class="fn">RCM</b> </cite><a href="http://unmitigatedrisk.com/?p=246#comment-659"><time datetime="2013-04-09T00:30:32+00:00">April 9, 2013 at 12:30 am</time></a>			</header><!-- .comment-meta -->
+
+			
+			<section class="comment-content comment">
+				<p>Does this work in Windows 8 64 bit?</p>
+							</section><!-- .comment-content -->
+
+			<div class="reply">
+				<a class="comment-reply-link" href="http://unmitigatedrisk.com/?p=246&amp;replytocom=659#respond" onclick='return addComment.moveForm( "comment-659", "659", "respond", "246" )' aria-label="Reply to RCM">Reply</a> <span>↓</span>			</div><!-- .reply -->
+		</article><!-- #comment-## -->
+	<ol class="children">
+	<li class="comment byuser comment-author-rmhrisk bypostauthor odd alt depth-2" id="li-comment-660">
+		<article id="comment-660" class="comment">
+			<header class="comment-meta comment-author vcard">
+				<img alt="" src="Using%20CAPICOM%20on%20Windows%20x64%20_%20UNMITIGATED%20RISK_files/67fc2c4d10b01fb3b43861a3c78ab248.png" class="avatar avatar-44 photo" width="44" height="44"><cite><b class="fn"><a href="http://www.unmitigatedrisk.com/" rel="external nofollow" class="url">rmhrisk</a></b> <span>Post author</span></cite><a href="http://unmitigatedrisk.com/?p=246#comment-660"><time datetime="2013-04-09T06:27:12+00:00">April 9, 2013 at 6:27 am</time></a>			</header><!-- .comment-meta -->
+
+			
+			<section class="comment-content comment">
+				<p>Should</p>
+							</section><!-- .comment-content -->
+
+			<div class="reply">
+				<a class="comment-reply-link" href="http://unmitigatedrisk.com/?p=246&amp;replytocom=660#respond" onclick='return addComment.moveForm( "comment-660", "660", "respond", "246" )' aria-label="Reply to rmhrisk">Reply</a> <span>↓</span>			</div><!-- .reply -->
+		</article><!-- #comment-## -->
+	</li><!-- #comment-## -->
+</ol><!-- .children -->
+</li><!-- #comment-## -->
+	<li class="comment even thread-odd thread-alt depth-1" id="li-comment-899">
+		<article id="comment-899" class="comment">
+			<header class="comment-meta comment-author vcard">
+				<img alt="" src="Using%20CAPICOM%20on%20Windows%20x64%20_%20UNMITIGATED%20RISK_files/325aea3f084ceca0e000a5e537700f49.png" class="avatar avatar-44 photo" width="44" height="44"><cite><b class="fn"><a href="http://unmitigatedrisk.com/?p=246" rel="external nofollow" class="url">hirakant</a></b> </cite><a href="http://unmitigatedrisk.com/?p=246#comment-899"><time datetime="2013-08-02T00:56:50+00:00">August 2, 2013 at 12:56 am</time></a>			</header><!-- .comment-meta -->
+
+			
+			<section class="comment-content comment">
+				<p>yes it is working, thanks lot.</p>
+							</section><!-- .comment-content -->
+
+			<div class="reply">
+				<a class="comment-reply-link" href="http://unmitigatedrisk.com/?p=246&amp;replytocom=899#respond" onclick='return addComment.moveForm( "comment-899", "899", "respond", "246" )' aria-label="Reply to hirakant">Reply</a> <span>↓</span>			</div><!-- .reply -->
+		</article><!-- #comment-## -->
+	</li><!-- #comment-## -->
+	<li class="pingback odd alt thread-even depth-1" id="comment-1018">
+		<p>Pingback: <a href="http://www.lucadentella.it/2013/10/24/vbscript-gestire-certificati-ssl/" rel="external nofollow" class="url">lucadentella.it – VBScript: gestire certificati SSL</a> </p>
+	</li><!-- #comment-## -->
+	<li class="comment even thread-odd thread-alt depth-1" id="li-comment-16901">
+		<article id="comment-16901" class="comment">
+			<header class="comment-meta comment-author vcard">
+				<img alt="" src="Using%20CAPICOM%20on%20Windows%20x64%20_%20UNMITIGATED%20RISK_files/a63d23d78e89f11c802231c273f2ca14.png" class="avatar avatar-44 photo" width="44" height="44"><cite><b class="fn">caktus</b> </cite><a href="http://unmitigatedrisk.com/?p=246#comment-16901"><time datetime="2014-08-03T10:02:08+00:00">August 3, 2014 at 10:02 am</time></a>			</header><!-- .comment-meta -->
+
+			
+			<section class="comment-content comment">
+				<p>How would I know when it is needed?  How would I un/re-register it?</p>
+							</section><!-- .comment-content -->
+
+			<div class="reply">
+				<a class="comment-reply-link" href="http://unmitigatedrisk.com/?p=246&amp;replytocom=16901#respond" onclick='return addComment.moveForm( "comment-16901", "16901", "respond", "246" )' aria-label="Reply to caktus">Reply</a> <span>↓</span>			</div><!-- .reply -->
+		</article><!-- #comment-## -->
+	<ol class="children">
+	<li class="comment byuser comment-author-rmhrisk bypostauthor odd alt depth-2" id="li-comment-16905">
+		<article id="comment-16905" class="comment">
+			<header class="comment-meta comment-author vcard">
+				<img alt="" src="Using%20CAPICOM%20on%20Windows%20x64%20_%20UNMITIGATED%20RISK_files/67fc2c4d10b01fb3b43861a3c78ab248.png" class="avatar avatar-44 photo" width="44" height="44"><cite><b class="fn"><a href="http://www.unmitigatedrisk.com/" rel="external nofollow" class="url">rmhrisk</a></b> <span>Post author</span></cite><a href="http://unmitigatedrisk.com/?p=246#comment-16905"><time datetime="2014-08-03T10:32:42+00:00">August 3, 2014 at 10:32 am</time></a>			</header><!-- .comment-meta -->
+
+			
+			<section class="comment-content comment">
+				<p>You know when a script your using says it requires it. You can I register it using the /u switch.</p>
+							</section><!-- .comment-content -->
+
+			<div class="reply">
+				<a class="comment-reply-link" href="http://unmitigatedrisk.com/?p=246&amp;replytocom=16905#respond" onclick='return addComment.moveForm( "comment-16905", "16905", "respond", "246" )' aria-label="Reply to rmhrisk">Reply</a> <span>↓</span>			</div><!-- .reply -->
+		</article><!-- #comment-## -->
+	</li><!-- #comment-## -->
+</ol><!-- .children -->
+</li><!-- #comment-## -->
+		</ol><!-- .commentlist -->
+
+		
+		
+	
+									<div id="respond" class="comment-respond">
+				<h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="http://unmitigatedrisk.com/?p=246#respond" style="display:none;">Cancel reply</a></small></h3>
+									<form action="//unmitigatedrisk.com/wp-comments-post.php?wpe-comment-post=rmhrisk" method="post" id="commentform" class="comment-form">
+																			<p class="comment-notes"><span id="email-notes">Your email address will not be published.</span> Required fields are marked <span class="required">*</span></p>							<p class="comment-form-author"><label for="author">Name <span class="required">*</span></label> <input id="author" name="author" size="30" aria-required="true" type="text"></p>
+<p class="comment-form-email"><label for="email">Email <span class="required">*</span></label> <input id="email" name="email" size="30" aria-describedby="email-notes" aria-required="true" type="text"></p>
+<p class="comment-form-url"><label for="url">Website</label> <input id="url" name="url" size="30" type="text"></p>
+												<p class="comment-form-comment"><label for="comment">Comment</label> <textarea id="comment" name="comment" cols="45" rows="8" aria-describedby="form-allowed-tags" aria-required="true"></textarea></p>						<p class="form-allowed-tags" id="form-allowed-tags">You may use these <abbr title="HyperText Markup Language">HTML</abbr> tags and attributes:  <code>&lt;a
+ href="" title=""&gt; &lt;abbr title=""&gt; &lt;acronym title=""&gt; 
+&lt;b&gt; &lt;blockquote cite=""&gt; &lt;cite&gt; &lt;code&gt; &lt;del 
+datetime=""&gt; &lt;em&gt; &lt;i&gt; &lt;q cite=""&gt; &lt;strike&gt; 
+&lt;strong&gt; </code></p>						<p class="form-submit">
+							<input name="submit" id="submit" class="submit" value="Post Comment" type="submit">
+							<input name="comment_post_ID" value="246" id="comment_post_ID" type="hidden">
+<input name="comment_parent" id="comment_parent" value="0" type="hidden">
+						</p>
+						<p style="display: none;"><input id="akismet_comment_nonce" name="akismet_comment_nonce" value="a057869b7e" type="hidden"></p><p style="display: none;"></p>					<input id="ak_js" name="ak_js" value="1430652092273" type="hidden"></form>
+							</div><!-- #respond -->
+			
+</div><!-- #comments .comments-area -->
+			
+		</div><!-- #content -->
+	</div><!-- #primary -->
+
+
+			<div id="secondary" class="widget-area" role="complementary">
+					<aside id="recent-posts-2" class="widget widget_recent_entries">		<h3 class="widget-title">Recent Posts</h3>		<ul>
+					<li>
+				<a href="http://unmitigatedrisk.com/?p=494">How did I get involved in PKI?</a>
+						</li>
+					<li>
+				<a href="http://unmitigatedrisk.com/?p=492">T-Mobile : How very “carrier” of you.</a>
+						</li>
+					<li>
+				<a href="http://unmitigatedrisk.com/?p=486">The first web-server and the meaning of the SSL lock</a>
+						</li>
+					<li>
+				<a href="http://unmitigatedrisk.com/?p=482">What are some upsides of googles’s SHA1 deprecation plan?</a>
+						</li>
+					<li>
+				<a href="http://unmitigatedrisk.com/?p=479">Why might you have a certificate with a SHA1 based signature in its chain that is valid beyond 2016/1/1?</a>
+						</li>
+				</ul>
+		</aside><aside id="recent-comments-2" class="widget widget_recent_comments"><h3 class="widget-title">Recent Comments</h3><ul id="recentcomments"><li class="recentcomments"><span class="comment-author-link"><a href="http://www.ask.co.uk/" rel="external nofollow" class="url">ask</a></span> on <a href="http://unmitigatedrisk.com/?p=379#comment-128749">Strategies for Deploying 2FA</a></li><li class="recentcomments"><span class="comment-author-link"><a href="http://yuhongbao.blogspot.com/" rel="external nofollow" class="url">Yuhong Bao</a></span> on <a href="http://unmitigatedrisk.com/?p=494#comment-128633">How did I get involved in PKI?</a></li><li class="recentcomments"><span class="comment-author-link"><a href="http://www.unmitigatedrisk.com/" rel="external nofollow" class="url">rmhrisk</a></span> on <a href="http://unmitigatedrisk.com/?p=494#comment-128632">How did I get involved in PKI?</a></li><li class="recentcomments"><span class="comment-author-link"><a href="http://yuhongbao.blogspot.com/" rel="external nofollow" class="url">Yuhong Bao</a></span> on <a href="http://unmitigatedrisk.com/?p=494#comment-128631">How did I get involved in PKI?</a></li><li class="recentcomments"><span class="comment-author-link"><a href="http://www.unmitigatedrisk.com/" rel="external nofollow" class="url">rmhrisk</a></span> on <a href="http://unmitigatedrisk.com/?p=494#comment-127092">How did I get involved in PKI?</a></li></ul></aside><aside id="archives-2" class="widget widget_archive"><h3 class="widget-title">Archives</h3>		<ul>
+	<li><a href="http://unmitigatedrisk.com/?m=201410">October 2014</a></li>
+	<li><a href="http://unmitigatedrisk.com/?m=201409">September 2014</a></li>
+	<li><a href="http://unmitigatedrisk.com/?m=201408">August 2014</a></li>
+	<li><a href="http://unmitigatedrisk.com/?m=201407">July 2014</a></li>
+	<li><a href="http://unmitigatedrisk.com/?m=201406">June 2014</a></li>
+	<li><a href="http://unmitigatedrisk.com/?m=201405">May 2014</a></li>
+	<li><a href="http://unmitigatedrisk.com/?m=201404">April 2014</a></li>
+	<li><a href="http://unmitigatedrisk.com/?m=201310">October 2013</a></li>
+	<li><a href="http://unmitigatedrisk.com/?m=201309">September 2013</a></li>
+	<li><a href="http://unmitigatedrisk.com/?m=201308">August 2013</a></li>
+	<li><a href="http://unmitigatedrisk.com/?m=201307">July 2013</a></li>
+	<li><a href="http://unmitigatedrisk.com/?m=201306">June 2013</a></li>
+	<li><a href="http://unmitigatedrisk.com/?m=201305">May 2013</a></li>
+	<li><a href="http://unmitigatedrisk.com/?m=201304">April 2013</a></li>
+	<li><a href="http://unmitigatedrisk.com/?m=201303">March 2013</a></li>
+	<li><a href="http://unmitigatedrisk.com/?m=201302">February 2013</a></li>
+	<li><a href="http://unmitigatedrisk.com/?m=201212">December 2012</a></li>
+	<li><a href="http://unmitigatedrisk.com/?m=201211">November 2012</a></li>
+	<li><a href="http://unmitigatedrisk.com/?m=201210">October 2012</a></li>
+	<li><a href="http://unmitigatedrisk.com/?m=201209">September 2012</a></li>
+	<li><a href="http://unmitigatedrisk.com/?m=201208">August 2012</a></li>
+	<li><a href="http://unmitigatedrisk.com/?m=201207">July 2012</a></li>
+	<li><a href="http://unmitigatedrisk.com/?m=201206">June 2012</a></li>
+	<li><a href="http://unmitigatedrisk.com/?m=201205">May 2012</a></li>
+	<li><a href="http://unmitigatedrisk.com/?m=201204">April 2012</a></li>
+	<li><a href="http://unmitigatedrisk.com/?m=201203">March 2012</a></li>
+	<li><a href="http://unmitigatedrisk.com/?m=201202">February 2012</a></li>
+	<li><a href="http://unmitigatedrisk.com/?m=201201">January 2012</a></li>
+	<li><a href="http://unmitigatedrisk.com/?m=201108">August 2011</a></li>
+	<li><a href="http://unmitigatedrisk.com/?m=201005">May 2010</a></li>
+	<li><a href="http://unmitigatedrisk.com/?m=201004">April 2010</a></li>
+	<li><a href="http://unmitigatedrisk.com/?m=200811">November 2008</a></li>
+	<li><a href="http://unmitigatedrisk.com/?m=200708">August 2007</a></li>
+	<li><a href="http://unmitigatedrisk.com/?m=200704">April 2007</a></li>
+	<li><a href="http://unmitigatedrisk.com/?m=200612">December 2006</a></li>
+		</ul>
+</aside><aside id="tag_cloud-2" class="widget widget_tag_cloud"><h3 class="widget-title">Tags</h3><div class="tagcloud"><a href="http://unmitigatedrisk.com/?tag=apple" class="tag-link-94" title="2 topics" style="font-size: 8pt;">Apple</a>
+<a href="http://unmitigatedrisk.com/?tag=best-practices" class="tag-link-21" title="18 topics" style="font-size: 17.5726495726pt;">Best Practices</a>
+<a href="http://unmitigatedrisk.com/?tag=biometrics" class="tag-link-92" title="3 topics" style="font-size: 9.4358974359pt;">Biometrics</a>
+<a href="http://unmitigatedrisk.com/?tag=bitcoin" class="tag-link-102" title="18 topics" style="font-size: 17.5726495726pt;">bitcoin</a>
+<a href="http://unmitigatedrisk.com/?tag=ca" class="tag-link-16" title="6 topics" style="font-size: 12.4273504274pt;">CA</a>
+<a href="http://unmitigatedrisk.com/?tag=cab-forum" class="tag-link-29" title="2 topics" style="font-size: 8pt;">CAB Forum</a>
+<a href="http://unmitigatedrisk.com/?tag=certificates" class="tag-link-73" title="2 topics" style="font-size: 8pt;">Certificates</a>
+<a href="http://unmitigatedrisk.com/?tag=chrome" class="tag-link-58" title="3 topics" style="font-size: 9.4358974359pt;">Chrome</a>
+<a href="http://unmitigatedrisk.com/?tag=crl" class="tag-link-34" title="7 topics" style="font-size: 13.0256410256pt;">CRL</a>
+<a href="http://unmitigatedrisk.com/?tag=cryptoapi" class="tag-link-36" title="4 topics" style="font-size: 10.6324786325pt;">CryptoAPI</a>
+<a href="http://unmitigatedrisk.com/?tag=cryptography" class="tag-link-32" title="3 topics" style="font-size: 9.4358974359pt;">Cryptography</a>
+<a href="http://unmitigatedrisk.com/?tag=fingerprints" class="tag-link-93" title="3 topics" style="font-size: 9.4358974359pt;">Fingerprints</a>
+<a href="http://unmitigatedrisk.com/?tag=iis" class="tag-link-33" title="3 topics" style="font-size: 9.4358974359pt;">IIS</a>
+<a href="http://unmitigatedrisk.com/?tag=internet-explorer" class="tag-link-56" title="3 topics" style="font-size: 9.4358974359pt;">Internet Explorer</a>
+<a href="http://unmitigatedrisk.com/?tag=javascript" class="tag-link-118" title="7 topics" style="font-size: 13.0256410256pt;">Javascript</a>
+<a href="http://unmitigatedrisk.com/?tag=jobs" class="tag-link-38" title="7 topics" style="font-size: 13.0256410256pt;">Jobs</a>
+<a href="http://unmitigatedrisk.com/?tag=microsoft" class="tag-link-17" title="16 topics" style="font-size: 16.9743589744pt;">Microsoft</a>
+<a href="http://unmitigatedrisk.com/?tag=mindmap" class="tag-link-128" title="2 topics" style="font-size: 8pt;">Mindmap</a>
+<a href="http://unmitigatedrisk.com/?tag=mozilla" class="tag-link-53" title="3 topics" style="font-size: 9.4358974359pt;">Mozilla</a>
+<a href="http://unmitigatedrisk.com/?tag=name-constraints" class="tag-link-75" title="2 topics" style="font-size: 8pt;">Name Constraints</a>
+<a href="http://unmitigatedrisk.com/?tag=ocsp" class="tag-link-25" title="24 topics" style="font-size: 19.0085470085pt;">OCSP</a>
+<a href="http://unmitigatedrisk.com/?tag=ocsp-stapling" class="tag-link-65" title="3 topics" style="font-size: 9.4358974359pt;">OCSP Stapling</a>
+<a href="http://unmitigatedrisk.com/?tag=openssl" class="tag-link-22" title="7 topics" style="font-size: 13.0256410256pt;">OpenSSL</a>
+<a href="http://unmitigatedrisk.com/?tag=opera" class="tag-link-54" title="3 topics" style="font-size: 9.4358974359pt;">Opera</a>
+<a href="http://unmitigatedrisk.com/?tag=performance" class="tag-link-35" title="6 topics" style="font-size: 12.4273504274pt;">Performance</a>
+<a href="http://unmitigatedrisk.com/?tag=piperwallet" class="tag-link-110" title="2 topics" style="font-size: 8pt;">PiperWallet</a>
+<a href="http://unmitigatedrisk.com/?tag=pki" class="tag-link-27" title="8 topics" style="font-size: 13.6239316239pt;">PKI</a>
+<a href="http://unmitigatedrisk.com/?tag=pki-js" class="tag-link-120" title="3 topics" style="font-size: 9.4358974359pt;">pki.js</a>
+<a href="http://unmitigatedrisk.com/?tag=programming" class="tag-link-12" title="3 topics" style="font-size: 9.4358974359pt;">Programming</a>
+<a href="http://unmitigatedrisk.com/?tag=qualified-subordination" class="tag-link-44" title="4 topics" style="font-size: 10.6324786325pt;">Qualified Subordination</a>
+<a href="http://unmitigatedrisk.com/?tag=revocation" class="tag-link-24" title="20 topics" style="font-size: 18.0512820513pt;">REVOCATION</a>
+<a href="http://unmitigatedrisk.com/?tag=revocation-checking" class="tag-link-62" title="3 topics" style="font-size: 9.4358974359pt;">Revocation Checking</a>
+<a href="http://unmitigatedrisk.com/?tag=safari" class="tag-link-55" title="2 topics" style="font-size: 8pt;">Safari</a>
+<a href="http://unmitigatedrisk.com/?tag=security" class="tag-link-3" title="30 topics" style="font-size: 20.0854700855pt;">Security</a>
+<a href="http://unmitigatedrisk.com/?tag=smart-cards" class="tag-link-127" title="3 topics" style="font-size: 9.4358974359pt;">Smart Cards</a>
+<a href="http://unmitigatedrisk.com/?tag=smartcards" class="tag-link-5" title="2 topics" style="font-size: 8pt;">Smartcards</a>
+<a href="http://unmitigatedrisk.com/?tag=ssl" class="tag-link-6" title="43 topics" style="font-size: 21.8803418803pt;">SSL</a>
+<a href="http://unmitigatedrisk.com/?tag=standards" class="tag-link-7" title="3 topics" style="font-size: 9.4358974359pt;">Standards</a>
+<a href="http://unmitigatedrisk.com/?tag=timestamping" class="tag-link-98" title="2 topics" style="font-size: 8pt;">Timestamping</a>
+<a href="http://unmitigatedrisk.com/?tag=tls" class="tag-link-42" title="6 topics" style="font-size: 12.4273504274pt;">TLS</a>
+<a href="http://unmitigatedrisk.com/?tag=trezor" class="tag-link-109" title="2 topics" style="font-size: 8pt;">trezor</a>
+<a href="http://unmitigatedrisk.com/?tag=troubleshooting" class="tag-link-79" title="2 topics" style="font-size: 8pt;">Troubleshooting</a>
+<a href="http://unmitigatedrisk.com/?tag=uptime" class="tag-link-84" title="2 topics" style="font-size: 8pt;">uptime</a>
+<a href="http://unmitigatedrisk.com/?tag=x-509" class="tag-link-80" title="2 topics" style="font-size: 8pt;">X.509</a>
+<a href="http://unmitigatedrisk.com/?tag=x509" class="tag-link-19" title="44 topics" style="font-size: 22pt;">X509</a></div>
+</aside><aside id="linkcat-2" class="widget widget_links"><h3 class="widget-title">Blogroll</h3>
+	<ul class="xoxo blogroll">
+<li><a href="http://www.schneier.com/blog/" onclick="_gaq.push(['_trackEvent', 'outbound-widget', 'http://www.schneier.com/blog/', 'Bruce Schneier']);">Bruce Schneier</a></li>
+<li><a href="http://dankaminsky.com/" onclick="_gaq.push(['_trackEvent', 'outbound-widget', 'http://dankaminsky.com/', 'Dan Kaminsky']);">Dan Kaminsky</a></li>
+<li><a href="http://www.imperialviolet.org/" onclick="_gaq.push(['_trackEvent', 'outbound-widget', 'http://www.imperialviolet.org/', 'ImperialViolet']);">ImperialViolet</a></li>
+<li><a href="http://blog.ivanristic.com/" onclick="_gaq.push(['_trackEvent', 'outbound-widget', 'http://blog.ivanristic.com/', 'Ivan Ristic']);">Ivan Ristic</a></li>
+<li><a href="http://netsekure.org/" onclick="_gaq.push(['_trackEvent', 'outbound-widget', 'http://netsekure.org/', 'Netsekure']);">Netsekure</a></li>
+<li><a href="http://randomoracle.wordpress.com/" onclick="_gaq.push(['_trackEvent', 'outbound-widget', 'http://randomoracle.wordpress.com/', 'Random Oracle']);">Random Oracle</a></li>
+<li><a href="https://devcentral.f5.com/weblogs/david/Default.aspx" onclick="_gaq.push(['_trackEvent', 'outbound-widget', 'https://devcentral.f5.com/weblogs/david/Default.aspx', 'Secure By Default']);">Secure By Default</a></li>
+<li><a href="http://blogs.wsj.com/law/" onclick="_gaq.push(['_trackEvent', 'outbound-widget', 'http://blogs.wsj.com/law/', 'WSJ Law Blog']);">WSJ Law Blog</a></li>
+
+	</ul>
+</aside>
+<aside id="linkcat-20" class="widget widget_links"><h3 class="widget-title">Resources</h3>
+	<ul class="xoxo blogroll">
+<li><a href="http://www.openssl.org/" onclick="_gaq.push(['_trackEvent', 'outbound-widget', 'http://www.openssl.org', 'OpenSSL']);">OpenSSL</a></li>
+<li><a href="http://slproweb.com/products/Win32OpenSSL.html" onclick="_gaq.push(['_trackEvent', 'outbound-widget', 'http://slproweb.com/products/Win32OpenSSL.html', 'OpenSSL for Win32']);">OpenSSL for Win32</a></li>
+<li><a href="http://privacyscore.com/" onclick="_gaq.push(['_trackEvent', 'outbound-widget', 'http://privacyscore.com/', 'Privacy Score']);">Privacy Score</a></li>
+<li><a href="https://www.ssllabs.com/ssltest/index.html" onclick="_gaq.push(['_trackEvent', 'outbound-widget', 'https://www.ssllabs.com/ssltest/index.html', 'SSL Labs']);">SSL Labs</a></li>
+<li><a href="https://www.trustworthyinternet.org/ssl-pulse/" onclick="_gaq.push(['_trackEvent', 'outbound-widget', 'https://www.trustworthyinternet.org/ssl-pulse/', 'SSL Pulse']);">SSL Pulse</a></li>
+<li><a href="http://code.google.com/p/sslyze/" onclick="_gaq.push(['_trackEvent', 'outbound-widget', 'http://code.google.com/p/sslyze/', 'SSLYze']);">SSLYze</a></li>
+
+	</ul>
+</aside>
+		</div><!-- #secondary -->
+		</div><!-- #main .wrapper -->
+	<footer id="colophon" role="contentinfo">
+		<div class="site-info">
+						<a href="http://wordpress.org/" title="Semantic Personal Publishing Platform">Proudly powered by WordPress</a>
+		</div><!-- .site-info -->
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+<script type="text/javascript" src="Using%20CAPICOM%20on%20Windows%20x64%20_%20UNMITIGATED%20RISK_files/form.js"></script>
+<script type="text/javascript" src="Using%20CAPICOM%20on%20Windows%20x64%20_%20UNMITIGATED%20RISK_files/include.js"></script>
+<script type="text/javascript" src="Using%20CAPICOM%20on%20Windows%20x64%20_%20UNMITIGATED%20RISK_files/browserid.js"></script><iframe src="Using%20CAPICOM%20on%20Windows%20x64%20_%20UNMITIGATED%20RISK_files/communication_iframe.htm" style="display: none;"></iframe>
+<script type="text/javascript" src="Using%20CAPICOM%20on%20Windows%20x64%20_%20UNMITIGATED%20RISK_files/comment-reply.js"></script>
+<script type="text/javascript" src="Using%20CAPICOM%20on%20Windows%20x64%20_%20UNMITIGATED%20RISK_files/navigation.js"></script>
+
+<div id="fancybox-tmp"></div><div id="fancybox-loading"><div></div></div><div style="width: 1343px;" id="fancybox-overlay"></div><div id="fancybox-wrap"><div id="fancybox-outer"><div class="fancybox-bg" id="fancybox-bg-n"></div><div class="fancybox-bg" id="fancybox-bg-ne"></div><div class="fancybox-bg" id="fancybox-bg-e"></div><div class="fancybox-bg" id="fancybox-bg-se"></div><div class="fancybox-bg" id="fancybox-bg-s"></div><div class="fancybox-bg" id="fancybox-bg-sw"></div><div class="fancybox-bg" id="fancybox-bg-w"></div><div class="fancybox-bg" id="fancybox-bg-nw"></div><div id="fancybox-content"></div><a id="fancybox-close"></a><div id="fancybox-title"></div><a href="javascript:;" id="fancybox-left"><span class="fancy-ico" id="fancybox-left-ico"></span></a><a href="javascript:;" id="fancybox-right"><span class="fancy-ico" id="fancybox-right-ico"></span></a></div></div></body></html>

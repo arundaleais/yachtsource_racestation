@@ -1,0 +1,43 @@
+﻿    #alertMessageCornerImg {
+        background-image: url('http://support.microsoft.com/library/images/support/en-us/alert_banner_alert_corner.png');
+        display: block;
+        width: 30px;
+        height: 30px;
+        /*right: 8px;
+         *position: absolute;*/
+        float: right;
+        overflow: hidden;
+    }
+    #alertMessageCont{
+        background-color: #eeeeee;
+        /*margin: 46px 0px 20px;*/
+        margin: 20px 0px 30px !important;
+    }
+    #alertMessageImage {
+        float: left;
+        width: 234px;
+    }
+    #alertMessageText {
+        /*padding: 20px;*/
+        padding: 20px 20px 20px 214px;
+    }
+    #alertMessageText h1, #alertMessageText h3 {
+        font-family: Segoe UI Semibold;
+        font-size: 20px !important;
+        font-weight: lighter;
+        line-height: 28px !important;
+        margin: 0px; 
+    }
+    #alertMessageText p{
+        /*font-family: Segue UI;*/
+        font-size: 13px;
+        color: #333333;
+        margin: 0px;
+        padding-top: 20px;
+    }
+    #alertMessageText a {
+        color: #1570a6;
+    }
+    #alertMessageClear {
+        clear: both;
+    }

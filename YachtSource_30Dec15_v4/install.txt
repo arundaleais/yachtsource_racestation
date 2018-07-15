@@ -1,0 +1,96 @@
+[Profile]
+Name=ScarboroughMultiple
+
+[Signal]
+Index=1
+Type=Class
+Name=Class 1		'Class Flag is Yellow
+LinkUp=6		'Signal Index no
+LinkDown=6		'Signal Index No
+
+Index=2
+Type=Class
+Name=Class 2		'Class Flag is Green
+LinkUp=6		'Signal Index no
+LinkDown=6		'Signal Index No
+
+Index=3
+Type=Class
+Name=Class 3		'Class Flag is Red
+LinkUp=6		'Signal Index no
+LinkDown=6		'Signal Index No
+
+Index=4
+Type=Class
+Name=Class 4		'Class Flag is Yellow
+LinkUp=6		'Signal Index no
+LinkDown=6		'Signal Index No
+
+Index=5
+Type=Class
+Name=Class 5		'Class Flag is Green
+LinkUp=6		'Signal Index no
+LinkDown=6		'Signal Index No
+
+Index=6
+Type=Sound
+Name=Horn 1 Short
+TTL=500			'Millisecs TTL only applies on the UP
+Cycles=1		'How many up cycles
+
+Index=7
+Type=Finish		'White Light
+Name=Finish
+LinkUp=6
+TTL=500			'Millisecs TTL only applies on the UP
+Cycles=1		'How many up cycles
+
+[Sequence]
+Time=-10
+Signal=1
+State=Up	'On or true
+Message=Class 1 Warning
+
+Time=-5
+Signal=2
+State=Up
+Message=Class 1 Preparatory
+Message=, Class 2 Warning
+
+Time=0
+Signal=1
+State=Down
+Message=Class 1 Start
+Signal=3
+State=Up
+Message=, Class 2 Preparatory
+Message=, Class 3 Warning
+
+Time=5
+Signal=2
+State=Down
+Message=Class 2 Start
+Signal=1
+State=Up
+Message=, Class 3 Preparatory
+Message=, Class 4 Warning
+
+Time=10
+Signal=3
+State=Down
+Message=Class 3 Start
+Signal=2
+State=Up
+Message=, Class 4 Preparatory
+Message=, Class 5 Warning
+
+Time=15
+Signal=1
+State=Down
+Message=Class 4 Start
+Message=, Class 5 Preparatory
+
+Time=20
+Signal=2
+State=Down
+Message=Class 5 Start

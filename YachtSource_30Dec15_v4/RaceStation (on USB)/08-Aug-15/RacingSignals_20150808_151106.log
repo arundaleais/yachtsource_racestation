@@ -1,0 +1,936 @@
+08/08/2015 15:11:06	Open Event Log [C:\Users\Admin\AppData\Local\Temp\RacingSignals_20150808_151106.log]
+                   	Environment Settings
+                   	ALLUSERSPROFILE=C:\ProgramData
+                   	APPDATA=C:\Users\Admin\AppData\Roaming
+                   	CommonProgramFiles=C:\Program Files (x86)\Common Files
+                   	CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+                   	CommonProgramW6432=C:\Program Files\Common Files
+                   	COMPUTERNAME=RACESTATION
+                   	ComSpec=C:\windows\system32\cmd.exe
+                   	FP_NO_HOST_CHECK=NO
+                   	HOMEDRIVE=C:
+                   	HOMEPATH=\Users\Admin
+                   	LOCALAPPDATA=C:\Users\Admin\AppData\Local
+                   	LOGONSERVER=\\RACESTATION
+                   	NUMBER_OF_PROCESSORS=4
+                   	OS=Windows_NT
+                   	Path=C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\
+                   	PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+                   	PROCESSOR_ARCHITECTURE=x86
+                   	PROCESSOR_ARCHITEW6432=AMD64
+                   	PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 60 Stepping 3, GenuineIntel
+                   	PROCESSOR_LEVEL=6
+                   	PROCESSOR_REVISION=3c03
+                   	ProgramData=C:\ProgramData
+                   	ProgramFiles=C:\Program Files (x86)
+                   	ProgramFiles(x86)=C:\Program Files (x86)
+                   	ProgramW6432=C:\Program Files
+                   	PSModulePath=C:\windows\system32\WindowsPowerShell\v1.0\Modules\
+                   	PUBLIC=C:\Users\Public
+                   	SESSIONNAME=Console
+                   	SystemDrive=C:
+                   	SystemRoot=C:\windows
+                   	TEMP=C:\Users\Admin\AppData\Local\Temp
+                   	TMP=C:\Users\Admin\AppData\Local\Temp
+                   	USERDOMAIN=RaceStation
+                   	USERDOMAIN_ROAMINGPROFILE=RaceStation
+                   	USERNAME=Admin
+                   	USERPROFILE=C:\Users\Admin
+                   	windir=C:\windows
+                   	GetSpecialFolder CSIDL_COMMON_APPDATA = C:\ProgramData\
+                   	Windows Version = Windows 8
+                   	User Default LocaleID = 2057
+                   	Decimal Separator = .
+                   	User has Administrator Rights = False
+                   	***************
+                   	RacingSignals.exe 1.3.3 Started
+                   	Version = Windows 8 (64 bit)
+                   	Install log = C:\Users\Admin\Local Settings\Temp\Setup Log [install date] #[sequence no].txt
+                   	SignalImageFilePath = C:\ProgramData\Application Data\Arundale\RacingSignals\SignalImages\
+                   	SequencesFilePath = C:\ProgramData\Application Data\Arundale\RacingSignals\Sequences\
+                   	Loading frmMain
+                   	RacingSignals [1.3.3] 
+                   	Checking http://arundale.com/docs/ais/RacingSignals_setup_ for later version
+08/08/2015 15:11:07	Latest released version is http://arundale.com/docs/ais/RacingSignals_setup_0.0.0
+                   	User Revision is 3 (=0 so don't check web revision)
+                   	A new update is not available
+                   	Profile (1) SYC Multiple added
+                   	Profile (2) SYC Single added
+                   	Profile (3) x10 SYC Multiple added
+                   	Profile (4) x10 SYC Single added
+                   	Position Window
+                   	Set Finish Display Size
+                   	Set Col array
+                   	frmMain loaded
+                   	Loading frmDaventech
+08/08/2015 15:11:08	CreateWinsock eth008:17494
+                   	WinsockState = Resolving host
+                   	frmMain.DisplayProgram
+                   	frmMain.DisplaySequence
+                   	DisplaySequence
+                   	CommandFromCaption Finish
+                   	CommandFromCaption Postpone
+                   	frmMain.DisplayRecalls
+                   	CommandFromCaption Recall
+                   	CommandFromCaption General Recall
+                   	Main 0
+                   		NextEventTime= 00:00
+                   		Program=No Profile
+                   		Sequence=Disabled
+                   		Recalls=None
+                   	Connected 7 (54668.04)
+                   	eth008=35,0,0 (54668.04)
+                   	WaitForReply=True (54668.04)
+                   	DoEvents  (54668.04)
+                   	DoEvents  (54668.07)
+                   	DataArrival=0 0  (54668.09)
+                   	ReplyWait=False (54668.09)
+                   	RepliedBytes 00000000 (54668.09)
+                   	OpenAndSend 120 (54668.09)
+                   	eth008=120 (54668.09)
+                   	WaitForReply=True (54668.09)
+                   	DoEvents  (54668.09)
+                   	DoEvents  (54668.1)
+                   	DataArrival=143  (54668.12)
+                   	ReplyWait=False (54668.12)
+                   	RepliedBytes 11110001 (54668.12)
+                   	Battery Voltage = 14.3 (54668.12)
+08/08/2015 15:11:12	Profile_Click x10 SYC Single
+                   	Program 0
+                   		Loading Profile
+                   	DisplaySequence
+                   	CommandFromCaption Finish
+                   	CommandFromCaption Postpone
+                   	LoadProfileTimer.Enabled = False
+                   	LoadProfileTimer_Fired
+                   	LoadProfile x10 SYC Single
+                   	ClearProfile
+                   	Profile Cleared
+                   	OpenAndSend  (54672.5)
+                   	eth008=35,0,0 (54672.5)
+                   	WaitForReply=True (54672.5)
+                   	DoEvents  (54672.5)
+                   	DoEvents  (54672.53)
+                   	DataArrival=0 0  (54672.56)
+                   	ReplyWait=False (54672.56)
+                   	RepliedBytes 00000000 (54672.56)
+                   	Copying C:\ProgramData\Application Data\Arundale\RacingSignals\Sequences\x10 SYC Single.ini to memory
+                   	Decrypting
+                   	Decrypted
+                   	Opening C:\ProgramData\Application Data\Arundale\RacingSignals\Sequences\x10 SYC Single.tmp
+                   	[Profile]   
+                   	Name=SYC Single
+                   	Version=3
+                   	GroupDefault=Sound,LastCol,Row1,Queue
+                   	GroupDefault=Amber,LastCol-1,Row1
+                   	GroupDefault=Green,LastCol-1,Row2
+                   	GroupDefault=Red,LastCol-1,Row3
+                   	GroupDefault=White,LastCol-1,Row4,Queue
+                   	GroupDefault=Recall,Queue
+                   	Multiplier=10
+                   	RecallControl=True
+                   	ButtonControl=True
+                   	ButtonEvents=True
+                   	ClassSilenceControl=True
+                   	SoundOnAllFinishers=True
+                   	SkipClassOnRecall=True
+                   	[/Profile]
+                   	
+                   	[Controller=0]
+                   	IpAddress=eth008
+                   	'IpAddress=ethrly16
+                   	On=32,1,0
+                   	Off=33,1,0
+                   	Connection=Horn		'Memo
+                   	Sound=horn.wav
+                   	[/Controller]
+                   	
+                   	[Controller=1]
+                   	IpAddress=eth008
+                   	On=32,2,0
+                   	Off=33,2,0
+                   	Connection=White Light	'Memo
+                   	[/Controller]
+                   	
+                   	[Controller=2]
+                   	IpAddress=eth008
+                   	On=32,3,0
+                   	Off=33,3,0
+                   	Connection=Yellow Light	'Memo
+                   	[/Controller]
+                   	
+                   	[Controller=3]
+                   	IpAddress=eth008
+                   	On=32,4,0
+                   	Off=33,4,0
+                   	Connection=Green Light	'Memo
+                   	[/Controller]
+                   	
+                   	[Controller=4]
+                   	IpAddress=eth008
+                   	On=32,5,0
+                   	Off=33,5,0
+                   	Connection=Red Light	'Memo
+                   	[/Controller]
+                   	
+                   	'Set up mandatory command signals first
+                   	[Signal=1]
+                   	Type=Horn
+                   	Name=Horn Short		'Caption on Command Button
+                   	Group=Sound
+                   	CommandVisible=True	'Make Command Button visible
+                   	Flag=Horn1Short		'Name of Flag Image file
+                   	TTL=1000			'Millisecs TTL only applies on the UP
+                   	Cycles=1		'How many up cycles
+                   	Raised=True		'initially raise flag on load
+                   	Controller=0		'Sound
+                   	[/Signal]
+                   	
+                   	'Set up postponement signals
+                   	[Signal=2]
+                   	Type=Flag	
+                   	Name=Postpone
+                   	Group=Postpone	'Not defined if no Members of this Group
+                   	CommandVisible=True
+                   	Flag=ICS_Answer
+                   	Raised=True
+                   	UpLink=7,True		'2 Short
+                   	DownLink=1,True		'1 short
+                   	[/Signal]
+                   	
+                   	[Signal=3]
+                   	Type=Recall	
+                   	Name=Recall
+                   	Group=Recall
+                   	CommandVisible=True
+                   	Flag=ICS_X-ray
+                   	Raised=True
+                   	UpLink=1,True		'Horn 1 Short
+                   	UpLink=32,True		'White Flash
+                   	DownLink=32,False
+                   	UpLink=10,True		'Recall Class
+                   	DownLink=10,False
+                   	[/Signal]
+                   	
+                   	[Signal=4]
+                   	Type=Recall	
+                   	Name=General Recall
+                   	Group=Recall
+                   	CommandVisible=True
+                   	Flag=ICS_Repeat_One
+                   	Raised=True
+                   	UpLink=7,True		'Horn 2 Short
+                   	UpLink=32,True		'White Flash
+                   	DownLink=32,False
+                   	UpLink=10,True		'Recall Class
+                   	DownLink=10,False
+                   	DownLink=1,True		'Horn 1 Short
+                   	[/Signal]
+                   	
+                   	[Signal=5]
+                   	Type=Flag	
+                   	Name=Finish
+                   	Group=White
+                   	CommandVisible=True
+                   	Flag=TrafficLightWhite
+                   	'Finish is always a downlink because there is visible flag
+                   	DownLink=1,True		'Horn 1 Short
+                   	DownLink=31,True	'White 1
+                   	Controller=1		'White
+                   	[/Signal]
+                   	
+                   	'End of pre-defined command buttons
+                   	[Signal=6]
+                   	Type=Flag
+                   	Name=Horn Long
+                   	Group=Sound
+                   	CommandVisible=False
+                   	Flag=Horn1Long		'Image,Fixed,Parent
+                   	TTL=2000		'Millisecs TTL only applies on the UP
+                   	Cycles=1		'How many up cycles
+                   	Raised=True		'initially make visible on load
+                   	Controller=0		'Sound
+                   	[/Signal]
+                   	
+                   	[Signal=7]
+                   	Type=Flag
+                   	Name=Horn 2 Short
+                   	Group=Sound
+                   	CommandVisible=False
+                   	Flag=Horn2Short		'Image,Fixed,Parent
+                   	TTL=1000			'Millisecs TTL only applies on the UP
+                   	Cycles=2		'How many up cycles
+                   	Raised=True		'initially Raise on load
+                   	Controller=0		'Sound
+                   	[/Signal]
+                   	
+                   	[Signal=8]
+                   	Type=Flag
+                   	Name=Horn 3 Short	
+                   	Group=Sound
+                   	CommandVisible=False
+                   	Flag=Horn3Short		'Image,Fixed,Parent
+                   	TTL=1000			'Millisecs TTL only applies on the UP
+                   	Cycles=3		'How many up cycles
+                   	Raised=True		'initially Raise on load
+                   	UpLink=32,True		'White
+                   	DownLink=32,False	'White
+                   	Controller=0		'Sound
+                   	[/Signal]
+                   	
+                   	[Signal=9]
+                   	Type=Flag
+                   	Name=Horn -----	
+                   	Group=Sound
+                   	CommandVisible=False
+                   	Flag=Horn1Long		'Image,Fixed,Parent
+                   	TTL=2000		'Millisecs TTL only applies on the UP
+                   	Cycles=0		'Continuous
+                   	Raised=True		'initially Raise on load
+                   	Controller=0		'Sound
+                   	[/Signal]
+                   	
+                   	[Signal=10]
+                   	Type=Recall	
+                   	Name=Recall Class
+                   	Group=Recall
+                   	CommandVisible=False
+                   	'Flag=ICS_Foxtrot
+                   	Raised=True
+                   	[/Signal]
+                   	
+                   	'Set up Preparatory signals
+                   	[Signal=11]
+                   	Type=Flag	
+                   	Name=Preparatory P
+                   	Group=Preparatory
+                   	CommandVisible=False
+                   	Flag=ICS_Papa		'Image file for the flag
+                   	Raised=True		'initially raise on load
+                   	UpLink=1,True		'Silent for SYC Multiple
+                   	DownLink=6,True		'Silent for SYC Multiple
+                   	UpLink=34,True		'SYC Green
+                   	DownLink=34,False	'SYC
+                   	[/Signal]
+                   	
+                   	[Signal=12]
+                   	Type=Flag	
+                   	Name=Perparatory I
+                   	Group=Preparatory
+                   	CommandVisible=False
+                   	Flag=ICS_India		'Image file for the flag
+                   	Raised=True		'initially raise on load
+                   	UpLink=1,True		'Silent for SYC
+                   	DownLink=6,True		'Silent for SYC
+                   	[/Signal]
+                   	
+                   	[Signal=13]
+                   	Type=Flag 	
+                   	Name=Preparatory Z
+                   	Group=Preparatory
+                   	CommandVisible=False
+                   	Flag=ICS_Zulu		'Image file for the flag
+                   	Raised=True		'initially raise on load
+                   	UpLink=1,True		'Silent for SYC
+                   	DownLink=6,True		'Silent for SYC
+                   	[/Signal]
+                   	
+                   	[Signal=14]
+                   	Type=Flag	
+                   	Name=Preparatory Black
+                   	Group=Preparatory
+                   	CommandVisible=False
+                   	Flag=Black		'Image file for the flag
+                   	Raised=True		'initially raise on load
+                   	UpLink=1,True		'Silent for SYC
+                   	DownLink=6,True		'Silent for SYC
+                   	[/Signal]
+                   	
+                   	[Signal=15]
+                   	Type=Flag	
+                   	Name=15 Mins
+                   	Group=Postpone
+                   	CommandVisible=False
+                   	Flag=Ball1
+                   	Raised=True		'initially raise on load
+                   	UpLink=7,True		'2 Short
+                   	DownLink=1,True		'1 short
+                   	[/Signal]
+                   	
+                   	[Signal=16]
+                   	Type=Flag	
+                   	Name=30 Mins
+                   	Group=Postpone
+                   	CommandVisible=False
+                   	Flag=Ball2
+                   	Raised=True		'initially raise on load
+                   	UpLink=7,True		'2 Short
+                   	DownLink=1,True		'1 short
+                   	[/Signal]
+                   	
+                   	[Signal=17]
+                   	Type=Flag	
+                   	Name=45 Mins
+                   	Group=Postpone
+                   	CommandVisible=False
+                   	Flag=Ball3
+                   	'Parent=2
+                   	Raised=True		'initially raise on load
+                   	UpLink=7,True		'2 Short
+                   	DownLink=1,True		'1 short
+                   	[/Signal]
+                   	
+                   	[Signal=21]
+                   	Type=Flag	
+                   	Name=Notice
+                   	Group=Other
+                   	CommandVisible=False
+                   	Flag=ICS_Lima
+                   	Raised=True		'initially raise on load
+                   	UpLink=1,True		'1 Short
+                   	[/Signal]
+                   	
+                   	[Signal=22]
+                   	Type=Flag	
+                   	Name=Floatation
+                   	Group=Other
+                   	CommandVisible=False
+                   	Flag=ICS_Yankee
+                   	Raised=True		'initially raise on load
+                   	UpLink=1,True		'1 Short
+                   	[/Signal]
+                   	
+                   	[Signal=25]
+                   	Type=Flag	
+                   	Name=Abandon Started
+                   	Group=Abandon
+                   	CommandVisible=False
+                   	Flag=ICS_November
+                   	Raised=True		'initially raise on load
+                   	UpLink=8,True		'3 Short
+                   	DownLink=1,True		'1 short
+                   	[/Signal]
+                   	
+                   	[Signal=26]
+                   	Type=Flag	
+                   	Name=Abandon All
+                   	Group=Abandon
+                   	CommandVisible=False
+                   	Flag=ICS_Hotel
+                   	Raised=True		'initially raise on load
+                   	UpLink=8,True		'1 Short
+                   	[/Signal]
+                   	
+                   	[Signal=27]
+                   	Type=Flag	
+                   	Name=Abandon Info
+                   	Group=Abandon
+                   	CommandVisible=False
+                   	Flag=ICS_Alpha
+                   	Raised=True		'initially raise on load
+                   	UpLink=8,True		'1 Short
+                   	[/Signal]
+                   	
+                   	[Signal=31]
+                   	Type=Flag	
+                   	Name=White Short
+                   	Group=White
+                   	Row=4			'If as fixed position, Define after Group
+                   	CommandVisible=False
+                   	Flag=TrafficLightWhite
+                   	Raised=True		'initially raise on load
+                   	TTL=1000		'Slow Flash
+                   	Cycles=1
+                   	Controller=1
+                   	[/Signal]
+                   	
+                   	[Signal=32]
+                   	Type=White		'Must be Recall to use Multiplier	
+                   	Name=White Fl
+                   	Group=White	
+                   	'Row=4			'If as fixed position, Define after Group
+                   	CommandVisible=False
+                   	Flag=TrafficLightWhite
+                   	Raised=True		'initially raise on load
+                   	TTL=1000			'Quick Flash
+                   	Cycles=0		'Continuous
+                   	Controller=1
+                   	[/Signal]
+                   	
+                   	[Signal=33]
+                   	Type=Amber		'Must be Recall to use Multiplier	
+                   	Name=Amber
+                   	Group=Amber	
+                   	CommandVisible=False
+                   	Flag=TrafficLightAmber
+                   	Raised=True		'initially raise on load
+                   	Controller=2
+                   	[/Signal]
+                   	
+                   	[Signal=34]
+                   	Type=Green		'Must be Recall to use Multiplier	
+                   	Name=Green
+                   	Group=Green	
+                   	CommandVisible=False
+                   	Flag=TrafficLightGreen
+                   	Raised=True		'initially raise on load
+                   	Controller=3
+                   	[/Signal]
+                   	
+                   	[Signal=35]
+08/08/2015 15:11:13	Type=Red		'Must be Recall to use Multiplier	
+                   	Name=Red
+                   	Group=Red	
+                   	CommandVisible=False
+                   	Flag=TrafficLightRed
+                   	Raised=True		'initially raise on load
+                   	Controller=4
+                   	[/Signal]
+                   	
+                   	'Set up Class Signals Last as on initial load they will take all remaining free cols
+                   	[Signal=41]
+                   	Type=Flag	
+                   	Name=Class 1
+                   	Group=Class
+                   	CommandVisible=False
+                   	Flag=ICS_Pennant_One
+                   	Raised=True		'initially raise on load
+                   	UpLink=1,True
+                   	DownLink=1,True
+                   	UpLink=33,True		'Amber
+                   	DownLink=33,False
+                   	DownLink=34,False	'Green
+                   	[/Signal]
+                   	
+                   	[Signal=42]
+                   	Type=Flag	
+                   	Name=Class 2
+                   	Group=Class
+                   	CommandVisible=False
+                   	Flag=ICS_Pennant_Two
+                   	Raised=True		'initially raise on load
+                   	UpLink=1,True
+                   	DownLink=1,True
+                   	UpLink=34,True		'Green
+                   	DownLink=34,False
+                   	[/Signal]
+                   	
+                   	[Signal=43]
+                   	Type=Flag	
+                   	Name=Class 3
+                   	Group=Class
+                   	CommandVisible=False
+                   	Flag=ICS_Pennant_Three
+                   	Raised=True		'initially raise on load
+                   	UpLink=1,True		'Silent for SYC
+                   	DownLink=1,True
+                   	UpLink=35,True		'Red
+                   	DownLink=35,False
+                   	[/Signal]
+                   	
+                   	[Signal=44]
+                   	Type=Flag	
+                   	Name=Class 4
+                   	Group=Class
+                   	CommandVisible=False
+                   	Flag=ICS_Pennant_Four
+                   	Raised=True		'initially raise on load
+                   	
+                   	'UpLink=1,True		'Silent for SYC
+                   	DownLink=1,True
+                   	UpLink=33,True		'Amber
+                   	DownLink=33,False
+                   	[/Signal]
+                   	
+                   	[Signal=45]
+                   	Type=Flag	
+                   	Name=Class 5
+                   	Group=Class
+                   	CommandVisible=False
+                   	Flag=ICS_Pennant_Five
+                   	Raised=True		'initially raise on load
+                   	'UpLink=1,True		'Silent for SYC
+                   	DownLink=1,True
+                   	UpLink=34,True		'Green
+                   	DownLink=34,False
+                   	[/Signal]
+                   	
+                   	[Signal=46]
+                   	Type=Flag	
+                   	Name=Class 6
+                   	Group=Class
+                   	CommandVisible=False
+                   	Flag=ICS_Pennant_Six
+                   	Raised=True		'initially raise on load
+                   	UpLink=1,True
+                   	DownLink=1,True
+                   	[/Signal]
+                   	
+                   	[Signal=47]
+                   	Type=Flag	
+                   	Name=Class 7
+                   	Group=Class
+                   	CommandVisible=False
+                   	Flag=ICS_Pennant_Seven
+                   	Raised=True		'initially raise on load
+                   	UpLink=1,True
+                   	DownLink=1,True
+                   	[/Signal]
+                   	
+                   	[Signal=48]
+                   	Type=Flag	
+                   	Name=Class 8
+                   	Group=Class
+                   	CommandVisible=False
+                   	Flag=ICS_Pennant_Eight
+                   	Raised=True		'initially raise on load
+                   	UpLink=1,True
+                   	DownLink=1,True
+                   	[/Signal]
+                   	
+                   	[Signal=49]
+                   	Type=Flag	
+                   	Name=Class 9
+                   	Group=Class
+                   	CommandVisible=False
+                   	Flag=ICS_Pennant_Niner
+                   	Raised=True		'initially raise on load
+                   	UpLink=1,True
+                   	DownLink=1,True
+                   	[/Signal]
+                   	
+                   	[Signal=51]
+                   	Type=Flag	
+                   	Name=Shorten
+                   	Group=Shorten
+                   	CommandVisible=False
+                   	Flag=ICS_Sierra
+                   	Raised=True		'initially raise on load
+                   	UpLink=7,True
+                   	[/Signal]
+                   	
+                   	[Signal=52]
+                   	Type=Flag	
+                   	Name=Change
+                   	Group=Change
+                   	CommandVisible=False
+                   	Flag=ICS_Charlie
+                   	Raised=True		'initially raise on load
+                   	UpLink=9,True		'Continuous long
+                   	DownLink=9,False	'Continuous long
+                   	[/Signal]
+                   	
+                   	[Signal=53]
+                   	Type=Flag	
+                   	Name=Starboard
+                   	Group=Change
+                   	CommandVisible=False
+                   	Flag=Starboard
+                   	Raised=True		'initially raise on load
+                   	[/Signal]
+                   	
+                   	[Signal=54]
+                   	Type=Flag	
+                   	Name=Port
+                   	Group=Change
+                   	CommandVisible=False
+                   	Flag=Port
+                   	Raised=True		'initially raise on load
+                   	[/Signal]
+                   	
+                   	[Signal=55]
+                   	Type=Flag	
+                   	Name=Minus
+                   	Group=Change
+                   	CommandVisible=False
+                   	Flag=Minus
+                   	Raised=True		'initially raise on load
+                   	[/Signal]
+                   	
+                   	[Signal=56]
+                   	Type=Flag	
+                   	Name=Plus
+                   	Group=Change
+                   	CommandVisible=False
+                   	Flag=Plus
+                   	Raised=True		'initially raise on load
+                   	[/Signal]
+                   	
+                   	[Signal=57]
+                   	Type=Flag	
+                   	Name=Mark
+                   	Group=Other
+                   	CommandVisible=False
+                   	Flag=ICS_Mike
+                   	Raised=True		'initially raise on load
+                   	UpLink=9,True		'Continuous long
+                   	DownLink=9,False		'Continuous long
+                   	[/Signal]
+                   	
+                   	[Signal=58]
+                   	Type=Flag	
+                   	Name=Blue
+                   	Group=Other
+                   	CommandVisible=False
+                   	Flag=Blue
+                   	Raised=True		'initially raise on load
+                   	[/Signal]
+                   	
+                   	[Template=Class]
+                   	
+                   	'EventOffset=-660	'If Raised, Lower Postpone 1 min before Class Warning
+                   	'[Event=<ElapsedTime>-<EventOffset>]
+                   	'Signal=Postpone
+                   	'Message=Drop Postpone
+                   	'Raised=False
+                   	'Button=General Recall,False
+                   	'[/Event]
+                   	
+                   	EventOffset=-600
+                   	[Event=<ElapsedTime>-<EventOffset>]
+                   	Signal=<ClassName>
+                   	Message=~Warning <ClassName>
+                   	Raised=True
+                   	[/Event]
+                   	
+                   	EventOffset=-300
+                   	[Event=<ElapsedTime>-<EventOffset>]
+                   	Signal=Preparatory P
+                   	Message=~Preparatory <ClassName>
+                   	Raised=True
+                   	Silent=False	'Single start must action Sound signal
+                   	[/Event]
+                   	
+                   	EventOffset=0
+                   	[Event=<ElapsedTime>-<EventOffset>]
+                   	Signal=<ClassName>
+                   	Message=<ClassName> Start
+                   	'Raised=False
+                   	FunctionCall=LoadStart		'Lowers start flag for current class
+                   	[/Event]
+                   	
+                   	[/Template]
+                   	
+                   	
+                   	[Template=Recall]
+                   	
+                   	EventOffset=0
+                   	[Event=<ElapsedTime>-<EventOffset>]
+                   	Message=Recall Enabled <ClassName>
+                   	'Button=General Recall,True
+                   	'Button=Postpone,False
+                   	'Button=Recall,True
+                   	'Focus=Recall	'Will enable Recall - no it doesnt
+                   	[/Event]
+                   	
+                   	EventOffset=30
+                   	[Event=<ElapsedTime>-<EventOffset>]
+                   	Message=Query Recall Timeout <ClassName>	'
+                   	FunctionCall=QueryRecallTimeout	'Unload Recall - if not UP
+                   	'Button=Recall,False
+                   	'Button=General Recall,False
+                   	'Button=Postpone,True
+                   	[/Event]
+                   	
+                   	EventOffset=240
+                   	[Event=<ElapsedTime>-<EventOffset>]
+                   	Message=Recall Timeout <ClassName>	'Unload Recall - if still UP
+                   	FunctionCall=RecallTimeout		'Force Unload Recall (not General)
+                   	'Signal=Recall
+                   	'Raised=False
+                   	'Signal=General Recall
+                   	'Raised=False
+                   	[/Event]
+                   	
+                   	[/Template]
+                   	
+                   	[Class=Class 1]
+                   	ElapsedTime=0
+                   	[/Class]
+                   	
+                   	'[Class=Class 2]
+                   	'ElapsedTime=300
+                   	'[/Class]
+                   	
+                   	'[Class=Class 3]
+                   	'ElapsedTime=600
+                   	'[/Class]
+                   	
+                   	'[Class=Class 4]
+                   	'ElapsedTime=900
+                   	'[/Class]
+                   	
+                   	'[Class=Class 5]
+                   	'ElapsedTime=1200
+                   	'[/Class]
+                   	
+                   	Profile Closed
+                   	Profile Killed
+                   	CommandFromCaption Finish
+                   	RaceTimer Enabled
+                   	OpenAndSend 33,1,0 (54673.69)
+                   	eth008=33,1,0 (54673.69)
+                   	WaitForReply=True (54673.69)
+                   	DoEvents  (54673.69)
+                   	DoEvents  (54673.7)
+                   	DataArrival=0 0  (54673.72)
+                   	ReplyWait=False (54673.72)
+                   	RepliedBytes 00000000 (54673.72)
+08/08/2015 15:11:16	ClearFlags_Timer Fired
+                   	OpenAndSend 33,4,0 (54676.2)
+                   	eth008=33,4,0 (54676.2)
+                   	WaitForReply=True (54676.2)
+                   	DoEvents  (54676.2)
+                   	DoEvents  (54676.22)
+                   	DataArrival=0 0  (54676.25)
+                   	ReplyWait=False (54676.25)
+                   	RepliedBytes 00000000 (54676.25)
+                   	OpenAndSend 33,2,0 (54676.25)
+                   	eth008=33,2,0 (54676.25)
+                   	WaitForReply=True (54676.25)
+                   	DoEvents  (54676.25)
+                   	DoEvents  (54676.27)
+                   	DataArrival=0 0  (54676.28)
+                   	ReplyWait=False (54676.28)
+                   	RepliedBytes 00000000 (54676.28)
+                   	OpenAndSend 33,3,0 (54676.28)
+                   	eth008=33,3,0 (54676.28)
+                   	WaitForReply=True (54676.28)
+                   	DoEvents  (54676.28)
+                   	DoEvents  (54676.3)
+                   	DataArrival=0 0  (54676.31)
+                   	ReplyWait=False (54676.31)
+                   	RepliedBytes 00000000 (54676.31)
+                   	OpenAndSend 33,5,0 (54676.31)
+                   	eth008=33,5,0 (54676.31)
+                   	WaitForReply=True (54676.31)
+                   	DoEvents  (54676.31)
+                   	DoEvents  (54676.33)
+                   	DataArrival=0 0  (54676.34)
+                   	ReplyWait=False (54676.34)
+                   	RepliedBytes 00000000 (54676.34)
+                   	Program 54676
+                   		Profile Loaded
+                   	NextClassStarted 54676
+                   		Next=Class 1
+08/08/2015 15:11:25	Program 54684
+                   		Start Time Set
+                   	CommandFromCaption Postpone
+                   	CommandFromCaption Postpone
+                   	CommandFromCaption Recall
+                   	CommandFromCaption Recall
+                   	CommandFromCaption General Recall
+                   	CommandFromCaption GeneralRecall
+                   	CommandFromCaption Finish
+                   	CommandFromCaption Finish
+                   	Sequence 54684
+                   	DisplaySequence
+                   	CommandFromCaption Finish
+                   	CommandFromCaption Postpone
+                   		Not Started
+                   	DisplaySequence
+                   	CommandFromCaption Finish
+                   	CommandFromCaption Postpone
+08/08/2015 15:12:00	Program -60
+                   		Start Sequence Commenced
+                   	Sequence -60
+                   	DisplaySequence
+                   	CommandFromCaption Finish
+                   	CommandFromCaption Postpone
+                   		Postpone
+                   	Recalls -60
+                   	DisplaySequence
+                   	CommandFromCaption Finish
+                   	CommandFromCaption Postpone
+                   	OpenAndSend 32,1,0 (54720.2)
+                   	eth008=32,1,0 (54720.2)
+                   	WaitForReply=True (54720.2)
+                   	DoEvents  (54720.2)
+                   	DoEvents  (54720.24)
+                   	DataArrival=0 1  (54720.25)
+                   	ReplyWait=False (54720.25)
+                   	Click 1, True (54720.25)
+                   	RepliedBytes 10000000 (54720.25)
+                   	OpenAndSend 32,3,0 (54720.25)
+                   	eth008=32,3,0 (54720.25)
+                   	WaitForReply=True (54720.25)
+                   	DoEvents  (54720.25)
+                   	DoEvents  (54720.27)
+                   	DataArrival=0 5  (54720.28)
+                   	ReplyWait=False (54720.28)
+                   	Click 1, True (54720.28)
+                   	RepliedBytes 10100000 (54720.28)
+08/08/2015 15:12:01	OpenAndSend 33,1,0 (54721.25)
+                   	eth008=33,1,0 (54721.25)
+                   	WaitForReply=True (54721.25)
+                   	DoEvents  (54721.25)
+                   	DoEvents  (54721.27)
+                   	DataArrival=0 4  (54721.28)
+                   	ReplyWait=False (54721.28)
+                   	Click 0, True (54721.28)
+                   	RepliedBytes 00100000 (54721.28)
+08/08/2015 15:12:19	Command Horn Short (54739.92)
+                   	OpenAndSend 32,1,0 (54739.92)
+                   	eth008=32,1,0 (54739.92)
+                   	WaitForReply=True (54739.92)
+                   	DoEvents  (54739.92)
+                   	DoEvents  (54739.95)
+                   	DataArrival=0 5  (54739.96)
+                   	ReplyWait=False (54739.96)
+                   	Click 1, True (54739.96)
+                   	RepliedBytes 10100000 (54739.96)
+08/08/2015 15:12:20	OpenAndSend 33,1,0 (54740.96)
+                   	eth008=33,1,0 (54740.96)
+                   	WaitForReply=True (54740.96)
+                   	DoEvents  (54740.96)
+                   	DoEvents  (54740.98)
+                   	DataArrival=0 4  (54741)
+                   	ReplyWait=False (54741)
+                   	Click 0, True (54741)
+                   	RepliedBytes 00100000 (54741)
+08/08/2015 15:12:30	OpenAndSend 32,1,0 (54750.31)
+                   	eth008=32,1,0 (54750.31)
+                   	WaitForReply=True (54750.31)
+                   	DoEvents  (54750.31)
+                   	DoEvents  (54750.32)
+                   	DataArrival=0 5  (54750.34)
+                   	ReplyWait=False (54750.34)
+                   	Click 1, True (54750.34)
+                   	RepliedBytes 10100000 (54750.34)
+                   	OpenAndSend 32,4,0 (54750.34)
+                   	eth008=32,4,0 (54750.34)
+                   	WaitForReply=True (54750.34)
+                   	DoEvents  (54750.34)
+                   	DoEvents  (54750.37)
+                   	DataArrival=0 13  (54750.39)
+                   	ReplyWait=False (54750.39)
+                   	Click 1, True (54750.39)
+                   	RepliedBytes 10110000 (54750.39)
+08/08/2015 15:12:31	OpenAndSend 33,1,0 (54751.33)
+                   	eth008=33,1,0 (54751.33)
+                   	WaitForReply=True (54751.33)
+                   	DoEvents  (54751.33)
+                   	DoEvents  (54751.35)
+                   	DataArrival=0 12  (54751.36)
+                   	ReplyWait=False (54751.36)
+                   	Click 0, True (54751.36)
+                   	RepliedBytes 00110000 (54751.36)
+08/08/2015 15:12:35	Profile_Click Terminate
+08/08/2015 15:12:38	Unloading frmMain
+                   	frmDaventech.unload 7 (54758.68)
+                   	eth008=35,0,0 (54758.68)
+                   	WaitForReply=True (54758.68)
+                   	DoEvents  (54758.68)
+                   	DoEvents  (54758.69)
+                   	DataArrival=0 0  (54758.71)
+                   	ReplyWait=False (54758.71)
+                   	Click 0, True (54758.71)
+                   	Click 0, True (54758.71)
+                   	RepliedBytes 00000000 (54758.71)
+                   	eth008=35,0,0 (54758.71)
+                   	WaitForReply=True (54758.71)
+                   	DoEvents  (54758.71)
+                   	DoEvents  (54758.74)
+                   	DataArrival=0 0  (54758.75)
+                   	ReplyWait=False (54758.75)
+                   	RepliedBytes 00000000 (54758.75)

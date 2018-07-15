@@ -1,0 +1,279 @@
+[Root]
+Most Recent Package=Dep File 2
+
+
+[Package|Dep File 1|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=E:\My Documents\ais\YachtSource
+
+[Package|Dep File 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Dep File 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Dep File 1|Files Found]
+
+[Package|Dep File 1|Files Released]
+
+[Package|Dep File 1|Missing Dependency Information]
+
+[Package|Dep File 1|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\msstdfmt.dll=
+
+[Package|Dep File 1|Files Added]
+
+[Package|Dep File 1|Files Removed]
+
+[Package|Dep File 1|Files In Project]
+E:\My Documents\ais\YachtSource\RacingSignals.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\MShflxgd.ocx=Yes
+C:\WINDOWS\system32\msstdfmt.dll=Yes
+C:\WINDOWS\system32\ComDlg32.OCX=Yes
+C:\WINDOWS\system32\mscomctl.OCX=Yes
+C:\WINDOWS\system32\MSWINSCK.ocx=Yes
+
+[Package|Dep File 1|Configure Registry Files]
+Applicable=
+
+[Package|Dep File 1|Configure Remote Servers]
+Applicable=
+
+[Package|Dep File 1|Install Locations]
+E:\My Documents\ais\YachtSource\RacingSignals.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MShflxgd.ocx=$(WinSysPath)
+C:\WINDOWS\system32\msstdfmt.dll=$(WinSysPath)
+C:\WINDOWS\system32\ComDlg32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\mscomctl.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSWINSCK.ocx=$(WinSysPath)
+
+[Package|Dep File 1|Configure Shared Files]
+Applicable=
+
+[Package|Dep File 1|DepFile]
+DepCabFile=RacingSignals.CAB
+DepCabRun=RacingSignals.INF
+
+[Package|Dep File 1|Package]
+PackageFolder=E:\My Documents\ais\YachtSource
+ProjectFolder=E:\My Documents\ais\YachtSource
+ServerSideCab=
+File1=E:\My Documents\ais\YachtSource\RacingSignals.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=E:\My Documents\ais\YachtSource\vbFiles
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\msstdfmt.dll=
+
+[Package|Standard Setup Package 1|Files Added]
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+E:\My Documents\ais\YachtSource\RacingSignals.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\MShflxgd.ocx=Yes
+C:\WINDOWS\system32\msstdfmt.dll=Yes
+C:\WINDOWS\system32\ComDlg32.OCX=Yes
+C:\WINDOWS\system32\mscomctl.OCX=Yes
+C:\WINDOWS\system32\MSWINSCK.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+E:\My Documents\ais\YachtSource\RacingSignals.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MShflxgd.ocx=$(WinSysPath)
+C:\WINDOWS\system32\msstdfmt.dll=$(WinSysPath)
+C:\WINDOWS\system32\ComDlg32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\mscomctl.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSWINSCK.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+E:\My Documents\ais\YachtSource\RacingSignals.exe=No
+
+[Package|Standard Setup Package 1|DepFile]
+DepCabFile=RacingSignals.CAB
+DepCabRun=RacingSignals.INF
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=RacingSignals
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=RacingSignals
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|RacingSignals]
+Icon1=RacingSignals.exe
+Title1=RacingSignals
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=E:\My Documents\ais\YachtSource\vbFiles
+ProjectFolder=E:\My Documents\ais\YachtSource
+ServerSideCab=
+File1=E:\My Documents\ais\YachtSource\vbFiles\setup.exe
+File2=E:\My Documents\ais\YachtSource\vbFiles\Setup.Lst
+File3=E:\My Documents\ais\YachtSource\vbFiles\RacingSignals.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Dep File 2|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=E:\My Documents\ais\YachtSource\vbFiles
+
+[Package|Dep File 2|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Dep File 2|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Dep File 2|Files Found]
+
+[Package|Dep File 2|Files Released]
+
+[Package|Dep File 2|Missing Dependency Information]
+C:\WINDOWS\system32\capicom.dll=
+
+[Package|Dep File 2|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\msstdfmt.dll=
+
+[Package|Dep File 2|Files Added]
+
+[Package|Dep File 2|Files Removed]
+
+[Package|Dep File 2|Files In Project]
+E:\My Documents\ais\YachtSource\RacingSignals.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\MShflxgd.ocx=Yes
+C:\WINDOWS\system32\msstdfmt.dll=Yes
+C:\WINDOWS\system32\ComDlg32.OCX=Yes
+C:\WINDOWS\system32\mscomctl.OCX=Yes
+C:\WINDOWS\system32\MSWINSCK.ocx=Yes
+C:\WINDOWS\system32\MSINET.ocx=Yes
+C:\WINDOWS\system32\capicom.dll=Yes
+C:\WINDOWS\system32\mci32.Ocx=Yes
+
+[Package|Dep File 2|Configure Registry Files]
+Applicable=No
+
+[Package|Dep File 2|Configure Remote Servers]
+Applicable=No
+
+[Package|Dep File 2|Install Locations]
+E:\My Documents\ais\YachtSource\RacingSignals.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MShflxgd.ocx=$(WinSysPath)
+C:\WINDOWS\system32\msstdfmt.dll=$(WinSysPath)
+C:\WINDOWS\system32\ComDlg32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\mscomctl.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSWINSCK.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\system32\MSINET.ocx=$(WinSysPath)
+C:\WINDOWS\system32\capicom.dll=$(WinSysPath)
+C:\WINDOWS\system32\mci32.Ocx=$(WinSysPath)
+
+[Package|Dep File 2|Configure Shared Files]
+Applicable=Yes
+E:\My Documents\ais\YachtSource\RacingSignals.exe=No
+
+[Package|Dep File 2|DepFile]
+DepCabFile=RacingSignals.CAB
+DepCabRun=RacingSignals.INF
+
+[Package|Dep File 2|Distribution]
+Type=single
+Size=
+Title=RacingSignals
+
+[Package|Dep File 2|IconGroups]
+Group0=RacingSignals
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Dep File 2|RacingSignals]
+Icon1=RacingSignals.exe
+Title1=RacingSignals
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Dep File 2|Package]
+PackageFolder=E:\My Documents\ais\YachtSource\vbFiles
+ProjectFolder=E:\My Documents\ais\YachtSource
+ServerSideCab=
+File1=E:\My Documents\ais\YachtSource\vbFiles\RacingSignals.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

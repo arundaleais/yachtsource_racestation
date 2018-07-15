@@ -1,0 +1,47 @@
+06/02/2015 16:13:54	Open Event Log [C:\Documents and Settings\jna\Local Settings\Temp\RacingSignalsLog.log]
+                   	RacingSignals.exe 1.2.18 Started
+                   	Version = Windows XP (32 bit)
+06/02/2015 16:13:55	Main 0
+                   		NextEventTime= 00:00
+                   		Program=No Profile
+                   		Sequence=Disabled
+                   		Recalls=None
+                   		Next=All Classes
+06/02/2015 16:29:53	Program 534
+                   		Loading Profile
+06/02/2015 16:29:56	Program 536
+                   		Profile Loaded
+                   	NextClassStarted 536
+                   		Next=Class 1
+06/02/2015 16:30:36	Program 575
+                   		Start Time Set
+                   	Sequence 575
+                   		Not Started
+                   	Key 575
+                   		Key F5=Postpone
+06/02/2015 16:31:00	Program -60
+                   		Start Sequence Commenced
+                   	Sequence -60
+                   		Postpone
+                   	Recalls -60
+06/02/2015 16:32:00	NextClassStarted 0
+                   		Last=Class 1
+                   		Next=All Classes
+                   	Sequence 0
+                   		Recalls
+                   	Recalls 0
+                   		Both
+                   	Key 0
+                   		Key F5=Recall
+                   		Key F8=General Recall
+06/02/2015 16:32:03	QueryRecallTimeout 3
+                   	Sequence 3
+                   		Finish
+                   	Recalls 3
+                   		None
+                   	Key 3
+                   		Key F5=Finish
+                   		Key F8=Disabled
+06/02/2015 16:32:24	RecallTimeout 24
+06/02/2015 16:32:25	Program 25
+                   		Start Sequence Finished

@@ -1,0 +1,20 @@
+[Version]
+Version=1.0.0.0
+
+[RacingSignals.exe <0009>]
+Dest=$(AppPath)
+Date=23/09/2013
+Time=16:51
+Version=1.0.0.0
+CABFilename=RacingSignals.CAB
+CABINFFile=RacingSignals.INF
+Uses1=msvbvm60.dll
+Uses2=OLEAUT32.DLL
+Uses3=OLEPRO32.DLL
+Uses4=ASYCFILT.DLL
+Uses5=STDOLE2.TLB
+Uses6=COMCAT.DLL
+Uses7=MShflxgd.ocx
+Uses8=ComDlg32.OCX
+Uses9=mscomctl.OCX
+Uses10=MSWINSCK.ocx

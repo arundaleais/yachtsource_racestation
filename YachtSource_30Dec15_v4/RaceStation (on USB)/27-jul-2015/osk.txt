@@ -1,0 +1,118 @@
+Reaper2
+racingsignals
+racestation
+C:\Users\Race Station\AppData\Local\Temp\RacingSignals_20150727_150127.txt
+C:\ProgramData\Arundale\RacingSignals\Sequences\
+	SYC Multiple.ini
+	SYC Multiple.txt
+etc
+http://arundale.com/docs/ais/
+http://arundale.com/docs/ais/RacingSignals_setup_1.3.3.exe
+dir "C:\Users\Race Station\AppData\Local\Temp\"
+dir C:\RacingSignals*.* /S
+
+C:\Users\Admin>dir C:\RacingSignals*.* /S
+ Volume in drive C is Windows
+ Volume Serial Number is 7A65-E27C
+
+ Directory of C:\Program Files (x86)\Arundale
+
+27/07/2015  15:52    <DIR>          RacingSignals
+               0 File(s)              0 bytes
+
+ Directory of C:\Program Files (x86)\Arundale\RacingSignals
+
+27/07/2015  12:15           282,624 RacingSignals.exe
+               1 File(s)        282,624 bytes
+
+ Directory of C:\ProgramData\Arundale
+
+27/07/2015  15:52    <DIR>          RacingSignals
+               0 File(s)              0 bytes
+
+ Directory of C:\ProgramData\Microsoft\Windows\Start Menu\Programs
+
+27/07/2015  15:52    <DIR>          RacingSignals
+               0 File(s)              0 bytes
+
+ Directory of C:\ProgramData\Microsoft\Windows\Start Menu\Programs\RacingSignals
+
+
+27/07/2015  15:52             1,243 RacingSignals.lnk
+               1 File(s)          1,243 bytes
+
+ Directory of C:\Users\Admin\AppData\Local\Microsoft\Windows\INetCache\IE\OZFZ5R
+UG
+
+27/07/2015  14:43         2,674,533 RacingSignals_setup_1.3.3.exe
+               1 File(s)      2,674,533 bytes
+
+ Directory of C:\Users\Admin\AppData\Local\Temp
+
+27/07/2015  14:30             5,904 RacingSignalsLog.log
+27/07/2015  14:44             6,008 RacingSignals_20150727_144406.log
+27/07/2015  14:44            34,593 RacingSignals_20150727_144437.log
+27/07/2015  14:49            34,240 RacingSignals_20150727_144845.log
+27/07/2015  14:50             5,256 RacingSignals_20150727_145046.log
+27/07/2015  15:10             6,743 RacingSignals_20150727_150611.log
+27/07/2015  15:12             5,929 RacingSignals_20150727_151055.log
+27/07/2015  15:15             5,930 RacingSignals_20150727_151510.log
+27/07/2015  15:17             5,923 RacingSignals_20150727_151742.log
+27/07/2015  15:54            34,344 RacingSignals_20150727_155246.log
+              10 File(s)        144,870 bytes
+
+ Directory of C:\Users\Admin\AppData\Local\VirtualStore\ProgramData\Arundale
+
+03/05/2015  13:35    <DIR>          RacingSignals
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\Admin\AppData\Roaming\Microsoft\Windows\Recent
+
+25/07/2015  13:08               340 RacingSignals.lnk
+27/07/2015  15:55               618 RacingSignalsLog.log.lnk
+22/05/2015  09:31               524 RacingSignalsLog1.lnk
+22/05/2015  13:28               524 RacingSignalsLog2.lnk
+23/05/2015  13:22               524 RacingSignalsLog3.lnk
+27/07/2015  15:57             1,291 RacingSignals_20150727_150127.log.lnk
+               6 File(s)          3,821 bytes
+
+ Directory of C:\Users\Admin\Downloads
+
+27/07/2015  15:52         2,674,533 RacingSignals_setup_1.3.3 (1).exe
+27/07/2015  15:51         2,674,533 RacingSignals_setup_1.3.3.exe
+               2 File(s)      5,349,066 bytes
+
+ Directory of C:\Users\All Users\Arundale
+
+27/07/2015  15:52    <DIR>          RacingSignals
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\All Users\Microsoft\Windows\Start Menu\Programs
+
+27/07/2015  15:52    <DIR>          RacingSignals
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\All Users\Microsoft\Windows\Start Menu\Programs\RacingSig
+nals
+
+27/07/2015  15:52             1,243 RacingSignals.lnk
+               1 File(s)          1,243 bytes
+
+ Directory of C:\Users\Race Station\AppData\Local\Temp
+
+18/07/2015  14:48           739,115 RacingSignalsLog.log
+27/07/2015  14:58             5,985 RacingSignals_20150727_145808.log
+27/07/2015  15:01             6,751 RacingSignals_20150727_150127.log
+               3 File(s)        751,851 bytes
+
+ Directory of C:\Users\Race Station\AppData\Local\VirtualStore\ProgramData\Arund
+ale
+
+04/05/2015  15:32    <DIR>          RacingSignals
+               0 File(s)              0 bytes
+
+     Total Files Listed:
+              25 File(s)      9,209,251 bytes
+               7 Dir(s)  438,412,546,048 bytes free
+
+C:\Users\Admin>

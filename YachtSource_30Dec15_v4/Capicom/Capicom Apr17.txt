@@ -1,0 +1,72 @@
+From http://unmitigatedrisk.com/?p=246
+
+
+Using CAPICOM on Windows x64
+8 Replies	
+
+So CAPICOM was one of the project I was responsible for while at Microsoft,
+ its been discontinued but I always find it useful
+ – it is kind of a Swiss Army knife for CryptoAPI certificate stores
+ when paired with its VBS samples.
+
+One of it’s problems is we never shipped with x64 bit version,
+ you can do similar things with PowerShell and the .NET classes
+ (this is why it was discontinued) but I still find this the quickest
+ way to do stuff sometimes so I keep it in my toolbelt.
+
+Here is what you need to know to make it work:
+
+    Windows can run 32bit things in 64bit environments.
+    You cannot have a 64bit thing call a 32bit thing.
+    Windows ships a 32bit cmd prompt.
+    Windows ships a 32bit regsrv32.
+
+
+To use CAPICOM you need to:
+
+    Download CAPICOM – http://www.microsoft.com/en-us/download/details.aspx?id=25281
+    Install CAPICOM
+	Creates “C:\Program Files (x86)\Microsoft CAPICOM 2.1.0.2 SDK\Lib\X86\capicom.dll”
+    Register CAPICOM
+
+    Open an administrative command prompt
+    cd to “C:\Program Files (x86)\Microsoft CAPICOM 2.1.0.2 SDK\Lib\X86”
+    copy CAPICOM.DLL %windir%\syswow64
+    %windir%\syswow64\regsvr32.exe %windir%\syswow64\capicom.dll
+    “exit” the command prompt
+================
+This worked
+http://forums.techarena.in/windows-xp-support/235204.htm
+run the CMD.exe as Administrator. 
+
+ Steps:
+ (c:)> Windows> Syswow32> Scroll down to CMD.exe, right click and 'Run as Administrator'
+
+
+ Then you can just regsvr32 xxxxx.dll 
+
+
+Microsoft Windows [Version 6.3.9600]
+(c) 2013 Microsoft Corporation. All rights reserved.
+
+1.	Download capicom_dc_sdk.msi from https://www.microsoft.com/en-gb/download/confirmation.aspx?id=25281
+	Click the downloaded file & install it
+
+2.	Run the 32 bit Command Prompt (SysWOW64 is the 32 bit library on 64 bit PC's)
+	C:\WINDOWS\system32\cmd.exe	(32 bit processor)
+	C:\WINDOWS\SysWOW64\cmd.exe	(64 bit processor)
+
+3.	Change directory
+	CD C:\WINDOWS\system32	(32 bit processor)
+	CD c:\WINDOWS\syswow64	(64 bit processor)
+
+4.	Copy DLL to 32 bit windows system directory
+	C:\WINDOWS\system32> “C:\Program Files (x86)\Microsoft CAPICOM 2.1.0.2 SDK\Lib\X86\cpicom.dll” capicom.dll (32 bit processor)
+	C:\WINDOWS\SysWOW64> “C:\Program Files (x86)\Microsoft CAPICOM 2.1.0.2 SDK\Lib\X86\cpicom.dll” capicom.dll (64 bit processor)
+
+5.	Register DLL
+	C:\windows\system32> regsvr32.exe capicom.dll	(32 bit processor)
+	C:\windows\syswow64> regsvr32.exe capicom.dll	(64 bit processor)
+
+
+C:\windows\system32>

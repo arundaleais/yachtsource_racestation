@@ -1,0 +1,359 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Ethernet RLY16</title>
+<meta http-equiv="Content-Language" content="en-gb">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta content="Microsoft FrontPage 4.0" name="GENERATOR">
+<meta content="FrontPage.Editor.Document" name="ProgId"></head>
+<body>
+<p align="center"><font face="Times New Roman"><span style="BACKGROUND-COLOR: #ffff00"><b><font size="5">&nbsp;ETH-</font><font face="Times New Roman" size="5">RLY16
+</font></b></span><b><span style="BACKGROUND-COLOR: #ffff00"><font size="5">- 8
+relay outputs&nbsp;</font></span><font size="5"><span style="background-color: #ffff00">at 16A</span><br></font></b><font size="4">Technical Documentation&nbsp;</font></font></p>
+<p align="center"><img src="Ethernet%20RLY16_files/eth-rly16tech.png" border="0" height="242" width="450"></p>
+<p align="left"><b>ETH-RLY16 Hardware Revisions</b><br>
+This documentation is for the latest Hardware revision, marked as ETH-RLY16 V3
+on the side of the PCB near Relay number 8.&nbsp;<br>
+If you have an older PCB marked just as ETH-RLY16 (with no hardware revision
+number) then please <a href="http://www.robot-electronics.co.uk/htm/eth_rly16tech1.htm">click here for the
+documentation</a>.</p>
+<p align="left"><b>Overview</b><br>
+The ETH-RLY16 provides eight volt free contact relay outputs with a current
+rating of up to 16Amp each. The module is power from a 12vdc supply which can be
+regulated or unregulated. The DC input jack
+is 2.1mm with positive core polarity, DC supplies are required to supply at
+least 500mA at 12vdc. The relays are SPCO (Single Pole Change Over) types. The normally
+open, normally closed and common pins are all available on the screw terminals.</p>
+<p align="left"><b>Operating Temperature</b><br>
+-40C to +70C</p>
+<p align="left"><b>LED indication<br>
+</b>The ETH-RLY16 provides a red LED mounted immediately next to each relay to
+indicate whether it is in a powered state (LED on), there is also two LED's
+mounted in the Ethernet connector which will flash with Ethernet traffic. Finally there is
+green power LED just above the processor.<br>
+<br>
+<b>Relay power rating</b><font face="Times New Roman"><br>
+If the contact load voltage and current of the relay are in the region enclosed
+by the solid and dotted lines in the</font> <font face="Times New Roman">figure
+below, the relay can perform stable switching operation. If the relay is used at
+a voltage or current exceeding</font> <font face="Times New Roman">this region,
+the life of the contacts may be significantly shortened.</font></p>
+<p align="center">&nbsp;</p>
+<div align="center">
+  <center>
+  <table border="1">
+    <tbody><tr>
+      <td align="center">&nbsp;load type&nbsp;</td>
+      <td align="center">&nbsp;Typical applications&nbsp;</td>
+      <td align="center">&nbsp;Rating&nbsp;</td>
+      <td rowspan="6" align="center">Max DC load capacity
+        <p><img src="Ethernet%20RLY16_files/wpe1.gif" border="0" height="402" width="435"></p></td>
+    </tr>
+    <tr>
+      <td align="center">&nbsp;AC1</td>
+      <td align="center">&nbsp;Non inductive or<br>
+        &nbsp;slightly inductive loads&nbsp;</td>
+      <td align="center">&nbsp;16A @ 250V AC&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="center">&nbsp;AC15</td>
+      <td align="center">&nbsp;Control of&nbsp;<br>
+        &nbsp;electromagnetic load&nbsp;<br>
+        &nbsp;(&gt;72VA)</td>
+      <td align="center">&nbsp;3A @ 120V AC&nbsp;&nbsp;<br>
+        &nbsp;1.5A @ 240V AC&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="center">&nbsp;AC3</td>
+      <td align="center">&nbsp;Control of motor&nbsp;</td>
+      <td align="center">&nbsp;750W</td>
+    </tr>
+    <tr>
+      <td align="center">&nbsp;DC1</td>
+      <td align="center">&nbsp;Non inductive or<br>
+        &nbsp;slightly inductive loads</td>
+      <td align="center">&nbsp;16A @ 24V DC&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="center">&nbsp;DC13</td>
+      <td align="center">&nbsp;Control of electromagnetic&nbsp;<br>
+        &nbsp;loads</td>
+      <td align="center">&nbsp;0.22A @ 120V DC<br>
+        &nbsp;0.1A @ 250V DC</td>
+    </tr>
+  </tbody></table>
+  </center>
+</div>
+<p align="left">A full datasheet for the relays used on the ETH-RLY16 is here: <a href="http://www.robot-electronics.co.uk/datasheets/RM85.pdf">RM85 datasheet</a></p>
+<p align="left"><b>First Test</b><br>
+Having plugged in your 12vdc power supply and Ethernet connection, start up your
+web browser and type <b>http://ethrly16</b> into the address bar, please note
+this only works in windows. You will be prompted for a password as shown below:
+</p>
+<p align="left">&nbsp;
+</p>
+<div align="center">
+  <center>
+  <table border="0" cellspacing="0">
+    <tbody><tr>
+      <td valign="middle">
+        <p align="center"><img src="Ethernet%20RLY16_files/ETH-RLY16logon.jpg" border="0" height="354" width="326"></p></td>
+      <td>&nbsp;&nbsp;The default login is:<br>
+        &nbsp;Username: admin<br>
+        &nbsp;Password: password<br>
+        <br>
+        &nbsp;The ability to change these<br>
+        &nbsp;settings is shown in the<br>
+        &nbsp;configuration section&nbsp;
+      </td>
+    </tr>
+  </tbody></table>
+  </center>
+</div>
+<p align="left">You should now see
+the following web page:
+</p>
+<p align="center"><img src="Ethernet%20RLY16_files/ETH-RLY16webpage2.png" border="0" height="370" width="719">
+</p>
+<p align="left">This webpage will allow you to switch the relays on and off by
+clicking the relay buttons (the red/gray circles). It also contains a link to
+this technical documentation page.
+</p>
+<p><b>TCP/IP Commands</b><br>
+The ETH-RLY16 can also be controlled using a simple command set sent over TCP/IP
+on port <span lang="EN-GB">17494 (0x4456). This is the default port, it can be
+changed in the configuration settings.<br>
+</span>Most commands are only a single byte and if applicable the ETH-RLY16 will automatically
+send its response. The only exception to this being the "Set relay
+states" command which requires an additional desired states byte to be
+sent immediately after the command byte.&nbsp;<br>
+</p>
+<div align="center">
+<center>
+<center>
+  </center><table bgcolor="#ccffcc" border="1" cellpadding="2" cellspacing="0" width="70%">
+  <tbody>
+  <tr>
+    <td colspan="2" align="center" bgcolor="#66ffff" width="5%">Command</td>
+    <td rowspan="2" align="center" bgcolor="#66ffff" width="95%">
+      <p align="center"><font face="Times New Roman">Action</font></p></td>
+  </tr>
+  <tr>
+    <td align="center" bgcolor="#66ffff" width="2.5%"><font face="Times New Roman">dec</font></td>
+    <td align="center" bgcolor="#66ffff" width="2.5%"><font face="Times New Roman">hex</font></td>
+  </tr>
+  <tr>
+    <td align="center" bgcolor="#ffff00" width="2%"><font face="Times New Roman">90</font></td>
+    <td align="center" bgcolor="#ffff00" width="2%">5A</td>
+    <td align="center" width="95%">Get software version - returns a single byte, the software
+      version number</td>
+  </tr>
+  <tr>
+    <td align="center" bgcolor="#ffff00" width="2%"><font face="Times New Roman">91</font></td>
+    <td align="center" bgcolor="#ffff00" width="2%">5B</td>
+    <td align="center" width="95%">
+      <p align="center"><font face="Times New Roman">Get relay states - sends </font>a
+      single byte back to the controller, bit high meaning the corresponding relay is
+      powered</p>
+  </td>
+  </tr>
+  <tr>
+    <td align="center" bgcolor="#ffff00" width="2%"><font face="Times New Roman">92</font></td>
+    <td align="center" bgcolor="#ffff00" width="2%">5C</td>
+    <td align="center" width="95%"><font face="Times New Roman">Set relay states -</font>
+      the next single byte will set all relays states, All on = 255 (11111111)
+      All off = 0</td>
+  </tr>
+  <tr>
+    <td align="center" bgcolor="#ffff00" width="3%"><font face="Times New Roman">93</font></td>
+    <td align="center" bgcolor="#ffff00" width="2%"><font face="Times New Roman">5D</font></td>
+    <td align="center" width="95%">Get DC input voltage - returns relay supply
+      voltage as byte, 125 being 12.5V DC</td>
+  </tr>
+  <tr>
+    <td align="center" bgcolor="#ffff00" width="3%"><font face="Times New Roman">100</font></td>
+    <td align="center" bgcolor="#ffff00" width="2%"><font face="Times New Roman">64</font></td>
+    <td align="center" width="95%"><font face="Times New Roman">All relays on</font></td>
+  </tr>
+  <tr>
+    <td align="center" bgcolor="#ffff00" width="3%"><font face="Times New Roman">101</font></td>
+    <td align="center" bgcolor="#ffff00" width="2%"><font face="Times New Roman">65</font></td>
+    <td align="center" width="95%"><font face="Times New Roman">Turn relay 1 on</font></td>
+  </tr>
+  <tr>
+    <td align="center" bgcolor="#ffff00" width="3%"><font face="Times New Roman">102</font></td>
+    <td align="center" bgcolor="#ffff00" width="2%"><font face="Times New Roman">66</font></td>
+    <td align="center" width="95%"><font face="Times New Roman">Turn relay 2 on</font></td>
+  </tr>
+  <tr>
+    <td align="center" bgcolor="#ffff00" width="3%"><font face="Times New Roman">103</font></td>
+    <td align="center" bgcolor="#ffff00" width="2%"><font face="Times New Roman">67</font></td>
+    <td align="center" width="95%"><font face="Times New Roman">Turn relay 3 on</font></td>
+  </tr>
+  <tr>
+    <td align="center" bgcolor="#ffff00" width="3%"><font face="Times New Roman">104</font></td>
+    <td align="center" bgcolor="#ffff00" width="2%"><font face="Times New Roman">68</font></td>
+    <td align="center" width="95%"><font face="Times New Roman">Turn relay 4 on</font></td>
+  </tr>
+  <tr>
+    <td align="center" bgcolor="#ffff00" width="3%"><font face="Times New Roman">105</font></td>
+    <td align="center" bgcolor="#ffff00" width="2%"><font face="Times New Roman">69</font></td>
+    <td align="center" width="95%"><font face="Times New Roman">Turn relay 5 on</font></td>
+  </tr>
+  <tr>
+    <td align="center" bgcolor="#ffff00" width="3%"><font face="Times New Roman">106</font></td>
+    <td align="center" bgcolor="#ffff00" width="2%"><font face="Times New Roman">6A</font></td>
+    <td align="center" width="95%"><font face="Times New Roman">Turn relay 6 on</font></td>
+  </tr>
+  <tr>
+    <td align="center" bgcolor="#ffff00" width="3%"><font face="Times New Roman">107</font></td>
+    <td align="center" bgcolor="#ffff00" width="2%"><font face="Times New Roman">6B</font></td>
+    <td align="center" width="95%"><font face="Times New Roman">Turn relay 7 on</font></td>
+  </tr>
+  <tr>
+    <td align="center" bgcolor="#ffff00" width="3%"><font face="Times New Roman">108</font></td>
+    <td align="center" bgcolor="#ffff00" width="2%"><font face="Times New Roman">6C</font></td>
+    <td align="center" width="95%"><font face="Times New Roman">Turn relay 8 on</font> </td>
+  </tr>
+  <tr>
+    <td align="center" bgcolor="#ffff00" width="3%"><font face="Times New Roman">110</font></td>
+    <td align="center" bgcolor="#ffff00" width="2%"><font face="Times New Roman">6E</font></td>
+    <td align="center" nowrap="nowrap" width="95%"><font face="Times New Roman">All relays
+      off</font> </td>
+  </tr>
+  <tr>
+    <td align="center" bgcolor="#ffff00" width="3%"><font face="Times New Roman">111</font></td>
+    <td align="center" bgcolor="#ffff00" width="2%">6F</td>
+    <td align="center" width="95%"><font face="Times New Roman">Turn relay 1 off</font></td>
+  </tr>
+  <tr>
+    <td align="center" bgcolor="#ffff00" width="3%"><font face="Times New Roman">112</font></td>
+    <td align="center" bgcolor="#ffff00" width="2%"><font face="Times New Roman">70</font></td>
+    <td align="center" width="95%"><font face="Times New Roman">Turn relay 2 off</font></td>
+  </tr>
+  <tr>
+    <td align="center" bgcolor="#ffff00" width="3%"><font face="Times New Roman">113</font></td>
+    <td align="center" bgcolor="#ffff00" width="2%"><font face="Times New Roman">71</font></td>
+    <td align="center" width="95%"><font face="Times New Roman">Turn relay 3 off</font></td>
+  </tr>
+  <tr>
+    <td align="center" bgcolor="#ffff00" width="3%"><font face="Times New Roman">114</font></td>
+    <td align="center" bgcolor="#ffff00" width="2%"><font face="Times New Roman">72</font></td>
+    <td align="center" width="95%"><font face="Times New Roman">Turn relay 4 off</font></td>
+  </tr>
+  <tr>
+    <td align="center" bgcolor="#ffff00" width="3%"><font face="Times New Roman">115</font></td>
+    <td align="center" bgcolor="#ffff00" width="2%"><font face="Times New Roman">73</font></td>
+    <td align="center" width="95%"><font face="Times New Roman">Turn relay 5 off</font></td>
+  </tr>
+  <tr>
+    <td align="center" bgcolor="#ffff00" width="3%"><font face="Times New Roman">116</font></td>
+    <td align="center" bgcolor="#ffff00" width="2%"><font face="Times New Roman">74</font></td>
+    <td align="center" width="95%"><font face="Times New Roman">Turn relay 6 off</font></td>
+  </tr>
+  <tr>
+    <td align="center" bgcolor="#ffff00" width="3%"><font face="Times New Roman">117</font></td>
+    <td align="center" bgcolor="#ffff00" width="2%"><font face="Times New Roman">75</font></td>
+    <td align="center" width="95%"><font face="Times New Roman">Turn relay 7 off</font></td>
+  </tr>
+  <tr>
+    <td align="center" bgcolor="#ffff00" width="3%"><font face="Times New Roman">118</font></td>
+    <td align="center" bgcolor="#ffff00" width="2%"><font face="Times New Roman">76</font></td>
+    <td align="center" width="95%"><font face="Times New Roman">Turn relay 8 off</font></td>
+  </tr>
+  <tr>
+    <td align="center" bgcolor="#ffff00" width="3%">119</td>
+    <td align="center" bgcolor="#ffff00" width="2%">77</td>
+    <td align="center" width="95%">Get MAC Address. Returns the unique 6 byte MAC
+      address of the module.</td>
+  </tr>
+  
+</tbody></table></center></div>
+<p>&nbsp;</p>
+<p><b>IP addresses &amp; DHCP Servers</b><br>
+The easiest way to use the ETH-RLY16 is to connect it to a network with a DHCP
+server. In this case the ETH-RLY16 will have its IP address assigned
+automatically by the DHCP server. This is the recommended way to use the
+ETH-RLY16.</p>
+<p>If there is no DHCP server on the network, then a fixed IP address of
+192.168.0.200 is used.&nbsp; To control the ETH-RLY16 using this fixed
+IP address your computer MUST be on the same subnet. Set your computers IP
+address to 192.168.0.1 (we will never supply a module with that address). Set the
+default gateway and DNS server to the same IP address. The subnet mask should be
+set to 255.255.0.0.&nbsp;</p>
+<div align="center">
+  <center>
+<table border="0">
+  <tbody><tr>
+    <td><img src="Ethernet%20RLY16_files/eth-rly16-xp.png" border="0" height="455" width="404"></td>
+    <td valign="top">&nbsp;
+      <p>This image is for a PC running Windows XP.<br>
+      To get to the TCP/IP properties screen, go to:<br>
+      Control Panel-&gt;Network Connections-&gt;Local Area
+      Connection-&gt;Properties.<br>
+      Select Internet Protocol (TCP/IP) from the scroll box and click
+      Properties.</p>
+      <p>That gets you to the dialog box shown left.<br>
+    </p></td>
+  </tr>
+</tbody></table>
+  </center>
+</div>
+<p align="center"><b>Configuration<br>
+</b>Now it's possible to configure the ETH-RLY16 IP address and subnet mask
+together with the ability to set a password for entry to control screens. All
+settings are saved to memory so be careful to remember the username and
+password! Default password settings are shown in the picture below.<br>
+<br>
+<img src="Ethernet%20RLY16_files/eth-rly16-config.png" border="0" height="404" width="505"></p>
+<p align="left"><b>Test program and example source code<br>
+</b>To get the ETH-RLY16 up and running in the minimum amount of
+time we have put together an example program to demonstrate the functionality of
+the module.&nbsp;&nbsp;We provide the full source code for this program. You may
+examine this code to see how it works or use it as a starting point for your own
+application.</p>
+<p align="center"><img src="Ethernet%20RLY16_files/eth-rly16test2.png" border="0" height="266" width="340"></p>
+<p align="left">Visual studio express C# examples
+<br>
+The test program is available as Visual C# express ready built installation files
+<a href="http://www.robot-electronics.co.uk/files/relay.zip"> here</a>,&nbsp; or as Visual C# express project
+with source files <a href="http://www.robot-electronics.co.uk/files/relay_source.zip">here</a>.<br>
+Visual studio express is provided free from Microsoft: <a href="http://www.microsoft.com/exPress/download/">http://www.microsoft.com/exPress/download/</a> </p>
+<p align="left"><b>Access from the Internet<br>
+</b>The ETH-RLY16 can be controlled over the internet almost as easily as on
+your local network. Your network will most likely be connected to the internet
+with a broadband router. This will provide NAT (Network Address Translation) and
+Firewall services. To access the ETH-RLY16 from the internet you will need to
+open up port <span lang="EN-GB">17494 (0x4456) to allow incoming TCP
+connections. Be careful not to open up any other ports. There are a wide variety
+of routers and we cannot give details for all of them. If in doubt ask you
+system administrator for assistance. The following shows how to open up a port
+on a Netgear DG834 router.&nbsp;
+</span></p>
+<p align="center"> <span lang="EN-GB"><img src="Ethernet%20RLY16_files/netservice.gif" border="0" height="259" width="375">
+</span></p>
+<p align="left"> <span lang="EN-GB">&nbsp;After logging on to your routers setup
+page, the first thing to do is create a new service. Click on the
+"Services" menu then "Add Custom Service". Enter a name for
+the service, select TCP and enter the ETH-RLY16's port address for both the
+start and finish ports. Click "Apply".</span></p>
+<p align="center"><img src="Ethernet%20RLY16_files/netinbound.gif" border="0" height="327" width="375"></p>
+<p align="left">Now go to the "Firewall Rules" menu and click&nbsp;
+"Add" in the Inbound services section. Select the ETH-RLY16 service
+and ALLOW always. The "Send to LAN Server" IP address is the
+ETH-RLY16's IP address, 192.168.0.15 in the example above but check what it is
+on your network. Click "Apply" and that's it. The ETH-RLY16 is now accessible
+over the internet. Before you close the routers setup pages, go to the
+"Router Status" menu and make a note of&nbsp; its ADSL port IP
+address. This is the routers internet facing IP address. </p>
+<p align="center"><img src="Ethernet%20RLY16_files/netIP.gif" border="0" height="272" width="345"></p>
+<p align="left">To test this you will need a computer that has its own internet
+connection and is NOT connected to the same network as the ETH-RLY16. Download
+and run the test program above and select Custom IP. In the pop-up box enter
+your routers internet facing IP address. Click on "Try IP" and it will
+connect you to the ETH-RLY16 just as if it were on your own network.</p>
+<p align="left">We also have a free <a href="http://www.robot-electronics.co.uk/htm/android_relay_network.htm">Android
+App</a> available to remotely control your relays.</p>
+<p><b>Board dimensions</b></p>
+<p align="center"><img src="Ethernet%20RLY16_files/eth-rly16mount.bmp" border="0" height="419" width="630"></p>
+<p align="left">&nbsp;</p>
+
+</body></html>

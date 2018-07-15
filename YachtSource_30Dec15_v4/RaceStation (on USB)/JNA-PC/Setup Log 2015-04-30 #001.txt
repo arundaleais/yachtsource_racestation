@@ -1,0 +1,619 @@
+2015-04-30 10:23:14.853   Log opened. (Time zone: UTC+01:00)
+2015-04-30 10:23:14.853   Setup version: Inno Setup version 5.4.2 (a)
+2015-04-30 10:23:14.853   Original Setup EXE: C:\DirectNic\Live Parent (ArundaleCom)\docs\ais\RacingSignals_setup_1.3.2.exe
+2015-04-30 10:23:14.853   Setup command line: /SL5="$60328,2213878,54272,C:\DirectNic\Live Parent (ArundaleCom)\docs\ais\RacingSignals_setup_1.3.2.exe" 
+2015-04-30 10:23:14.853   Windows version: 5.1.2600 SP3  (NT platform: Yes)
+2015-04-30 10:23:14.853   64-bit Windows: No
+2015-04-30 10:23:14.853   Processor architecture: x86
+2015-04-30 10:23:14.853   User privileges: Administrative
+2015-04-30 10:23:14.853   64-bit install mode: No
+2015-04-30 10:23:14.869   Created temporary directory: C:\DOCUME~1\jna\LOCALS~1\Temp\is-DTSMO.tmp
+2015-04-30 10:23:20.275   Starting the installation process.
+2015-04-30 10:23:20.275   Directory for uninstall files: C:\Program Files\Arundale\RacingSignals
+2015-04-30 10:23:20.400   Will append to existing uninstall log: C:\Program Files\Arundale\RacingSignals\unins000.dat
+2015-04-30 10:23:20.400   -- File entry --
+2015-04-30 10:23:20.400   Dest filename: C:\Program Files\Arundale\RacingSignals\unins000.exe
+2015-04-30 10:23:20.416   Time stamp of our file: 2015-04-30 10:23:14.666
+2015-04-30 10:23:20.416   Dest file exists.
+2015-04-30 10:23:20.416   Time stamp of existing file: 2015-04-29 12:13:45.406
+2015-04-30 10:23:20.416   Version of our file: 51.52.0.0
+2015-04-30 10:23:20.588   Version of existing file: 51.52.0.0
+2015-04-30 10:23:20.588   Installing the file.
+2015-04-30 10:23:20.603   Uninstaller requires administrator: Yes
+2015-04-30 10:23:20.603   Leaving temporary file in place for now.
+2015-04-30 10:23:20.603   -- File entry --
+2015-04-30 10:23:20.603   Dest filename: C:\WINDOWS\system32\msvbvm60.dll
+2015-04-30 10:23:20.603   Time stamp of our file: 2008-04-14 12:00:00.000
+2015-04-30 10:23:20.603   Dest file exists.
+2015-04-30 10:23:20.603   Time stamp of existing file: 2009-07-14 03:15:50.000
+2015-04-30 10:23:20.603   Version of our file: 6.0.98.2
+2015-04-30 10:23:20.619   Version of existing file: 6.0.98.15
+2015-04-30 10:23:20.619   Existing file is a newer version. Skipping.
+2015-04-30 10:23:20.619   Will register the file (a DLL/OCX) later.
+2015-04-30 10:23:20.619   Incrementing shared file count (32-bit).
+2015-04-30 10:23:20.619   -- File entry --
+2015-04-30 10:23:20.619   Dest filename: C:\WINDOWS\system32\oleaut32.dll
+2015-04-30 10:23:20.619   Dest file is protected by Windows File Protection.
+2015-04-30 10:23:20.619   Time stamp of our file: 2000-04-12 00:00:00.000
+2015-04-30 10:23:20.619   Dest file exists.
+2015-04-30 10:23:20.619   Time stamp of existing file: 2013-01-26 04:55:44.000
+2015-04-30 10:23:20.619   Version of our file: 2.40.4275.1
+2015-04-30 10:23:20.619   Version of existing file: 5.1.2600.6341
+2015-04-30 10:23:20.619   Existing file is a newer version. Skipping.
+2015-04-30 10:23:20.619   Will register the file (a DLL/OCX) later.
+2015-04-30 10:23:20.619   Incrementing shared file count (32-bit).
+2015-04-30 10:23:20.619   -- File entry --
+2015-04-30 10:23:20.619   Dest filename: C:\WINDOWS\system32\olepro32.dll
+2015-04-30 10:23:20.619   Dest file is protected by Windows File Protection.
+2015-04-30 10:23:20.619   Time stamp of our file: 1999-03-08 00:00:00.000
+2015-04-30 10:23:20.619   Dest file exists.
+2015-04-30 10:23:20.619   Time stamp of existing file: 2008-04-14 13:00:00.000
+2015-04-30 10:23:20.619   Version of our file: 5.0.4275.1
+2015-04-30 10:23:20.634   Version of existing file: 5.1.2600.5512
+2015-04-30 10:23:20.634   Existing file is a newer version. Skipping.
+2015-04-30 10:23:20.634   Will register the file (a DLL/OCX) later.
+2015-04-30 10:23:20.634   Incrementing shared file count (32-bit).
+2015-04-30 10:23:20.634   -- File entry --
+2015-04-30 10:23:20.634   Dest filename: C:\WINDOWS\system32\asycfilt.dll
+2015-04-30 10:23:20.634   Dest file is protected by Windows File Protection.
+2015-04-30 10:23:20.634   Time stamp of our file: 1999-03-08 00:00:00.000
+2015-04-30 10:23:20.634   Dest file exists.
+2015-04-30 10:23:20.634   Time stamp of existing file: 2010-03-05 15:37:40.000
+2015-04-30 10:23:20.634   Version of our file: 2.40.4275.1
+2015-04-30 10:23:20.650   Version of existing file: 5.1.2600.5949
+2015-04-30 10:23:20.650   Existing file is a newer version. Skipping.
+2015-04-30 10:23:20.650   Incrementing shared file count (32-bit).
+2015-04-30 10:23:20.650   -- File entry --
+2015-04-30 10:23:20.650   Dest filename: C:\WINDOWS\system32\stdole2.tlb
+2015-04-30 10:23:20.650   Dest file is protected by Windows File Protection.
+2015-04-30 10:23:20.650   Time stamp of our file: 1999-06-03 00:00:00.000
+2015-04-30 10:23:20.650   Dest file exists.
+2015-04-30 10:23:20.650   Time stamp of existing file: 2008-04-14 13:00:00.000
+2015-04-30 10:23:20.650   Version of our file: 2.40.4275.1
+2015-04-30 10:23:20.650   Version of existing file: 5.1.2600.5512
+2015-04-30 10:23:20.650   Existing file is a newer version. Skipping.
+2015-04-30 10:23:20.650   Will register the file (a type library) later.
+2015-04-30 10:23:20.650   Incrementing shared file count (32-bit).
+2015-04-30 10:23:20.650   -- File entry --
+2015-04-30 10:23:20.650   Dest filename: C:\WINDOWS\system32\comcat.dll
+2015-04-30 10:23:20.666   Dest file is protected by Windows File Protection.
+2015-04-30 10:23:20.666   Time stamp of our file: 1998-05-31 00:00:00.000
+2015-04-30 10:23:20.666   Dest file exists.
+2015-04-30 10:23:20.666   Time stamp of existing file: 2008-04-14 13:00:00.000
+2015-04-30 10:23:20.666   Version of our file: 4.71.1460.1
+2015-04-30 10:23:20.666   Version of existing file: 5.0.2600.1
+2015-04-30 10:23:20.666   Existing file is a newer version. Skipping.
+2015-04-30 10:23:20.666   Will register the file (a DLL/OCX) later.
+2015-04-30 10:23:20.666   Incrementing shared file count (32-bit).
+2015-04-30 10:23:20.666   -- File entry --
+2015-04-30 10:23:20.666   Dest filename: C:\WINDOWS\system32\msstdfmt.dll
+2015-04-30 10:23:20.666   Time stamp of our file: 2009-03-24 12:52:32.000
+2015-04-30 10:23:20.666   Dest file exists.
+2015-04-30 10:23:20.666   Time stamp of existing file: 2009-03-24 13:52:32.000
+2015-04-30 10:23:20.666   Version of our file: 6.1.98.16
+2015-04-30 10:23:20.681   Version of existing file: 6.1.98.16
+2015-04-30 10:23:20.681   Same version. Skipping.
+2015-04-30 10:23:20.681   Will register the file (a DLL/OCX) later.
+2015-04-30 10:23:20.681   Incrementing shared file count (32-bit).
+2015-04-30 10:23:20.681   -- File entry --
+2015-04-30 10:23:20.681   Dest filename: C:\WINDOWS\system32\capicom.dll
+2015-04-30 10:23:20.681   Time stamp of our file: 2007-04-11 10:11:20.000
+2015-04-30 10:23:20.681   Dest file exists.
+2015-04-30 10:23:20.681   Time stamp of existing file: 2007-04-11 11:11:20.000
+2015-04-30 10:23:20.681   Version of our file: 2.1.0.2
+2015-04-30 10:23:20.681   Version of existing file: 2.1.0.2
+2015-04-30 10:23:20.681   Same version. Skipping.
+2015-04-30 10:23:20.681   Will register the file (a DLL/OCX) later.
+2015-04-30 10:23:20.681   Incrementing shared file count (32-bit).
+2015-04-30 10:23:20.697   -- File entry --
+2015-04-30 10:23:20.697   Dest filename: C:\WINDOWS\system32\MSWINSCK.ocx
+2015-04-30 10:23:20.697   Time stamp of our file: 2010-02-16 16:22:44.000
+2015-04-30 10:23:20.697   Dest file exists.
+2015-04-30 10:23:20.697   Time stamp of existing file: 2010-02-16 16:22:44.000
+2015-04-30 10:23:20.697   Version of our file: 6.1.98.17
+2015-04-30 10:23:20.697   Version of existing file: 6.1.98.17
+2015-04-30 10:23:20.697   Same version. Skipping.
+2015-04-30 10:23:20.697   Will register the file (a DLL/OCX) later.
+2015-04-30 10:23:20.697   Incrementing shared file count (32-bit).
+2015-04-30 10:23:20.697   -- File entry --
+2015-04-30 10:23:20.697   Dest filename: C:\WINDOWS\system32\mscomctl.OCX
+2015-04-30 10:23:20.697   Time stamp of our file: 2012-05-02 13:17:12.000
+2015-04-30 10:23:20.697   Dest file exists.
+2015-04-30 10:23:20.697   Time stamp of existing file: 2012-05-02 13:17:12.000
+2015-04-30 10:23:20.697   Version of our file: 6.1.98.34
+2015-04-30 10:23:20.697   Version of existing file: 6.1.98.34
+2015-04-30 10:23:20.697   Same version. Skipping.
+2015-04-30 10:23:20.697   Will register the file (a DLL/OCX) later.
+2015-04-30 10:23:20.697   Incrementing shared file count (32-bit).
+2015-04-30 10:23:20.697   -- File entry --
+2015-04-30 10:23:20.697   Dest filename: C:\WINDOWS\system32\ComDlg32.ocx
+2015-04-30 10:23:20.697   Time stamp of our file: 2009-03-24 13:52:32.000
+2015-04-30 10:23:20.697   Dest file exists.
+2015-04-30 10:23:20.697   Time stamp of existing file: 2009-03-24 13:52:32.000
+2015-04-30 10:23:20.697   Version of our file: 6.1.98.16
+2015-04-30 10:23:20.697   Version of existing file: 6.1.98.16
+2015-04-30 10:23:20.697   Same version. Skipping.
+2015-04-30 10:23:20.697   Will register the file (a DLL/OCX) later.
+2015-04-30 10:23:20.697   Incrementing shared file count (32-bit).
+2015-04-30 10:23:20.697   -- File entry --
+2015-04-30 10:23:20.697   Dest filename: C:\WINDOWS\system32\MSHFlxGd.ocx
+2015-04-30 10:23:20.697   Time stamp of our file: 2009-03-24 13:52:38.000
+2015-04-30 10:23:20.697   Dest file exists.
+2015-04-30 10:23:20.697   Time stamp of existing file: 2009-03-24 13:52:38.000
+2015-04-30 10:23:20.697   Version of our file: 6.1.98.16
+2015-04-30 10:23:20.697   Version of existing file: 6.1.98.16
+2015-04-30 10:23:20.697   Same version. Skipping.
+2015-04-30 10:23:20.697   Will register the file (a DLL/OCX) later.
+2015-04-30 10:23:20.697   Incrementing shared file count (32-bit).
+2015-04-30 10:23:20.713   -- File entry --
+2015-04-30 10:23:20.713   Dest filename: C:\WINDOWS\system32\MSINET.ocx
+2015-04-30 10:23:20.713   Time stamp of our file: 2009-03-24 14:52:32.000
+2015-04-30 10:23:20.713   Dest file exists.
+2015-04-30 10:23:20.713   Time stamp of existing file: 2009-03-24 14:52:32.000
+2015-04-30 10:23:20.713   Version of our file: 6.1.98.16
+2015-04-30 10:23:20.713   Version of existing file: 6.1.98.16
+2015-04-30 10:23:20.713   Same version. Skipping.
+2015-04-30 10:23:20.713   Will register the file (a DLL/OCX) later.
+2015-04-30 10:23:20.713   Incrementing shared file count (32-bit).
+2015-04-30 10:23:20.713   -- File entry --
+2015-04-30 10:23:20.713   Dest filename: C:\WINDOWS\system32\richtx32.ocx
+2015-04-30 10:23:20.713   Time stamp of our file: 2010-02-16 16:22:44.000
+2015-04-30 10:23:20.713   Dest file exists.
+2015-04-30 10:23:20.713   Time stamp of existing file: 2010-02-16 16:22:44.000
+2015-04-30 10:23:20.713   Version of our file: 6.1.98.16
+2015-04-30 10:23:20.713   Version of existing file: 6.1.98.16
+2015-04-30 10:23:20.713   Same version. Skipping.
+2015-04-30 10:23:20.713   Will register the file (a DLL/OCX) later.
+2015-04-30 10:23:20.713   Incrementing shared file count (32-bit).
+2015-04-30 10:23:20.713   -- File entry --
+2015-04-30 10:23:20.713   Dest filename: C:\Program Files\Arundale\RacingSignals\RacingSignals.exe
+2015-04-30 10:23:20.713   Time stamp of our file: 2015-04-30 10:22:22.000
+2015-04-30 10:23:20.713   Installing the file.
+2015-04-30 10:23:20.744   Successfully installed the file.
+2015-04-30 10:23:20.744   -- File entry --
+2015-04-30 10:23:20.744   Dest filename: C:\Program Files\Arundale\RacingSignals\arundale.ico
+2015-04-30 10:23:20.744   Time stamp of our file: 2008-05-01 09:13:26.000
+2015-04-30 10:23:20.744   Dest file exists.
+2015-04-30 10:23:20.744   Time stamp of existing file: 2008-05-01 09:13:26.000
+2015-04-30 10:23:20.744   Installing the file.
+2015-04-30 10:23:20.759   Successfully installed the file.
+2015-04-30 10:23:20.759   -- File entry --
+2015-04-30 10:23:20.759   Dest filename: C:\Documents and Settings\All Users\Application Data\Arundale\RacingSignals\Sequences\SYC Multiple.ini
+2015-04-30 10:23:20.759   Time stamp of our file: 2015-04-30 10:21:18.000
+2015-04-30 10:23:20.759   Dest file exists.
+2015-04-30 10:23:20.759   Time stamp of existing file: 2015-04-30 10:21:19.212
+2015-04-30 10:23:20.759   Installing the file.
+2015-04-30 10:23:20.775   Successfully installed the file.
+2015-04-30 10:23:20.775   -- File entry --
+2015-04-30 10:23:20.775   Dest filename: C:\Documents and Settings\All Users\Application Data\Arundale\RacingSignals\Sequences\SYC Multiple.ini x 10
+2015-04-30 10:23:20.775   Time stamp of our file: 2015-02-12 12:31:00.000
+2015-04-30 10:23:20.775   Dest file exists.
+2015-04-30 10:23:20.775   Time stamp of existing file: 2015-02-12 12:31:00.000
+2015-04-30 10:23:20.775   Installing the file.
+2015-04-30 10:23:20.775   Successfully installed the file.
+2015-04-30 10:23:20.775   -- File entry --
+2015-04-30 10:23:20.775   Dest filename: C:\Documents and Settings\All Users\Application Data\Arundale\RacingSignals\Sequences\SYC Single.ini
+2015-04-30 10:23:20.775   Time stamp of our file: 2015-04-30 10:21:18.000
+2015-04-30 10:23:20.775   Dest file exists.
+2015-04-30 10:23:20.775   Time stamp of existing file: 2015-04-30 10:21:19.212
+2015-04-30 10:23:20.775   Installing the file.
+2015-04-30 10:23:20.775   Successfully installed the file.
+2015-04-30 10:23:20.775   -- File entry --
+2015-04-30 10:23:20.775   Dest filename: C:\Documents and Settings\All Users\Application Data\Arundale\RacingSignals\Sequences\SYC Single.ini x 10
+2015-04-30 10:23:20.775   Time stamp of our file: 2015-02-12 12:31:00.000
+2015-04-30 10:23:20.775   Dest file exists.
+2015-04-30 10:23:20.775   Time stamp of existing file: 2015-02-12 12:31:00.000
+2015-04-30 10:23:20.775   Installing the file.
+2015-04-30 10:23:20.791   Successfully installed the file.
+2015-04-30 10:23:20.791   -- File entry --
+2015-04-30 10:23:20.791   Dest filename: C:\Documents and Settings\All Users\Application Data\Arundale\RacingSignals\Sequences\x10 SYC Multiple.ini
+2015-04-30 10:23:20.791   Time stamp of our file: 2015-04-30 10:21:18.000
+2015-04-30 10:23:20.791   Dest file exists.
+2015-04-30 10:23:20.791   Time stamp of existing file: 2015-04-30 10:21:19.212
+2015-04-30 10:23:20.791   Installing the file.
+2015-04-30 10:23:20.822   Successfully installed the file.
+2015-04-30 10:23:20.822   -- File entry --
+2015-04-30 10:23:20.822   Dest filename: C:\Documents and Settings\All Users\Application Data\Arundale\RacingSignals\Sequences\x10 SYC Single.ini
+2015-04-30 10:23:20.822   Time stamp of our file: 2015-04-30 10:21:18.000
+2015-04-30 10:23:20.822   Dest file exists.
+2015-04-30 10:23:20.822   Time stamp of existing file: 2015-04-30 10:21:19.227
+2015-04-30 10:23:20.822   Installing the file.
+2015-04-30 10:23:20.822   Successfully installed the file.
+2015-04-30 10:23:20.822   -- File entry --
+2015-04-30 10:23:20.822   Dest filename: C:\Documents and Settings\All Users\Application Data\Arundale\RacingSignals\Sounds\horn.wav
+2015-04-30 10:23:20.822   Time stamp of our file: 2014-01-24 13:24:08.000
+2015-04-30 10:23:20.822   Dest file exists.
+2015-04-30 10:23:20.822   Time stamp of existing file: 2014-01-24 13:24:08.000
+2015-04-30 10:23:20.822   Installing the file.
+2015-04-30 10:23:20.838   Successfully installed the file.
+2015-04-30 10:23:20.838   -- File entry --
+2015-04-30 10:23:20.838   Dest filename: C:\Documents and Settings\All Users\Application Data\Arundale\RacingSignals\SignalImages\Ball1.gif
+2015-04-30 10:23:20.838   Time stamp of our file: 2014-01-08 15:29:04.000
+2015-04-30 10:23:20.838   Dest file exists.
+2015-04-30 10:23:20.838   Time stamp of existing file: 2014-01-08 15:29:04.000
+2015-04-30 10:23:20.838   Installing the file.
+2015-04-30 10:23:20.838   Successfully installed the file.
+2015-04-30 10:23:20.838   -- File entry --
+2015-04-30 10:23:20.838   Dest filename: C:\Documents and Settings\All Users\Application Data\Arundale\RacingSignals\SignalImages\Ball2.gif
+2015-04-30 10:23:20.838   Time stamp of our file: 2014-01-08 15:28:38.000
+2015-04-30 10:23:20.838   Dest file exists.
+2015-04-30 10:23:20.838   Time stamp of existing file: 2014-01-08 15:28:38.000
+2015-04-30 10:23:20.838   Installing the file.
+2015-04-30 10:23:20.838   Successfully installed the file.
+2015-04-30 10:23:20.838   -- File entry --
+2015-04-30 10:23:20.838   Dest filename: C:\Documents and Settings\All Users\Application Data\Arundale\RacingSignals\SignalImages\Ball3.gif
+2015-04-30 10:23:20.838   Time stamp of our file: 2014-01-08 15:27:44.000
+2015-04-30 10:23:20.838   Dest file exists.
+2015-04-30 10:23:20.838   Time stamp of existing file: 2014-01-08 15:27:44.000
+2015-04-30 10:23:20.838   Installing the file.
+2015-04-30 10:23:20.838   Successfully installed the file.
+2015-04-30 10:23:20.838   -- File entry --
+2015-04-30 10:23:20.838   Dest filename: C:\Documents and Settings\All Users\Application Data\Arundale\RacingSignals\SignalImages\Black.gif
+2015-04-30 10:23:20.838   Time stamp of our file: 2014-01-05 18:19:46.000
+2015-04-30 10:23:20.838   Dest file exists.
+2015-04-30 10:23:20.838   Time stamp of existing file: 2014-01-05 18:19:46.000
+2015-04-30 10:23:20.838   Installing the file.
+2015-04-30 10:23:20.838   Successfully installed the file.
+2015-04-30 10:23:20.838   -- File entry --
+2015-04-30 10:23:20.838   Dest filename: C:\Documents and Settings\All Users\Application Data\Arundale\RacingSignals\SignalImages\Blue.gif
+2015-04-30 10:23:20.838   Time stamp of our file: 2014-01-05 18:25:08.000
+2015-04-30 10:23:20.838   Dest file exists.
+2015-04-30 10:23:20.838   Time stamp of existing file: 2014-01-05 18:25:08.000
+2015-04-30 10:23:20.838   Installing the file.
+2015-04-30 10:23:20.838   Successfully installed the file.
+2015-04-30 10:23:20.838   -- File entry --
+2015-04-30 10:23:20.838   Dest filename: C:\Documents and Settings\All Users\Application Data\Arundale\RacingSignals\SignalImages\Chequered.gif
+2015-04-30 10:23:20.838   Time stamp of our file: 2014-01-24 14:59:12.000
+2015-04-30 10:23:20.838   Dest file exists.
+2015-04-30 10:23:20.838   Time stamp of existing file: 2014-01-24 14:59:12.000
+2015-04-30 10:23:20.838   Installing the file.
+2015-04-30 10:23:20.853   Successfully installed the file.
+2015-04-30 10:23:20.853   -- File entry --
+2015-04-30 10:23:20.853   Dest filename: C:\Documents and Settings\All Users\Application Data\Arundale\RacingSignals\SignalImages\Class_707.gif
+2015-04-30 10:23:20.853   Time stamp of our file: 2014-02-20 18:00:58.000
+2015-04-30 10:23:20.853   Dest file exists.
+2015-04-30 10:23:20.853   Time stamp of existing file: 2014-02-20 18:00:58.000
+2015-04-30 10:23:20.853   Installing the file.
+2015-04-30 10:23:20.853   Successfully installed the file.
+2015-04-30 10:23:20.853   -- File entry --
+2015-04-30 10:23:20.853   Dest filename: C:\Documents and Settings\All Users\Application Data\Arundale\RacingSignals\SignalImages\connected.gif
+2015-04-30 10:23:20.853   Time stamp of our file: 2014-02-16 17:49:42.000
+2015-04-30 10:23:20.853   Dest file exists.
+2015-04-30 10:23:20.853   Time stamp of existing file: 2014-02-16 17:49:42.000
+2015-04-30 10:23:20.853   Installing the file.
+2015-04-30 10:23:20.853   Successfully installed the file.
+2015-04-30 10:23:20.853   -- File entry --
+2015-04-30 10:23:20.853   Dest filename: C:\Documents and Settings\All Users\Application Data\Arundale\RacingSignals\SignalImages\Generic_Class_One.gif
+2015-04-30 10:23:20.853   Time stamp of our file: 2014-02-20 17:36:20.000
+2015-04-30 10:23:20.853   Dest file exists.
+2015-04-30 10:23:20.853   Time stamp of existing file: 2014-02-20 17:36:20.000
+2015-04-30 10:23:20.853   Installing the file.
+2015-04-30 10:23:20.853   Successfully installed the file.
+2015-04-30 10:23:20.853   -- File entry --
+2015-04-30 10:23:20.853   Dest filename: C:\Documents and Settings\All Users\Application Data\Arundale\RacingSignals\SignalImages\Horn1Long.gif
+2015-04-30 10:23:20.853   Time stamp of our file: 2014-01-08 13:59:58.000
+2015-04-30 10:23:20.853   Dest file exists.
+2015-04-30 10:23:20.853   Time stamp of existing file: 2014-01-08 13:59:58.000
+2015-04-30 10:23:20.853   Installing the file.
+2015-04-30 10:23:20.853   Successfully installed the file.
+2015-04-30 10:23:20.853   -- File entry --
+2015-04-30 10:23:20.853   Dest filename: C:\Documents and Settings\All Users\Application Data\Arundale\RacingSignals\SignalImages\Horn1Short.gif
+2015-04-30 10:23:20.853   Time stamp of our file: 2014-01-08 14:27:04.000
+2015-04-30 10:23:20.853   Dest file exists.
+2015-04-30 10:23:20.853   Time stamp of existing file: 2014-01-08 14:27:04.000
+2015-04-30 10:23:20.853   Installing the file.
+2015-04-30 10:23:20.853   Successfully installed the file.
+2015-04-30 10:23:20.853   -- File entry --
+2015-04-30 10:23:20.853   Dest filename: C:\Documents and Settings\All Users\Application Data\Arundale\RacingSignals\SignalImages\Horn2Short.gif
+2015-04-30 10:23:20.853   Time stamp of our file: 2014-01-08 13:55:18.000
+2015-04-30 10:23:20.853   Dest file exists.
+2015-04-30 10:23:20.853   Time stamp of existing file: 2014-01-08 13:55:18.000
+2015-04-30 10:23:20.853   Installing the file.
+2015-04-30 10:23:20.853   Successfully installed the file.
+2015-04-30 10:23:20.853   -- File entry --
+2015-04-30 10:23:20.853   Dest filename: C:\Documents and Settings\All Users\Application Data\Arundale\RacingSignals\SignalImages\Horn3Short.gif
+2015-04-30 10:23:20.853   Time stamp of our file: 2014-01-08 13:53:48.000
+2015-04-30 10:23:20.853   Dest file exists.
+2015-04-30 10:23:20.853   Time stamp of existing file: 2014-01-08 13:53:48.000
+2015-04-30 10:23:20.853   Installing the file.
+2015-04-30 10:23:20.869   Successfully installed the file.
+2015-04-30 10:23:20.869   -- File entry --
+2015-04-30 10:23:20.869   Dest filename: C:\Documents and Settings\All Users\Application Data\Arundale\RacingSignals\SignalImages\ICS_Alpha.gif
+2015-04-30 10:23:20.869   Time stamp of our file: 2014-01-05 18:56:28.000
+2015-04-30 10:23:20.869   Dest file exists.
+2015-04-30 10:23:20.869   Time stamp of existing file: 2014-01-05 18:56:28.000
+2015-04-30 10:23:20.869   Installing the file.
+2015-04-30 10:23:20.869   Successfully installed the file.
+2015-04-30 10:23:20.869   -- File entry --
+2015-04-30 10:23:20.869   Dest filename: C:\Documents and Settings\All Users\Application Data\Arundale\RacingSignals\SignalImages\ICS_Answer.gif
+2015-04-30 10:23:20.869   Time stamp of our file: 2013-12-23 18:16:20.000
+2015-04-30 10:23:20.869   Dest file exists.
+2015-04-30 10:23:20.869   Time stamp of existing file: 2013-12-23 18:16:20.000
+2015-04-30 10:23:20.869   Installing the file.
+2015-04-30 10:23:20.869   Successfully installed the file.
+2015-04-30 10:23:20.869   -- File entry --
+2015-04-30 10:23:20.869   Dest filename: C:\Documents and Settings\All Users\Application Data\Arundale\RacingSignals\SignalImages\ICS_Charlie.gif
+2015-04-30 10:23:20.869   Time stamp of our file: 2014-01-05 18:48:14.000
+2015-04-30 10:23:20.869   Dest file exists.
+2015-04-30 10:23:20.869   Time stamp of existing file: 2014-01-05 18:48:14.000
+2015-04-30 10:23:20.869   Installing the file.
+2015-04-30 10:23:20.884   Successfully installed the file.
+2015-04-30 10:23:20.884   -- File entry --
+2015-04-30 10:23:20.884   Dest filename: C:\Documents and Settings\All Users\Application Data\Arundale\RacingSignals\SignalImages\ICS_Foxtrot.gif
+2015-04-30 10:23:20.884   Time stamp of our file: 2014-02-01 13:51:06.000
+2015-04-30 10:23:20.884   Dest file exists.
+2015-04-30 10:23:20.884   Time stamp of existing file: 2014-02-01 13:51:06.000
+2015-04-30 10:23:20.884   Installing the file.
+2015-04-30 10:23:20.884   Successfully installed the file.
+2015-04-30 10:23:20.884   -- File entry --
+2015-04-30 10:23:20.884   Dest filename: C:\Documents and Settings\All Users\Application Data\Arundale\RacingSignals\SignalImages\ICS_Hotel.gif
+2015-04-30 10:23:20.884   Time stamp of our file: 2014-01-05 18:58:18.000
+2015-04-30 10:23:20.884   Dest file exists.
+2015-04-30 10:23:20.884   Time stamp of existing file: 2014-01-05 18:58:18.000
+2015-04-30 10:23:20.884   Installing the file.
+2015-04-30 10:23:20.884   Successfully installed the file.
+2015-04-30 10:23:20.884   -- File entry --
+2015-04-30 10:23:20.884   Dest filename: C:\Documents and Settings\All Users\Application Data\Arundale\RacingSignals\SignalImages\ICS_India.gif
+2015-04-30 10:23:20.884   Time stamp of our file: 2014-01-05 18:13:20.000
+2015-04-30 10:23:20.884   Dest file exists.
+2015-04-30 10:23:20.884   Time stamp of existing file: 2014-01-05 18:13:20.000
+2015-04-30 10:23:20.884   Installing the file.
+2015-04-30 10:23:20.884   Successfully installed the file.
+2015-04-30 10:23:20.884   -- File entry --
+2015-04-30 10:23:20.884   Dest filename: C:\Documents and Settings\All Users\Application Data\Arundale\RacingSignals\SignalImages\ICS_Lima.gif
+2015-04-30 10:23:20.884   Time stamp of our file: 2014-01-05 18:59:08.000
+2015-04-30 10:23:20.884   Dest file exists.
+2015-04-30 10:23:20.884   Time stamp of existing file: 2014-01-05 18:59:08.000
+2015-04-30 10:23:20.884   Installing the file.
+2015-04-30 10:23:20.884   Successfully installed the file.
+2015-04-30 10:23:20.884   -- File entry --
+2015-04-30 10:23:20.884   Dest filename: C:\Documents and Settings\All Users\Application Data\Arundale\RacingSignals\SignalImages\ICS_Mike.gif
+2015-04-30 10:23:20.884   Time stamp of our file: 2014-01-05 18:59:58.000
+2015-04-30 10:23:20.884   Dest file exists.
+2015-04-30 10:23:20.884   Time stamp of existing file: 2014-01-05 18:59:58.000
+2015-04-30 10:23:20.884   Installing the file.
+2015-04-30 10:23:20.884   Successfully installed the file.
+2015-04-30 10:23:20.884   -- File entry --
+2015-04-30 10:23:20.884   Dest filename: C:\Documents and Settings\All Users\Application Data\Arundale\RacingSignals\SignalImages\ICS_November.gif
+2015-04-30 10:23:20.884   Time stamp of our file: 2014-01-05 18:55:28.000
+2015-04-30 10:23:20.884   Dest file exists.
+2015-04-30 10:23:20.884   Time stamp of existing file: 2014-01-05 18:55:28.000
+2015-04-30 10:23:20.884   Installing the file.
+2015-04-30 10:23:20.884   Successfully installed the file.
+2015-04-30 10:23:20.884   -- File entry --
+2015-04-30 10:23:20.884   Dest filename: C:\Documents and Settings\All Users\Application Data\Arundale\RacingSignals\SignalImages\ICS_Papa.gif
+2015-04-30 10:23:20.884   Time stamp of our file: 2014-01-04 15:29:38.000
+2015-04-30 10:23:20.884   Dest file exists.
+2015-04-30 10:23:20.884   Time stamp of existing file: 2014-01-04 15:29:38.000
+2015-04-30 10:23:20.884   Installing the file.
+2015-04-30 10:23:20.884   Successfully installed the file.
+2015-04-30 10:23:20.884   -- File entry --
+2015-04-30 10:23:20.884   Dest filename: C:\Documents and Settings\All Users\Application Data\Arundale\RacingSignals\SignalImages\ICS_Pennant_Eight.gif
+2015-04-30 10:23:20.900   Time stamp of our file: 2014-01-05 18:08:32.000
+2015-04-30 10:23:20.900   Dest file exists.
+2015-04-30 10:23:20.900   Time stamp of existing file: 2014-01-05 18:08:32.000
+2015-04-30 10:23:20.900   Installing the file.
+2015-04-30 10:23:20.900   Successfully installed the file.
+2015-04-30 10:23:20.900   -- File entry --
+2015-04-30 10:23:20.900   Dest filename: C:\Documents and Settings\All Users\Application Data\Arundale\RacingSignals\SignalImages\ICS_Pennant_Five.gif
+2015-04-30 10:23:20.900   Time stamp of our file: 2014-01-05 18:05:22.000
+2015-04-30 10:23:20.900   Dest file exists.
+2015-04-30 10:23:20.900   Time stamp of existing file: 2014-01-05 18:05:22.000
+2015-04-30 10:23:20.900   Installing the file.
+2015-04-30 10:23:20.900   Successfully installed the file.
+2015-04-30 10:23:20.900   -- File entry --
+2015-04-30 10:23:20.900   Dest filename: C:\Documents and Settings\All Users\Application Data\Arundale\RacingSignals\SignalImages\ICS_Pennant_Four.gif
+2015-04-30 10:23:20.900   Time stamp of our file: 2013-12-23 18:18:42.000
+2015-04-30 10:23:20.900   Dest file exists.
+2015-04-30 10:23:20.900   Time stamp of existing file: 2013-12-23 18:18:42.000
+2015-04-30 10:23:20.900   Installing the file.
+2015-04-30 10:23:20.916   Successfully installed the file.
+2015-04-30 10:23:20.916   -- File entry --
+2015-04-30 10:23:20.916   Dest filename: C:\Documents and Settings\All Users\Application Data\Arundale\RacingSignals\SignalImages\ICS_Pennant_Niner.gif
+2015-04-30 10:23:20.916   Time stamp of our file: 2014-01-05 18:09:24.000
+2015-04-30 10:23:20.916   Dest file exists.
+2015-04-30 10:23:20.916   Time stamp of existing file: 2014-01-05 18:09:24.000
+2015-04-30 10:23:20.916   Installing the file.
+2015-04-30 10:23:20.916   Successfully installed the file.
+2015-04-30 10:23:20.916   -- File entry --
+2015-04-30 10:23:20.916   Dest filename: C:\Documents and Settings\All Users\Application Data\Arundale\RacingSignals\SignalImages\ICS_Pennant_One.gif
+2015-04-30 10:23:20.916   Time stamp of our file: 2013-12-23 18:12:24.000
+2015-04-30 10:23:20.916   Dest file exists.
+2015-04-30 10:23:20.916   Time stamp of existing file: 2013-12-23 18:12:24.000
+2015-04-30 10:23:20.916   Installing the file.
+2015-04-30 10:23:20.916   Successfully installed the file.
+2015-04-30 10:23:20.916   -- File entry --
+2015-04-30 10:23:20.916   Dest filename: C:\Documents and Settings\All Users\Application Data\Arundale\RacingSignals\SignalImages\ICS_Pennant_Seven.gif
+2015-04-30 10:23:20.916   Time stamp of our file: 2014-01-05 18:07:42.000
+2015-04-30 10:23:20.916   Dest file exists.
+2015-04-30 10:23:20.916   Time stamp of existing file: 2014-01-05 18:07:42.000
+2015-04-30 10:23:20.916   Installing the file.
+2015-04-30 10:23:20.916   Successfully installed the file.
+2015-04-30 10:23:20.916   -- File entry --
+2015-04-30 10:23:20.916   Dest filename: C:\Documents and Settings\All Users\Application Data\Arundale\RacingSignals\SignalImages\ICS_Pennant_Six.gif
+2015-04-30 10:23:20.916   Time stamp of our file: 2014-01-05 18:06:56.000
+2015-04-30 10:23:20.916   Dest file exists.
+2015-04-30 10:23:20.916   Time stamp of existing file: 2014-01-05 18:06:56.000
+2015-04-30 10:23:20.916   Installing the file.
+2015-04-30 10:23:20.931   Successfully installed the file.
+2015-04-30 10:23:20.931   -- File entry --
+2015-04-30 10:23:20.931   Dest filename: C:\Documents and Settings\All Users\Application Data\Arundale\RacingSignals\SignalImages\ICS_Pennant_Three.gif
+2015-04-30 10:23:20.931   Time stamp of our file: 2013-12-23 18:18:04.000
+2015-04-30 10:23:20.931   Dest file exists.
+2015-04-30 10:23:20.931   Time stamp of existing file: 2013-12-23 18:18:04.000
+2015-04-30 10:23:20.931   Installing the file.
+2015-04-30 10:23:20.931   Successfully installed the file.
+2015-04-30 10:23:20.931   -- File entry --
+2015-04-30 10:23:20.931   Dest filename: C:\Documents and Settings\All Users\Application Data\Arundale\RacingSignals\SignalImages\ICS_Pennant_Two.gif
+2015-04-30 10:23:20.931   Time stamp of our file: 2013-12-23 18:04:14.000
+2015-04-30 10:23:20.931   Dest file exists.
+2015-04-30 10:23:20.931   Time stamp of existing file: 2013-12-23 18:04:14.000
+2015-04-30 10:23:20.931   Installing the file.
+2015-04-30 10:23:20.931   Successfully installed the file.
+2015-04-30 10:23:20.931   -- File entry --
+2015-04-30 10:23:20.931   Dest filename: C:\Documents and Settings\All Users\Application Data\Arundale\RacingSignals\SignalImages\ICS_Pennant_Zero.gif
+2015-04-30 10:23:20.931   Time stamp of our file: 2014-01-06 16:10:38.000
+2015-04-30 10:23:20.931   Dest file exists.
+2015-04-30 10:23:20.931   Time stamp of existing file: 2014-01-06 16:10:38.000
+2015-04-30 10:23:20.931   Installing the file.
+2015-04-30 10:23:20.931   Successfully installed the file.
+2015-04-30 10:23:20.931   -- File entry --
+2015-04-30 10:23:20.931   Dest filename: C:\Documents and Settings\All Users\Application Data\Arundale\RacingSignals\SignalImages\ICS_Repeat_One.gif
+2015-04-30 10:23:20.931   Time stamp of our file: 2014-01-20 21:10:52.000
+2015-04-30 10:23:20.931   Dest file exists.
+2015-04-30 10:23:20.931   Time stamp of existing file: 2014-01-20 21:10:52.000
+2015-04-30 10:23:20.931   Installing the file.
+2015-04-30 10:23:20.931   Successfully installed the file.
+2015-04-30 10:23:20.931   -- File entry --
+2015-04-30 10:23:20.931   Dest filename: C:\Documents and Settings\All Users\Application Data\Arundale\RacingSignals\SignalImages\ICS_Sierra.gif
+2015-04-30 10:23:20.931   Time stamp of our file: 2014-01-05 18:47:04.000
+2015-04-30 10:23:20.931   Dest file exists.
+2015-04-30 10:23:20.931   Time stamp of existing file: 2014-01-05 18:47:04.000
+2015-04-30 10:23:20.931   Installing the file.
+2015-04-30 10:23:20.931   Successfully installed the file.
+2015-04-30 10:23:20.931   -- File entry --
+2015-04-30 10:23:20.931   Dest filename: C:\Documents and Settings\All Users\Application Data\Arundale\RacingSignals\SignalImages\ICS_X-ray.gif
+2015-04-30 10:23:20.931   Time stamp of our file: 2014-01-04 15:32:14.000
+2015-04-30 10:23:20.931   Dest file exists.
+2015-04-30 10:23:20.931   Time stamp of existing file: 2014-01-04 15:32:14.000
+2015-04-30 10:23:20.931   Installing the file.
+2015-04-30 10:23:20.931   Successfully installed the file.
+2015-04-30 10:23:20.931   -- File entry --
+2015-04-30 10:23:20.931   Dest filename: C:\Documents and Settings\All Users\Application Data\Arundale\RacingSignals\SignalImages\ICS_Yankee.gif
+2015-04-30 10:23:20.931   Time stamp of our file: 2014-01-05 19:00:50.000
+2015-04-30 10:23:20.931   Dest file exists.
+2015-04-30 10:23:20.931   Time stamp of existing file: 2014-01-05 19:00:50.000
+2015-04-30 10:23:20.931   Installing the file.
+2015-04-30 10:23:20.947   Successfully installed the file.
+2015-04-30 10:23:20.947   -- File entry --
+2015-04-30 10:23:20.947   Dest filename: C:\Documents and Settings\All Users\Application Data\Arundale\RacingSignals\SignalImages\ICS_Zulu.gif
+2015-04-30 10:23:20.947   Time stamp of our file: 2014-01-05 18:12:20.000
+2015-04-30 10:23:20.947   Dest file exists.
+2015-04-30 10:23:20.947   Time stamp of existing file: 2014-01-05 18:12:20.000
+2015-04-30 10:23:20.947   Installing the file.
+2015-04-30 10:23:20.947   Successfully installed the file.
+2015-04-30 10:23:20.947   -- File entry --
+2015-04-30 10:23:20.947   Dest filename: C:\Documents and Settings\All Users\Application Data\Arundale\RacingSignals\SignalImages\Minus.gif
+2015-04-30 10:23:20.947   Time stamp of our file: 2014-01-30 13:51:22.000
+2015-04-30 10:23:20.947   Dest file exists.
+2015-04-30 10:23:20.947   Time stamp of existing file: 2014-01-30 13:51:22.000
+2015-04-30 10:23:20.947   Installing the file.
+2015-04-30 10:23:20.947   Successfully installed the file.
+2015-04-30 10:23:20.947   -- File entry --
+2015-04-30 10:23:20.947   Dest filename: C:\Documents and Settings\All Users\Application Data\Arundale\RacingSignals\SignalImages\notconnected.gif
+2015-04-30 10:23:20.947   Time stamp of our file: 2014-02-16 17:50:06.000
+2015-04-30 10:23:20.947   Dest file exists.
+2015-04-30 10:23:20.947   Time stamp of existing file: 2014-02-16 17:50:06.000
+2015-04-30 10:23:20.947   Installing the file.
+2015-04-30 10:23:20.963   Successfully installed the file.
+2015-04-30 10:23:20.963   -- File entry --
+2015-04-30 10:23:20.963   Dest filename: C:\Documents and Settings\All Users\Application Data\Arundale\RacingSignals\SignalImages\Plus.gif
+2015-04-30 10:23:20.963   Time stamp of our file: 2014-01-30 13:50:28.000
+2015-04-30 10:23:20.963   Dest file exists.
+2015-04-30 10:23:20.963   Time stamp of existing file: 2014-01-30 13:50:28.000
+2015-04-30 10:23:20.963   Installing the file.
+2015-04-30 10:23:20.963   Successfully installed the file.
+2015-04-30 10:23:20.963   -- File entry --
+2015-04-30 10:23:20.963   Dest filename: C:\Documents and Settings\All Users\Application Data\Arundale\RacingSignals\SignalImages\Port.gif
+2015-04-30 10:23:20.963   Time stamp of our file: 2014-01-30 13:37:40.000
+2015-04-30 10:23:20.963   Dest file exists.
+2015-04-30 10:23:20.963   Time stamp of existing file: 2014-01-30 13:37:40.000
+2015-04-30 10:23:20.963   Installing the file.
+2015-04-30 10:23:20.963   Successfully installed the file.
+2015-04-30 10:23:20.963   -- File entry --
+2015-04-30 10:23:20.963   Dest filename: C:\Documents and Settings\All Users\Application Data\Arundale\RacingSignals\SignalImages\speaker.gif
+2015-04-30 10:23:20.963   Time stamp of our file: 2014-02-17 14:20:36.000
+2015-04-30 10:23:20.963   Dest file exists.
+2015-04-30 10:23:20.963   Time stamp of existing file: 2014-02-17 14:20:36.000
+2015-04-30 10:23:20.963   Installing the file.
+2015-04-30 10:23:20.963   Successfully installed the file.
+2015-04-30 10:23:20.963   -- File entry --
+2015-04-30 10:23:20.963   Dest filename: C:\Documents and Settings\All Users\Application Data\Arundale\RacingSignals\SignalImages\Starboard.gif
+2015-04-30 10:23:20.963   Time stamp of our file: 2014-01-30 13:30:58.000
+2015-04-30 10:23:20.963   Dest file exists.
+2015-04-30 10:23:20.963   Time stamp of existing file: 2014-01-30 13:30:58.000
+2015-04-30 10:23:20.963   Installing the file.
+2015-04-30 10:23:20.978   Successfully installed the file.
+2015-04-30 10:23:20.978   -- File entry --
+2015-04-30 10:23:20.978   Dest filename: C:\Documents and Settings\All Users\Application Data\Arundale\RacingSignals\SignalImages\TrafficLightAmber.gif
+2015-04-30 10:23:20.978   Time stamp of our file: 2014-01-29 23:11:28.000
+2015-04-30 10:23:20.978   Dest file exists.
+2015-04-30 10:23:20.978   Time stamp of existing file: 2014-01-29 23:11:28.000
+2015-04-30 10:23:20.978   Installing the file.
+2015-04-30 10:23:20.978   Successfully installed the file.
+2015-04-30 10:23:20.978   -- File entry --
+2015-04-30 10:23:20.978   Dest filename: C:\Documents and Settings\All Users\Application Data\Arundale\RacingSignals\SignalImages\TrafficLightGreen.gif
+2015-04-30 10:23:20.978   Time stamp of our file: 2014-01-29 23:11:48.000
+2015-04-30 10:23:20.978   Dest file exists.
+2015-04-30 10:23:20.978   Time stamp of existing file: 2014-01-29 23:11:48.000
+2015-04-30 10:23:20.978   Installing the file.
+2015-04-30 10:23:20.978   Successfully installed the file.
+2015-04-30 10:23:20.978   -- File entry --
+2015-04-30 10:23:20.978   Dest filename: C:\Documents and Settings\All Users\Application Data\Arundale\RacingSignals\SignalImages\TrafficLightRed.gif
+2015-04-30 10:23:20.978   Time stamp of our file: 2014-01-29 23:12:16.000
+2015-04-30 10:23:20.978   Dest file exists.
+2015-04-30 10:23:20.978   Time stamp of existing file: 2014-01-29 23:12:16.000
+2015-04-30 10:23:20.978   Installing the file.
+2015-04-30 10:23:20.978   Successfully installed the file.
+2015-04-30 10:23:20.978   -- File entry --
+2015-04-30 10:23:20.978   Dest filename: C:\Documents and Settings\All Users\Application Data\Arundale\RacingSignals\SignalImages\TrafficLightWhite.gif
+2015-04-30 10:23:20.978   Time stamp of our file: 2015-02-25 10:15:52.000
+2015-04-30 10:23:20.978   Dest file exists.
+2015-04-30 10:23:20.978   Time stamp of existing file: 2015-02-25 10:15:52.000
+2015-04-30 10:23:20.978   Installing the file.
+2015-04-30 10:23:20.978   Successfully installed the file.
+2015-04-30 10:23:20.978   -- File entry --
+2015-04-30 10:23:20.978   Dest filename: C:\Documents and Settings\All Users\Application Data\Arundale\RacingSignals\SignalImages\TrafficLightWhiteWhite.gif
+2015-04-30 10:23:20.978   Time stamp of our file: 2014-01-29 23:10:34.000
+2015-04-30 10:23:20.978   Dest file exists.
+2015-04-30 10:23:20.978   Time stamp of existing file: 2014-01-29 23:10:34.000
+2015-04-30 10:23:20.978   Installing the file.
+2015-04-30 10:23:20.978   Successfully installed the file.
+2015-04-30 10:23:20.978   -- Icon entry --
+2015-04-30 10:23:20.978   Filename: C:\Documents and Settings\All Users\Start Menu\Programs\RacingSignals\RacingSignals.lnk
+2015-04-30 10:23:21.166   Registering 32-bit DLL/OCX: C:\WINDOWS\system32\msvbvm60.dll
+2015-04-30 10:23:21.166   Spawning 32-bit RegSvr32: "C:\WINDOWS\system32\regsvr32.exe" /s "C:\WINDOWS\system32\msvbvm60.dll"
+2015-04-30 10:23:21.259   Registration successful.
+2015-04-30 10:23:21.259   Registering 32-bit DLL/OCX: C:\WINDOWS\system32\oleaut32.dll
+2015-04-30 10:23:21.259   Spawning 32-bit RegSvr32: "C:\WINDOWS\system32\regsvr32.exe" /s "C:\WINDOWS\system32\oleaut32.dll"
+2015-04-30 10:23:21.556   Registration successful.
+2015-04-30 10:23:21.556   Registering 32-bit DLL/OCX: C:\WINDOWS\system32\olepro32.dll
+2015-04-30 10:23:21.556   Spawning 32-bit RegSvr32: "C:\WINDOWS\system32\regsvr32.exe" /s "C:\WINDOWS\system32\olepro32.dll"
+2015-04-30 10:23:21.619   Registration successful.
+2015-04-30 10:23:21.619   Registering 32-bit type library: C:\WINDOWS\system32\stdole2.tlb
+2015-04-30 10:23:21.619   Registration successful.
+2015-04-30 10:23:21.619   Registering 32-bit DLL/OCX: C:\WINDOWS\system32\comcat.dll
+2015-04-30 10:23:21.619   Spawning 32-bit RegSvr32: "C:\WINDOWS\system32\regsvr32.exe" /s "C:\WINDOWS\system32\comcat.dll"
+2015-04-30 10:23:21.697   Registration successful.
+2015-04-30 10:23:21.697   Registering 32-bit DLL/OCX: C:\WINDOWS\system32\msstdfmt.dll
+2015-04-30 10:23:21.697   Spawning 32-bit RegSvr32: "C:\WINDOWS\system32\regsvr32.exe" /s "C:\WINDOWS\system32\msstdfmt.dll"
+2015-04-30 10:23:21.806   Registration successful.
+2015-04-30 10:23:21.822   Registering 32-bit DLL/OCX: C:\WINDOWS\system32\capicom.dll
+2015-04-30 10:23:21.822   Spawning 32-bit RegSvr32: "C:\WINDOWS\system32\regsvr32.exe" /s "C:\WINDOWS\system32\capicom.dll"
+2015-04-30 10:23:22.197   Registration successful.
+2015-04-30 10:23:22.197   Registering 32-bit DLL/OCX: C:\WINDOWS\system32\MSWINSCK.ocx
+2015-04-30 10:23:22.197   Spawning 32-bit RegSvr32: "C:\WINDOWS\system32\regsvr32.exe" /s "C:\WINDOWS\system32\MSWINSCK.ocx"
+2015-04-30 10:23:22.306   Registration successful.
+2015-04-30 10:23:22.306   Registering 32-bit DLL/OCX: C:\WINDOWS\system32\mscomctl.OCX
+2015-04-30 10:23:22.306   Spawning 32-bit RegSvr32: "C:\WINDOWS\system32\regsvr32.exe" /s "C:\WINDOWS\system32\mscomctl.OCX"
+2015-04-30 10:23:22.588   Registration successful.
+2015-04-30 10:23:22.588   Registering 32-bit DLL/OCX: C:\WINDOWS\system32\ComDlg32.ocx
+2015-04-30 10:23:22.588   Spawning 32-bit RegSvr32: "C:\WINDOWS\system32\regsvr32.exe" /s "C:\WINDOWS\system32\ComDlg32.ocx"
+2015-04-30 10:23:22.681   Registration successful.
+2015-04-30 10:23:22.681   Registering 32-bit DLL/OCX: C:\WINDOWS\system32\MSHFlxGd.ocx
+2015-04-30 10:23:22.697   Spawning 32-bit RegSvr32: "C:\WINDOWS\system32\regsvr32.exe" /s "C:\WINDOWS\system32\MSHFlxGd.ocx"
+2015-04-30 10:23:22.900   Registration successful.
+2015-04-30 10:23:22.900   Registering 32-bit DLL/OCX: C:\WINDOWS\system32\MSINET.ocx
+2015-04-30 10:23:22.900   Spawning 32-bit RegSvr32: "C:\WINDOWS\system32\regsvr32.exe" /s "C:\WINDOWS\system32\MSINET.ocx"
+2015-04-30 10:23:23.134   Registration successful.
+2015-04-30 10:23:23.134   Registering 32-bit DLL/OCX: C:\WINDOWS\system32\richtx32.ocx
+2015-04-30 10:23:23.134   Spawning 32-bit RegSvr32: "C:\WINDOWS\system32\regsvr32.exe" /s "C:\WINDOWS\system32\richtx32.ocx"
+2015-04-30 10:23:23.338   Registration successful.
+2015-04-30 10:23:23.494   Installation process succeeded.
+2015-04-30 10:23:23.494   Need to restart Windows? No
+2015-04-30 10:23:24.869   -- Run entry --
+2015-04-30 10:23:24.869   Run as: Original user
+2015-04-30 10:23:24.869   Type: Exec
+2015-04-30 10:23:24.869   Filename: C:\Program Files\Arundale\RacingSignals\RacingSignals.exe
+2015-04-30 10:23:25.369   Deinitializing Setup.
+2015-04-30 10:23:25.385   Log closed.

@@ -1,0 +1,419 @@
+﻿@charset "utf-8";
+/* 2013-01-05 13:30 PM */
+/* Fix the bug which caused by SMC Navigation */
+img[src*="http://support.microsoft.com/library/images/support/en-US/assets_"],
+.CIP_Hide,
+div[class*="sbody"][id*="tocDiv"] > ul li[depth*="1"] > ul >li[depth*="3"] ~ li,
+div[class*="sbody"][id*="tocDiv"] > ul li[depth*="1"] > ul >li[depth*="3"]
+{
+    display:none;
+}
+
+div[class*="sbody"][id*="tocDiv"]>ul li:last-child>ul
+{
+    display:none;
+}
+
+/****** Fixit style *******/
+.Fixit_Div
+{
+    text-align:center;    
+}
+
+.Fixit_Div .Fixit_Button
+{
+	display:block;
+	margin:auto auto;
+}
+
+.Fixit_Div a
+{
+    text-decoration:underline;    
+}
+#L_2321134
+{
+    display:block;
+    padding: 10px 6px 13px;
+    background-color:#0072c6 ;
+}
+
+#L_2321134:hover
+{
+    background-color:#0d62a1 ;
+}
+
+#L_2321134:active
+{
+    background-color:#333 ;
+}
+
+#rnp_launch_container_disabled #L_2321134
+{
+    background-color:#333 ;
+}
+/****** CIP_Third_Party style *******/
+a.CIP_Third_Party
+{
+    margin: 5px 0;
+	display:block;
+}
+
+/****** CIP_Show_Hide style *******/
+.CIP_Show, #rnp_launch_container img, #rnp_launch_container_disabled img
+{
+    display:block;    
+}
+.CIP_SectionHead
+{
+    padding: 0 25px 0 0; line-height: 20px; display: block; cursor: pointer; min-height: 20px;
+}
+.rtl .CIP_SectionHead, .crtl .CIP_SectionHead
+{
+    padding: 0 0 0 25px;
+}
+.CIP_SectionHead img
+{
+    margin: 0 5px 0 0;
+    float:left;
+}
+.rtl .CIP_SectionHead img, .crtl .CIP_SectionHead img
+{
+    margin: 0 0 0 5px;
+    float: right;
+}
+.CIP_SectionHead a
+{
+    color: #333;
+    text-decoration: none;
+}
+/****** CIP_SolutionWizard style *******/
+a.CIP_SolutionWizard
+{
+	display:inline-block;
+	height:26px;
+	line-height:26px;
+	width:auto;
+	vertical-align:middle;
+	padding-left:20px;
+	padding-right:20px;
+	background-color:#339900;
+	text-decoration:none;
+	color:White;
+}
+
+/**************** CIP_Tab style *******************/
+.CIP_Tab {
+    font-size: 12px;
+    margin: 0 auto;
+    width: 300px;
+}
+ul.CIP_Tab_HeadColl {
+    padding: 0;
+    margin: 0;
+    height: 23px;
+}
+.CIP_Tab_HeadColl li {
+    background: url("http://support.microsoft.com/library/images/support/en-us/assets_tabHeadLeft.png") no-repeat left bottom;
+    float: left;
+    margin-right: 1px;
+    list-style-type: none;
+    height: 23px;
+}
+.CIP_Tab_HeadColl li a {
+    padding: 0px 10px 0px 10px;
+    background: url("http://support.microsoft.com/library/images/support/en-us/assets_tabHeadRight.png") no-repeat right bottom;
+    float: left;
+    color: #999;
+    line-height: 23px;
+    height: 23px;
+    text-decoration: none;
+}
+.CIP_Tab_HeadColl li.emptyTag {
+    background: none transparent scroll repeat 0% 0%;
+    width: 4px;
+}
+.CIP_Tab_HeadColl li.CIP_Tab_Selected {
+    background-position: left top;
+    margin-bottom: -2px;
+    position: relative;
+    height: 25px;
+}
+.CIP_Tab_HeadColl li.CIP_Tab_Selected a {
+    background-position: right top;
+    color: #000;
+    line-height: 25px;
+    height: 25px;
+}
+.CIP_Tab_BodyColl {
+    border: #aecbd4 1px solid;
+    padding: 1px;
+    background-color:white;
+}
+.CIP_Tab_Body {
+    padding: 10px;
+    display: none;
+    height: 250px;
+    word-wrap:break-word;
+}
+.CIP_Tab_Body table {
+    border:0;
+    border-collapse:collapse;
+}
+.CIP_Tab_Body table td {
+    border:0;
+}
+.CIP_Tab_BodyColl div.CIP_Tab_Selected {
+    display: block;
+}
+/*Start - For Image Header Abstract layout 1*/
+.rtl .cfimghdabs1 img, .crtl .cfimghdabs1 img {
+    margin-left: 10px;
+}
+.cfimghdabs1 img, .ltr .cfimghdabs1 img, .cltr .cfimghdabs1 img {
+    margin-right: 10px;
+}
+.cfimghdabs1:before, .cfimghdabs2:after{
+  content:"";
+  display:table;
+}
+.cfimghdabs1:after {
+  clear:both;
+}
+.cfimghdabs1 {
+  overflow: hidden;
+  zoom:1;
+}
+.section div.cfimghdabs1 h3, .section div.cfimghdabs1 h4, .section div.cfimghdabs1 h5 {
+    margin-top: 0;
+    margin-bottom: 5px;
+} 
+.section .cfimghdabs1 img{
+    margin-top: 0;
+    margin-bottom: 0;
+} 
+/*End - For Image Header Abstract layout 1*/
+
+/*Start - For Image Header Abstract layout 2*/
+.cfRTL .cfimg, .cfRTL .kb_nowrapper, .cfLTR .cftitleabs{
+    float: right;
+}
+.cfLTR .cfimg, .cfLTR .kb_nowrapper, .cfRTL .cftitleabs{
+    float: left;
+}
+.cfimghdabs2 img.graphic {
+    margin: 0;
+    padding: 0;
+}
+.cfimghdabs2:before, .cfimghdabs2:after{
+  content:"";
+  display:table;
+}
+.cfimghdabs2:after {
+  clear:both;
+}
+.cfimghdabs2 {
+  zoom:1;
+  overflow: hidden;
+}
+.section div.cfimghdabs2 h3, .section div.cfimghdabs2 h4, .section div.cfimghdabs2 h5 {
+    margin-top: 0;
+    margin-bottom: 5px;
+} 
+.section .cfimghdabs2 img{
+    margin-top: 0;
+    margin-bottom: 0;
+} 
+/*End - For Image Header Abstract layout*/
+
+/* Begin slideshow */
+.ssPCmode {
+    width: 680px;
+    overflow:hidden;
+    margin: 15px 0;
+    position: relative;
+}
+.kb .ssPCmode .ssPC-item-header, .ssPCmode .ssPC-item-header{
+    margin: 0;
+    height:44px;
+    width: 60px;
+    color:#999;
+    font-size:18px;
+    font-weight:400;
+    float:left;    
+}
+.kb .rtl .ssPCmode .ssPC-item-header, .rtl .ssPCmode .ssPC-item-header, .kb .crtl .ssPCmode .ssPC-item-header, .crtl .ssPCmode .ssPC-item-header{
+    float:right;    
+}
+.ssPC-item-header .current-order-in-step
+{
+    color:#0072c6;
+    font-size:40px;
+    margin-right:5px;
+}
+.rtl .ssPC-item-header .current-order-in-step, .crtl .ssPC-item-header .current-order-in-step {
+    margin: 0 0 0 5px;
+}
+.ssPC-text-wrapper {
+    float:left;
+    margin-top: 10px;
+}
+.rtl .ssPC-text-wrapper, .crtl .ssPC-text-wrapper{
+    float:right;
+}
+.ssPC-text-container {
+    border-top: 1px solid #E8E8E8;
+    margin-top: 12px;
+}
+.ssPC-text-container:before,
+.ssPC-text-container:after,
+.ssfooter:before,
+.ssfooter:after
+{
+  content:"";
+  display:table;
+}
+.ssPC-text-container:after,
+.ssfooter:after
+{
+  clear:both;
+}
+.ssPCmode .cfthumarr{
+    float: left;
+    position:absolute;
+    margin-top: 10px;
+    left: 0;
+}
+.rtl .ssPCmode .cfthumarr, .crtl .ssPCmode .cfthumarr{
+    float: right;
+    left: auto;
+    right: 0;
+}
+.ssPCmode .cfthumarr a{
+    display:block;
+    width: 13px;    
+    height: 72px;
+}
+.ssPCmode .left-cfarr a{
+    background: url("http://support.microsoft.com/library/images/3002798.png") no-repeat 0 0;    
+}
+.ssPCmode .left-cfarr a:hover{
+    background: url("http://support.microsoft.com/library/images/3002799.png") no-repeat 0 0;    
+}
+.ssPCmode .right-cfarr {
+    margin: 10px 0 0 660px;
+}
+.rtl .ssPCmode .right-cfarr, .crtl .ssPCmode .right-cfarr {
+    margin: 10px 660px 0 0;
+}
+.ssPCmode .right-cfarr  a{
+    background: url("http://support.microsoft.com/library/images/3002800.png") no-repeat 0 0;
+}
+.ssPCmode .right-cfarr a:hover{
+    background: url("http://support.microsoft.com/library/images/3002801.png") no-repeat 0 0;
+}
+.ssPCmode .ssPC-content-container{
+    width: 680px;
+    height: 382px;
+    background: #E8E8E8;
+}
+.ssPCmode .ssPC-content-container img {
+    width: 680px;
+    height: 382px;
+    margin: 0;
+    padding: 0;
+}
+.ssPCmode .text-cover, .ssPCmode .hybird-cover{
+    padding: 15px 10px;
+}
+.ssPCmode .hybird-cover img {
+    width: auto;
+    height: auto;
+}
+.ssPCitem img {
+    width: 110px;
+    height: 68px;
+}
+.ssfooter li.selected img{
+    width: 120px;
+    height: 75px;
+}
+.ssfooter{
+    margin: 10px 0 15px;
+}
+.ssPCmode .center-thumb {    
+    float: left;
+    width: 625px;
+    overflow:hidden;
+}
+.rtl .ssPCmode .center-thumb, .crtl .ssPCmode .center-thumb {    
+    float: right;
+}
+.ssPCmode .cfhasarr {
+    margin: 0 0 0 26px;
+}
+.rtl .ssPCmode .cfhasarr, .crtl .ssPCmode .cfhasarr {
+    margin: 0 26px 0 0;
+}
+.ssPCmode .ssfooter ul {
+    margin: 0;
+    width: 2010px;
+}
+.ssPCmode li.ssPCitem {
+    margin-top: 10px;
+    float: left;
+    border: 1px solid #CCC;
+    padding: 2px;
+    margin-right: 7px;
+    cursor: pointer;
+    list-style: none;
+}
+.rtl .ssPCmode li.ssPCitem, .crtl .ssPCmode li.ssPCitem {
+    float: right;
+    margin: 10px 0 0 7px;
+}
+.ssPCmode li.selected, .rtl .ssPCmode li.selected, .crtl .ssPCmode li.selected{
+    margin-top: 0;
+    border-color: #0072c6;
+    border-width: 3px;
+}
+.ssPCmode li.ssPCitem img{
+    margin: 0;
+    padding: 0;
+}
+.ssPCmode .control{
+    display: none;
+    position:absolute;
+    z-index:1001;
+    cursor:pointer;
+    width: 40px;
+    height: 61px;
+    top: 166px;
+}
+.ssPCmode .left-cover
+{
+    background: url("http://support.microsoft.com/library/images/3000526.png") no-repeat 0 0;
+}
+.ssPCmode .left-MouseOv
+{    
+    background: url("http://support.microsoft.com/library/images/3000525.png") no-repeat 0 0;
+}
+.ssPCmode .right-cover
+{
+    left: 650px;
+    background: url("http://support.microsoft.com/library/images/3000524.png") no-repeat 0 0;
+}
+.rtl .ssPCmode .right-cover, .crtl .ssPCmode .right-cover
+{
+    left: 10px;
+}
+.ssPCmode .right-MouseOv
+{
+    background: url("http://support.microsoft.com/library/images/3000523.png") no-repeat 0 0;    
+}
+.ss-play-container {
+    overflow: hidden;
+}
+section, footer, header{
+    display:block;
+}
+/* Slideshow end*/

@@ -1,0 +1,3 @@
+The cab file for your application has been built as 'E:\My Documents\ais\YachtSource\vbFiles\RacingSignals.CAB'.
+
+There is also a batch file in the support directory (E:\My Documents\ais\YachtSource\vbFiles\Support\RacingSignals.BAT) that will allow you to recreate the cab file in case you make changes to some of the files.

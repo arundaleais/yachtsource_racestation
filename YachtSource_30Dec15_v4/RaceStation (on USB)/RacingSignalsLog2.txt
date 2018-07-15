@@ -1,0 +1,1819 @@
+22/05/2015 13:22:09	Open Event Log [C:\Users\Admin\AppData\Local\Temp\RacingSignalsLog.log]
+                   	Environment Settings
+                   	ALLUSERSPROFILE=C:\ProgramData
+                   	APPDATA=C:\Users\Admin\AppData\Roaming
+                   	CommonProgramFiles=C:\Program Files (x86)\Common Files
+                   	CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+                   	CommonProgramW6432=C:\Program Files\Common Files
+                   	COMPUTERNAME=RACESTATION
+                   	ComSpec=C:\windows\system32\cmd.exe
+                   	FP_NO_HOST_CHECK=NO
+                   	HOMEDRIVE=C:
+                   	HOMEPATH=\Users\Admin
+                   	LOCALAPPDATA=C:\Users\Admin\AppData\Local
+                   	LOGONSERVER=\\RACESTATION
+                   	NUMBER_OF_PROCESSORS=4
+                   	OS=Windows_NT
+                   	Path=C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\
+                   	PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+                   	PROCESSOR_ARCHITECTURE=x86
+                   	PROCESSOR_ARCHITEW6432=AMD64
+                   	PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 60 Stepping 3, GenuineIntel
+                   	PROCESSOR_LEVEL=6
+                   	PROCESSOR_REVISION=3c03
+                   	ProgramData=C:\ProgramData
+                   	ProgramFiles=C:\Program Files (x86)
+                   	ProgramFiles(x86)=C:\Program Files (x86)
+                   	ProgramW6432=C:\Program Files
+                   	PSModulePath=C:\windows\system32\WindowsPowerShell\v1.0\Modules\
+                   	PUBLIC=C:\Users\Public
+                   	SESSIONNAME=Console
+                   	SystemDrive=C:
+                   	SystemRoot=C:\windows
+                   	TEMP=C:\Users\Admin\AppData\Local\Temp
+                   	TMP=C:\Users\Admin\AppData\Local\Temp
+                   	USERDOMAIN=RaceStation
+                   	USERDOMAIN_ROAMINGPROFILE=RaceStation
+                   	USERNAME=Admin
+                   	USERPROFILE=C:\Users\Admin
+                   	windir=C:\windows
+                   	GetSpecialFolder CSIDL_COMMON_APPDATA = C:\ProgramData\
+                   	Windows Version = Windows 8
+                   	User Default LocaleID = 2057
+                   	Decimal Separator = .
+                   	User has Administrator Rights = False
+                   	***************
+                   	RacingSignals.exe 1.3.3 Started
+                   	Version = Windows 8 (64 bit)
+                   	Install log = C:\Users\Admin\Local Settings\Temp\Setup Log [install date] #[sequence no].txt
+                   	SignalImageFilePath = C:\ProgramData\Application Data\Arundale\RacingSignals\SignalImages\
+                   	SequencesFilePath = C:\ProgramData\Application Data\Arundale\RacingSignals\Sequences\
+                   	Loading frmMain
+                   	RacingSignals [1.3.3] 
+                   	Checking http://arundale.com/docs/ais/RacingSignals_setup_ for later version
+22/05/2015 13:22:10	Latest released version is http://arundale.com/docs/ais/RacingSignals_setup_0.0.0
+                   	User Revision is 3 (=0 so don't check web revision)
+                   	A new update is not available
+                   	Profile (1) SYC Multiple added
+                   	Profile (2) SYC Single added
+                   	Profile (3) x10 SYC Multiple added
+                   	Profile (4) x10 SYC Single added
+                   	Position Window
+                   	Set Finish Display Size
+                   	Set Col array
+                   	frmMain loaded
+22/05/2015 13:22:11	Loading frmDaventech
+                   	CreateWinsock eth008:17494
+                   	WinsockState = Connecting
+                   	frmMain.DisplayProgram
+                   	frmMain.DisplaySequence
+                   	DisplaySequence
+                   	CommandFromCaption Finish
+                   	CommandFromCaption Postpone
+                   	frmMain.DisplayRecalls
+                   	CommandFromCaption Recall
+                   	CommandFromCaption General Recall
+                   	Main 0
+                   		NextEventTime= 00:00
+                   		Program=No Profile
+                   		Sequence=Disabled
+                   		Recalls=None
+                   	Connected 7 (48131.22)
+                   	eth008=35,0,0 (48131.22)
+                   	WaitForReply=True (48131.22)
+                   	DoEvents  (48131.22)
+                   	DoEvents  (48131.23)
+                   	DataArrival=0 0  (48131.25)
+                   	ReplyWait=False (48131.25)
+                   	RepliedBytes 00000000 (48131.25)
+                   	OpenAndSend 120 (48131.25)
+                   	eth008=120 (48131.25)
+                   	WaitForReply=False (48131.25)
+                   	ReplyWait=False (48131.25)
+                   	RepliedBytes 00000000 (48131.25)
+                   	Battery Voltage = 00.0 (48131.25)
+                   	DataArrival=144  (48131.26)
+22/05/2015 13:22:30	Click 1, False (48150.32)
+                   	OpenAndSend 32,1,0 (48150.32)
+                   	eth008=32,1,0 (48150.32)
+                   	WaitForReply=True (48150.32)
+                   	DoEvents  (48150.32)
+                   	DoEvents  (48150.33)
+                   	DataArrival=0 1  (48150.34)
+                   	ReplyWait=False (48150.34)
+                   	RepliedBytes 10000000 (48150.34)
+22/05/2015 13:22:31	Click 0, False (48151.57)
+                   	OpenAndSend 33,1,0 (48151.57)
+                   	eth008=33,1,0 (48151.57)
+                   	WaitForReply=True (48151.58)
+                   	DoEvents  (48151.58)
+                   	DoEvents  (48151.59)
+                   	DataArrival=0 0  (48151.6)
+                   	ReplyWait=False (48151.6)
+                   	RepliedBytes 00000000 (48151.6)
+22/05/2015 13:22:32	Click 1, False (48152.54)
+                   	OpenAndSend 32,2,0 (48152.54)
+                   	eth008=32,2,0 (48152.54)
+                   	WaitForReply=True (48152.54)
+                   	DoEvents  (48152.54)
+                   	DoEvents  (48152.55)
+                   	DataArrival=0 2  (48152.56)
+                   	ReplyWait=False (48152.56)
+                   	RepliedBytes 01000000 (48152.56)
+22/05/2015 13:22:33	Click 0, False (48153.54)
+                   	OpenAndSend 33,2,0 (48153.54)
+                   	eth008=33,2,0 (48153.54)
+                   	WaitForReply=True (48153.55)
+                   	DoEvents  (48153.55)
+                   	DoEvents  (48153.56)
+                   	DataArrival=0 0  (48153.57)
+                   	ReplyWait=False (48153.57)
+                   	RepliedBytes 00000000 (48153.57)
+22/05/2015 13:22:34	Click 1, False (48154.61)
+                   	OpenAndSend 32,2,0 (48154.62)
+                   	eth008=32,2,0 (48154.62)
+                   	WaitForReply=True (48154.62)
+                   	DoEvents  (48154.62)
+                   	DoEvents  (48154.63)
+                   	DataArrival=0 2  (48154.64)
+                   	ReplyWait=False (48154.64)
+                   	RepliedBytes 01000000 (48154.64)
+22/05/2015 13:22:35	Click 0, False (48155.3)
+                   	OpenAndSend 33,2,0 (48155.3)
+                   	eth008=33,2,0 (48155.3)
+                   	WaitForReply=True (48155.3)
+                   	DoEvents  (48155.3)
+                   	DoEvents  (48155.31)
+                   	DataArrival=0 0  (48155.32)
+                   	ReplyWait=False (48155.32)
+                   	RepliedBytes 00000000 (48155.32)
+22/05/2015 13:22:37	eth008=35,0,0 (48157.92)
+                   	WaitForReply=True (48157.92)
+                   	DoEvents  (48157.92)
+                   	DoEvents  (48157.93)
+                   	DataArrival=0 0  (48157.95)
+                   	ReplyWait=False (48157.95)
+                   	RepliedBytes 00000000 (48157.95)
+                   	CreateWinsock ethrly16:17494
+                   	WinsockState = Resolving host
+22/05/2015 13:22:40	CreateWinsock eth008:17494
+                   	WinsockState = Resolving host
+                   	Connected 7 (48160.21)
+                   	eth008=35,0,0 (48160.21)
+                   	WaitForReply=True (48160.21)
+                   	DoEvents  (48160.21)
+                   	DoEvents  (48160.23)
+                   	DataArrival=0 0  (48160.24)
+                   	ReplyWait=False (48160.24)
+                   	RepliedBytes 00000000 (48160.24)
+                   	OpenAndSend 120 (48160.24)
+                   	eth008=120 (48160.24)
+                   	WaitForReply=False (48160.24)
+                   	ReplyWait=False (48160.24)
+                   	RepliedBytes 00000000 (48160.24)
+                   	Battery Voltage = 00.0 (48160.24)
+                   	DataArrival=143  (48160.25)
+22/05/2015 13:22:56	Click 1, False (48176.29)
+                   	OpenAndSend 32,1,0 (48176.29)
+                   	eth008=32,1,0 (48176.29)
+                   	WaitForReply=True (48176.29)
+                   	DoEvents  (48176.29)
+                   	DoEvents  (48176.3)
+                   	DataArrival=0 1  (48176.31)
+                   	ReplyWait=False (48176.31)
+                   	RepliedBytes 10000000 (48176.31)
+22/05/2015 13:22:57	Click 0, False (48177.54)
+                   	OpenAndSend 33,1,0 (48177.54)
+                   	eth008=33,1,0 (48177.54)
+                   	WaitForReply=True (48177.54)
+                   	DoEvents  (48177.54)
+                   	DoEvents  (48177.55)
+                   	DataArrival=0 0  (48177.56)
+                   	ReplyWait=False (48177.56)
+                   	RepliedBytes 00000000 (48177.56)
+22/05/2015 13:23:08	Program 0
+                   		Loading Profile
+                   	DisplaySequence
+                   	CommandFromCaption Finish
+                   	CommandFromCaption Postpone
+                   	LoadProfileTimer.Enabled = False
+                   	LoadProfileTimer_Fired
+                   	LoadProfile SYC Multiple
+                   	ClearProfile
+                   	Profile Cleared
+                   	OpenAndSend  (48188.78)
+                   	eth008=35,0,0 (48188.78)
+                   	WaitForReply=True (48188.78)
+                   	DoEvents  (48188.78)
+                   	DoEvents  (48188.8)
+                   	DataArrival=0 0  (48188.81)
+                   	ReplyWait=False (48188.81)
+                   	RepliedBytes 00000000 (48188.81)
+                   	Copying C:\ProgramData\Application Data\Arundale\RacingSignals\Sequences\SYC Multiple.ini to memory
+                   	Decrypting
+                   	Decrypted
+                   	Opening C:\ProgramData\Application Data\Arundale\RacingSignals\Sequences\SYC Multiple.tmp
+                   	[Profile]   
+                   	Name=SYC Single
+                   	Version=3
+                   	GroupDefault=Sound,LastCol,Row1,Queue
+                   	GroupDefault=Amber,LastCol-1,Row1
+                   	GroupDefault=Green,LastCol-1,Row2
+                   	GroupDefault=Red,LastCol-1,Row3
+                   	GroupDefault=White,LastCol-1,Row4,Queue
+                   	GroupDefault=Recall,Queue
+                   	Multiplier=1
+                   	RecallControl=True
+                   	ButtonControl=True
+                   	ButtonEvents=True
+                   	ClassSilenceControl=True
+                   	SoundOnAllFinishers=True
+                   	SkipClassOnRecall=True
+                   	[/Profile]
+                   	
+                   	[Controller=0]
+                   	IpAddress=eth008
+                   	On=32,1,0
+                   	Off=33,1,0
+                   	Connection=Horn		'Memo
+                   	Sound=horn.wav
+                   	[/Controller]
+                   	
+                   	[Controller=1]
+                   	IpAddress=eth008
+                   	On=32,2,0
+                   	Off=33,2,0
+                   	Connection=White Light	'Memo
+                   	[/Controller]
+                   	
+                   	[Controller=2]
+                   	IpAddress=eth008
+                   	On=32,3,0
+                   	Off=33,3,0
+                   	Connection=Yellow Light	'Memo
+                   	[/Controller]
+                   	
+                   	[Controller=3]
+                   	IpAddress=eth008
+                   	On=32,4,0
+                   	Off=33,4,0
+                   	Connection=Green Light	'Memo
+                   	[/Controller]
+                   	
+                   	[Controller=4]
+                   	IpAddress=eth008
+                   	On=32,5,0
+                   	Off=33,5,0
+                   	Connection=Red Light	'Memo
+                   	[/Controller]
+                   	
+                   	'Set up mandatory command signals first
+                   	[Signal=1]
+                   	Type=Horn
+                   	Name=Horn Short		'Caption on Command Button
+                   	Group=Sound
+                   	CommandVisible=True	'Make Command Button visible
+                   	Flag=Horn1Short		'Name of Flag Image file
+                   	TTL=1000			'Millisecs TTL only applies on the UP
+                   	Cycles=1		'How many up cycles
+                   	Raised=True		'initially raise flag on load
+                   	Controller=0		'Sound
+                   	[/Signal]
+                   	
+                   	'Set up postponement signals
+                   	[Signal=2]
+                   	Type=Flag	
+                   	Name=Postpone
+                   	Group=Postpone	'Not defined if no Members of this Group
+                   	CommandVisible=True
+                   	Flag=ICS_Answer
+                   	Raised=True
+                   	UpLink=7,True		'2 Short
+                   	DownLink=1,True		'1 short
+                   	[/Signal]
+                   	
+                   	[Signal=3]
+                   	Type=Recall	
+                   	Name=Recall
+                   	Group=Recall
+                   	CommandVisible=True
+                   	Flag=ICS_X-ray
+22/05/2015 13:23:09	Raised=True
+                   	UpLink=1,True		'Horn 1 Short
+                   	UpLink=32,True		'White Flash
+                   	DownLink=32,False
+                   	UpLink=10,True		'Recall Class
+                   	DownLink=10,False
+                   	[/Signal]
+                   	
+                   	[Signal=4]
+                   	Type=Recall	
+                   	Name=General Recall
+                   	Group=Recall
+                   	CommandVisible=True
+                   	Flag=ICS_Repeat_One
+                   	Raised=True
+                   	UpLink=7,True		'Horn 2 Short
+                   	UpLink=32,True		'White Flash
+                   	DownLink=32,False
+                   	UpLink=10,True		'Recall Class
+                   	DownLink=10,False
+                   	DownLink=1,True		'Horn 1 Short
+                   	[/Signal]
+                   	
+                   	[Signal=5]
+                   	Type=Flag	
+                   	Name=Finish
+                   	Group=White
+                   	CommandVisible=True
+                   	Flag=TrafficLightWhite
+                   	'Finish is always a downlink because there is visible flag
+                   	DownLink=1,True		'Horn 1 Short
+                   	DownLink=31,True	'White 1
+                   	Controller=1		'White
+                   	[/Signal]
+                   	
+                   	'End of pre-defined command buttons
+                   	[Signal=6]
+                   	Type=Flag
+                   	Name=Horn Long
+                   	Group=Sound
+                   	CommandVisible=False
+                   	Flag=Horn1Long		'Image,Fixed,Parent
+                   	TTL=2000		'Millisecs TTL only applies on the UP
+                   	Cycles=1		'How many up cycles
+                   	Raised=True		'initially make visible on load
+                   	Controller=0		'Sound
+                   	[/Signal]
+                   	
+                   	[Signal=7]
+                   	Type=Flag
+                   	Name=Horn 2 Short
+                   	Group=Sound
+                   	CommandVisible=False
+                   	Flag=Horn2Short		'Image,Fixed,Parent
+                   	TTL=1000			'Millisecs TTL only applies on the UP
+                   	Cycles=2		'How many up cycles
+                   	Raised=True		'initially Raise on load
+                   	Controller=0		'Sound
+                   	[/Signal]
+                   	
+                   	[Signal=8]
+                   	Type=Flag
+                   	Name=Horn 3 Short	
+                   	Group=Sound
+                   	CommandVisible=False
+                   	Flag=Horn3Short		'Image,Fixed,Parent
+                   	TTL=1000			'Millisecs TTL only applies on the UP
+                   	Cycles=3		'How many up cycles
+                   	Raised=True		'initially Raise on load
+                   	UpLink=32,True		'White
+                   	DownLink=32,False	'White
+                   	Controller=0		'Sound
+                   	[/Signal]
+                   	
+                   	[Signal=9]
+                   	Type=Flag
+                   	Name=Horn -----	
+                   	Group=Sound
+                   	CommandVisible=False
+                   	Flag=Horn1Long		'Image,Fixed,Parent
+                   	TTL=2000		'Millisecs TTL only applies on the UP
+                   	Cycles=0		'Continuous
+                   	Raised=True		'initially Raise on load
+                   	Controller=0		'Sound
+                   	[/Signal]
+                   	
+                   	[Signal=10]
+                   	Type=Recall	
+                   	Name=Recall Class
+                   	Group=Recall
+                   	CommandVisible=False
+                   	'Flag=ICS_Foxtrot
+                   	Raised=True
+                   	[/Signal]
+                   	
+                   	'Set up Preparatory signals
+                   	[Signal=11]
+                   	Type=Flag	
+                   	Name=Preparatory P
+                   	Group=Preparatory
+                   	CommandVisible=False
+                   	Flag=ICS_Papa		'Image file for the flag
+                   	Raised=True		'initially raise on load
+                   	'UpLink=1,True		'Silent for SYC
+                   	'DownLink=6,True		'Silent for SYC
+                   	[/Signal]
+                   	
+                   	[Signal=12]
+                   	Type=Flag	
+                   	Name=Perparatory I
+                   	Group=Preparatory
+                   	CommandVisible=False
+                   	Flag=ICS_India		'Image file for the flag
+                   	Raised=True		'initially raise on load
+                   	UpLink=1,True		'Silent for SYC
+                   	DownLink=6,True		'Silent for SYC
+                   	[/Signal]
+                   	
+                   	[Signal=13]
+                   	Type=Flag 	
+                   	Name=Preparatory Z
+                   	Group=Preparatory
+                   	CommandVisible=False
+                   	Flag=ICS_Zulu		'Image file for the flag
+                   	Raised=True		'initially raise on load
+                   	UpLink=1,True		'Silent for SYC
+                   	DownLink=6,True		'Silent for SYC
+                   	[/Signal]
+                   	
+                   	[Signal=14]
+                   	Type=Flag	
+                   	Name=Preparatory Black
+                   	Group=Preparatory
+                   	CommandVisible=False
+                   	Flag=Black		'Image file for the flag
+                   	Raised=True		'initially raise on load
+                   	UpLink=1,True		'Silent for SYC
+                   	DownLink=6,True		'Silent for SYC
+                   	[/Signal]
+                   	
+                   	[Signal=15]
+                   	Type=Flag	
+                   	Name=15 Mins
+                   	Group=Postpone
+                   	CommandVisible=False
+                   	Flag=Ball1
+                   	Raised=True		'initially raise on load
+                   	UpLink=7,True		'2 Short
+                   	DownLink=1,True		'1 short
+                   	[/Signal]
+                   	
+                   	[Signal=16]
+                   	Type=Flag	
+                   	Name=30 Mins
+                   	Group=Postpone
+                   	CommandVisible=False
+                   	Flag=Ball2
+                   	Raised=True		'initially raise on load
+                   	UpLink=7,True		'2 Short
+                   	DownLink=1,True		'1 short
+                   	[/Signal]
+                   	
+                   	[Signal=17]
+                   	Type=Flag	
+                   	Name=45 Mins
+                   	Group=Postpone
+                   	CommandVisible=False
+                   	Flag=Ball3
+                   	'Parent=2
+                   	Raised=True		'initially raise on load
+                   	UpLink=7,True		'2 Short
+                   	DownLink=1,True		'1 short
+                   	[/Signal]
+                   	
+                   	[Signal=21]
+                   	Type=Flag	
+                   	Name=Notice
+                   	Group=Other
+                   	CommandVisible=False
+                   	Flag=ICS_Lima
+                   	Raised=True		'initially raise on load
+                   	UpLink=1,True		'1 Short
+                   	[/Signal]
+                   	
+                   	[Signal=22]
+                   	Type=Flag	
+                   	Name=Floatation
+                   	Group=Other
+                   	CommandVisible=False
+                   	Flag=ICS_Yankee
+                   	Raised=True		'initially raise on load
+                   	UpLink=1,True		'1 Short
+                   	[/Signal]
+                   	
+                   	[Signal=25]
+                   	Type=Flag	
+                   	Name=Abandon Started
+                   	Group=Abandon
+                   	CommandVisible=False
+                   	Flag=ICS_November
+                   	Raised=True		'initially raise on load
+                   	UpLink=8,True		'3 Short
+                   	DownLink=1,True		'1 short
+                   	[/Signal]
+                   	
+                   	[Signal=26]
+                   	Type=Flag	
+                   	Name=Abandon All
+                   	Group=Abandon
+                   	CommandVisible=False
+                   	Flag=ICS_Hotel
+                   	Raised=True		'initially raise on load
+                   	UpLink=8,True		'1 Short
+                   	[/Signal]
+                   	
+                   	[Signal=27]
+                   	Type=Flag	
+                   	Name=Abandon Info
+                   	Group=Abandon
+                   	CommandVisible=False
+                   	Flag=ICS_Alpha
+                   	Raised=True		'initially raise on load
+                   	UpLink=8,True		'1 Short
+                   	[/Signal]
+                   	
+                   	[Signal=31]
+                   	Type=Flag	
+                   	Name=White Short
+                   	Group=White
+                   	Row=4			'If as fixed position, Define after Group
+                   	CommandVisible=False
+                   	Flag=TrafficLightWhite
+                   	Raised=True		'initially raise on load
+                   	TTL=1000		'Slow Flash
+                   	Cycles=1
+                   	Controller=1
+                   	[/Signal]
+                   	
+                   	[Signal=32]
+                   	Type=White		'Must be Recall to use Multiplier	
+                   	Name=White Fl
+                   	Group=White	
+                   	'Row=4			'If as fixed position, Define after Group
+                   	CommandVisible=False
+                   	Flag=TrafficLightWhite
+                   	Raised=True		'initially raise on load
+                   	TTL=1000			'Quick Flash
+                   	Cycles=0		'Continuous
+                   	Controller=1
+                   	[/Signal]
+                   	
+                   	[Signal=33]
+                   	Type=Amber		'Must be Recall to use Multiplier	
+                   	Name=Amber
+                   	Group=Amber	
+                   	CommandVisible=False
+                   	Flag=TrafficLightAmber
+                   	Raised=True		'initially raise on load
+                   	Controller=2
+                   	[/Signal]
+                   	
+                   	[Signal=34]
+                   	Type=Green		'Must be Recall to use Multiplier	
+                   	Name=Green
+                   	Group=Green	
+                   	CommandVisible=False
+                   	Flag=TrafficLightGreen
+                   	Raised=True		'initially raise on load
+                   	Controller=3
+                   	[/Signal]
+                   	
+                   	[Signal=35]
+                   	Type=Red		'Must be Recall to use Multiplier	
+                   	Name=Red
+                   	Group=Red	
+                   	CommandVisible=False
+                   	Flag=TrafficLightRed
+                   	Raised=True		'initially raise on load
+                   	Controller=4
+                   	[/Signal]
+                   	
+                   	'Set up Class Signals Last as on initial load they will take all remaining free cols
+                   	[Signal=41]
+                   	Type=Flag	
+                   	Name=Class 707	'Must use Event [Class=707]
+                   	Group=Class
+                   	CommandVisible=False
+                   	Flag=Class_707
+                   	Raised=True		'initially raise on load
+                   	UpLink=1,True
+                   	DownLink=1,True
+                   	UpLink=33,True		'Amber
+                   	DownLink=33,False
+                   	[/Signal]
+                   	
+                   	[Signal=42]
+                   	Type=Flag	
+                   	Name=Class 2
+                   	Group=Class
+                   	CommandVisible=False
+                   	Flag=ICS_Pennant_Two
+                   	Raised=True		'initially raise on load
+                   	UpLink=1,True
+                   	DownLink=1,True
+                   	UpLink=34,True		'Green
+                   	DownLink=34,False
+                   	[/Signal]
+                   	
+                   	[Signal=43]
+                   	Type=Flag	
+                   	Name=Class 3
+                   	Group=Class
+                   	CommandVisible=False
+                   	Flag=ICS_Pennant_Three
+                   	Raised=True		'initially raise on load
+                   	'Silent for SYC Multiple - Previous Class Down also Sounds horn
+                   	'UpLink=1,True		'Silent for SYC Multiple
+                   	DownLink=1,True
+                   	UpLink=35,True		'Red
+                   	DownLink=35,False
+                   	[/Signal]
+                   	
+                   	[Signal=44]
+                   	Type=Flag	
+                   	Name=Class 4
+                   	Group=Class
+                   	CommandVisible=False
+                   	Flag=ICS_Pennant_Four
+                   	Raised=True		'initially raise on load
+                   	'Silent for SYC Multiple - Previous Class Down also Sounds horn
+                   	'UpLink=1,True		'Silent for SYC Multiple
+                   	DownLink=1,True
+                   	UpLink=33,True		'Amber
+                   	DownLink=33,False
+                   	[/Signal]
+                   	
+                   	[Signal=45]
+                   	Type=Flag	
+                   	Name=Class 5
+                   	Group=Class
+                   	CommandVisible=False
+                   	Flag=ICS_Pennant_Five
+                   	Raised=True		'initially raise on load
+                   	'Silent for SYC Multiple - Previous Class Down also Sounds horn
+                   	'UpLink=1,True		'
+                   	DownLink=1,True
+                   	UpLink=34,True		'Green
+                   	DownLink=34,False
+                   	[/Signal]
+                   	
+                   	[Signal=46]
+                   	Type=Flag	
+                   	Name=Class 6
+                   	Group=Class
+                   	CommandVisible=False
+                   	Flag=ICS_Pennant_Six
+                   	Raised=True		'initially raise on load
+                   	UpLink=1,True
+                   	DownLink=1,True
+                   	[/Signal]
+                   	
+                   	[Signal=47]
+                   	Type=Flag	
+                   	Name=Class 7
+                   	Group=Class
+                   	CommandVisible=False
+                   	Flag=ICS_Pennant_Seven
+                   	Raised=True		'initially raise on load
+                   	UpLink=1,True
+                   	DownLink=1,True
+                   	[/Signal]
+                   	
+                   	[Signal=48]
+                   	Type=Flag	
+                   	Name=Class 8
+                   	Group=Class
+                   	CommandVisible=False
+                   	Flag=ICS_Pennant_Eight
+                   	Raised=True		'initially raise on load
+                   	UpLink=1,True
+                   	DownLink=1,True
+                   	[/Signal]
+                   	
+                   	[Signal=49]
+                   	Type=Flag	
+                   	Name=Class 9
+                   	Group=Class
+                   	CommandVisible=False
+                   	Flag=ICS_Pennant_Niner
+                   	Raised=True		'initially raise on load
+                   	UpLink=1,True
+                   	DownLink=1,True
+                   	[/Signal]
+                   	
+                   	[Signal=51]
+                   	Type=Flag	
+                   	Name=Shorten
+                   	Group=Shorten
+                   	CommandVisible=False
+                   	Flag=ICS_Sierra
+                   	Raised=True		'initially raise on load
+                   	UpLink=7,True
+                   	[/Signal]
+                   	
+                   	[Signal=52]
+                   	Type=Flag	
+                   	Name=Change
+                   	Group=Change
+                   	CommandVisible=False
+                   	Flag=ICS_Charlie
+                   	Raised=True		'initially raise on load
+                   	UpLink=9,True		'Continuous long
+                   	DownLink=9,False	'Continuous long
+                   	[/Signal]
+                   	
+                   	[Signal=53]
+                   	Type=Flag	
+                   	Name=Starboard
+                   	Group=Change
+                   	CommandVisible=False
+                   	Flag=Starboard
+                   	Raised=True		'initially raise on load
+                   	[/Signal]
+                   	
+                   	[Signal=54]
+                   	Type=Flag	
+                   	Name=Port
+                   	Group=Change
+                   	CommandVisible=False
+                   	Flag=Port
+                   	Raised=True		'initially raise on load
+                   	[/Signal]
+                   	
+                   	[Signal=55]
+                   	Type=Flag	
+                   	Name=Minus
+                   	Group=Change
+                   	CommandVisible=False
+                   	Flag=Minus
+                   	Raised=True		'initially raise on load
+                   	[/Signal]
+                   	
+                   	[Signal=56]
+                   	Type=Flag	
+                   	Name=Plus
+                   	Group=Change
+                   	CommandVisible=False
+                   	Flag=Plus
+                   	Raised=True		'initially raise on load
+                   	[/Signal]
+                   	
+                   	[Signal=57]
+                   	Type=Flag	
+                   	Name=Mark
+                   	Group=Other
+                   	CommandVisible=False
+                   	Flag=ICS_Mike
+                   	Raised=True		'initially raise on load
+                   	UpLink=9,True		'Continuous long
+                   	DownLink=9,False		'Continuous long
+                   	[/Signal]
+                   	
+                   	[Signal=58]
+                   	Type=Flag	
+                   	Name=Blue
+                   	Group=Other
+                   	CommandVisible=False
+                   	Flag=Blue
+                   	Raised=True		'initially raise on load
+                   	[/Signal]
+                   	
+                   	[Template=Class]
+                   	
+                   	EventOffset=-660	'If Raised, Lower Postpone 1 min before Class Warning
+                   	[Event=<ElapsedTime>-<EventOffset>]
+                   	Signal=Postpone
+                   	Message=Drop Postpone
+                   	Raised=False
+                   	[/Event]
+                   	
+                   	EventOffset=-600
+                   	[Event=<ElapsedTime>-<EventOffset>]
+                   	Signal=<ClassName>
+                   	Message=~Warning <ClassName>
+                   	Raised=True
+                   	[/Event]
+                   	
+                   	EventOffset=-300
+                   	[Event=<ElapsedTime>-<EventOffset>]
+                   	Signal=Preparatory P
+                   	Message=~Preparatory <ClassName>
+                   	Raised=True
+                   	Silent=True	'Only sound Next Class up with Multiple starts
+                   	[/Event]
+                   	
+                   	EventOffset=0
+                   	[Event=<ElapsedTime>-<EventOffset>]
+                   	Signal=<ClassName>
+                   	Message=<ClassName> Start
+                   	'Raised=False
+                   	FunctionCall=LoadStart
+                   	[/Event]
+                   	[/Template]
+                   	
+                   	[Template=Recall]
+                   	EventOffset=0
+                   	[Event=<ElapsedTime>-<EventOffset>]
+                   	Message=Recall Enabled <ClassName>
+                   	'Button=General Recall,True
+                   	'Focus=Recall	'Will enable Recall
+                   	[/Event]
+                   	
+                   	EventOffset=30
+                   	[Event=<ElapsedTime>-<EventOffset>]
+                   	Message=Query Recall Timeout <ClassName>
+                   	FunctionCall=QueryRecallTimeout
+                   	'Button=Recall,False
+                   	'Button=General Recall,False
+                   	[/Event]
+                   	
+                   	EventOffset=120
+                   	[Event=<ElapsedTime>-<EventOffset>]
+                   	Message=Recall Timeout <ClassName>
+                   	FunctionCall=RecallTimeout
+                   	'Signal=Recall
+                   	'Raised=False
+                   	'Signal=General Recall
+                   	'Raised=False
+                   	[/Event]
+                   	
+                   	[/Template]
+                   	
+                   	[Class=Class 707]	'Must be the name of a flag
+                   	ElapsedTime=0
+                   	[/Class]
+                   	
+                   	[Class=Class 2]
+                   	ElapsedTime=300
+                   	[/Class]
+                   	
+                   	[Class=Class 3]
+                   	ElapsedTime=600
+                   	[/Class]
+                   	
+                   	[Class=Class 4]
+                   	ElapsedTime=900
+                   	[/Class]
+                   	
+                   	[Class=Class 5]
+                   	ElapsedTime=1200
+                   	[/Class]
+                   	
+                   	
+                   	Profile Closed
+                   	Profile Killed
+                   	CommandFromCaption Finish
+                   	RaceTimer Enabled
+                   	OpenAndSend 33,1,0 (48189.98)
+                   	eth008=33,1,0 (48189.98)
+                   	WaitForReply=True (48189.98)
+                   	DoEvents  (48189.98)
+                   	DoEvents  (48189.99)
+22/05/2015 13:23:10	DataArrival=0 0  (48190)
+                   	ReplyWait=False (48190)
+                   	RepliedBytes 00000000 (48190)
+                   	48190.74
+22/05/2015 13:23:11	48191.74
+22/05/2015 13:23:12	48192.74
+                   	ClearFlags_Timer Fired
+                   	OpenAndSend 33,2,0 (48192.74)
+                   	eth008=33,2,0 (48192.74)
+                   	WaitForReply=True (48192.74)
+                   	DoEvents  (48192.74)
+                   	DoEvents  (48192.76)
+                   	DataArrival=0 0  (48192.77)
+                   	ReplyWait=False (48192.77)
+                   	RepliedBytes 00000000 (48192.77)
+                   	OpenAndSend 33,3,0 (48192.77)
+                   	eth008=33,3,0 (48192.77)
+                   	WaitForReply=True (48192.77)
+                   	DoEvents  (48192.77)
+                   	DoEvents  (48192.78)
+                   	DataArrival=0 0  (48192.8)
+                   	ReplyWait=False (48192.8)
+                   	RepliedBytes 00000000 (48192.8)
+                   	OpenAndSend 33,4,0 (48192.8)
+                   	eth008=33,4,0 (48192.8)
+                   	WaitForReply=True (48192.8)
+                   	DoEvents  (48192.8)
+                   	DoEvents  (48192.81)
+                   	DataArrival=0 0  (48192.82)
+                   	ReplyWait=False (48192.82)
+                   	RepliedBytes 00000000 (48192.82)
+                   	OpenAndSend 33,5,0 (48192.82)
+                   	eth008=33,5,0 (48192.82)
+                   	WaitForReply=True (48192.82)
+                   	DoEvents  (48192.82)
+                   	DoEvents  (48192.84)
+                   	DataArrival=0 0  (48192.85)
+                   	ReplyWait=False (48192.85)
+                   	RepliedBytes 00000000 (48192.85)
+                   	Program 48192
+                   		Profile Loaded
+                   	NextClassStarted 48192
+                   		Next=Class 707
+22/05/2015 13:23:13	48193.73
+22/05/2015 13:23:14	48194.73
+                   	Command Recall (48194.78)
+                   	OpenAndSend 32,1,0 (48194.78)
+                   	eth008=32,1,0 (48194.78)
+                   	WaitForReply=True (48194.78)
+                   	DoEvents  (48194.78)
+                   	DoEvents  (48194.79)
+                   	DataArrival=0 1  (48194.8)
+                   	ReplyWait=False (48194.8)
+                   	Click 1, True (48194.8)
+                   	RepliedBytes 10000000 (48194.8)
+                   	OpenAndSend 32,2,0 (48194.81)
+                   	eth008=32,2,0 (48194.81)
+                   	WaitForReply=True (48194.81)
+                   	DoEvents  (48194.81)
+                   	DoEvents  (48194.82)
+                   	DataArrival=0 3  (48194.83)
+                   	ReplyWait=False (48194.83)
+                   	Click 1, True (48194.84)
+                   	RepliedBytes 11000000 (48194.84)
+22/05/2015 13:23:15	48195.74
+                   	OpenAndSend 33,1,0 (48195.8)
+                   	eth008=33,1,0 (48195.8)
+                   	WaitForReply=True (48195.8)
+                   	DoEvents  (48195.8)
+                   	DoEvents  (48195.81)
+                   	DataArrival=0 2  (48195.82)
+                   	ReplyWait=False (48195.82)
+                   	Click 0, True (48195.82)
+                   	RepliedBytes 01000000 (48195.82)
+                   	OpenAndSend 33,2,0 (48195.83)
+                   	eth008=33,2,0 (48195.83)
+                   	WaitForReply=True (48195.83)
+                   	DoEvents  (48195.83)
+                   	DoEvents  (48195.84)
+                   	DataArrival=0 0  (48195.86)
+                   	ReplyWait=False (48195.86)
+                   	Click 0, True (48195.86)
+                   	RepliedBytes 00000000 (48195.86)
+22/05/2015 13:23:16	48196.73
+                   	OpenAndSend 32,2,0 (48196.86)
+                   	eth008=32,2,0 (48196.86)
+                   	WaitForReply=True (48196.86)
+                   	DoEvents  (48196.86)
+                   	DoEvents  (48196.87)
+                   	DataArrival=0 2  (48196.88)
+                   	ReplyWait=False (48196.88)
+                   	Click 1, True (48196.89)
+                   	RepliedBytes 01000000 (48196.89)
+22/05/2015 13:23:17	48197.74
+                   	OpenAndSend 33,2,0 (48197.89)
+                   	eth008=33,2,0 (48197.89)
+                   	WaitForReply=True (48197.89)
+                   	DoEvents  (48197.89)
+                   	DoEvents  (48197.9)
+                   	DataArrival=0 0  (48197.91)
+                   	ReplyWait=False (48197.91)
+                   	Click 0, True (48197.91)
+                   	RepliedBytes 00000000 (48197.91)
+22/05/2015 13:23:18	48198.73
+                   	OpenAndSend 32,2,0 (48198.91)
+                   	eth008=32,2,0 (48198.91)
+                   	WaitForReply=True (48198.92)
+                   	DoEvents  (48198.92)
+                   	DoEvents  (48198.93)
+                   	DataArrival=0 2  (48198.94)
+                   	ReplyWait=False (48198.94)
+                   	Click 1, True (48198.94)
+                   	RepliedBytes 01000000 (48198.94)
+22/05/2015 13:23:19	48199.74
+                   	OpenAndSend 33,2,0 (48199.93)
+                   	eth008=33,2,0 (48199.93)
+                   	WaitForReply=True (48199.93)
+                   	DoEvents  (48199.93)
+                   	DoEvents  (48199.95)
+                   	DataArrival=0 0  (48199.96)
+                   	ReplyWait=False (48199.96)
+                   	Click 0, True (48199.96)
+                   	RepliedBytes 00000000 (48199.96)
+22/05/2015 13:23:20	48200.73
+                   	OpenAndSend 32,2,0 (48200.96)
+                   	eth008=32,2,0 (48200.96)
+                   	WaitForReply=True (48200.96)
+                   	DoEvents  (48200.96)
+                   	DoEvents  (48200.97)
+                   	DataArrival=0 2  (48200.98)
+                   	ReplyWait=False (48200.98)
+                   	Click 1, True (48200.98)
+                   	RepliedBytes 01000000 (48200.98)
+22/05/2015 13:23:21	48201.73
+                   	OpenAndSend 33,2,0 (48201.99)
+                   	eth008=33,2,0 (48201.99)
+                   	WaitForReply=True (48201.99)
+                   	DoEvents  (48201.99)
+22/05/2015 13:23:22	DoEvents  (48202)
+                   	DataArrival=0 0  (48202.01)
+                   	ReplyWait=False (48202.01)
+                   	Click 0, True (48202.02)
+                   	RepliedBytes 00000000 (48202.02)
+                   	48202.73
+22/05/2015 13:23:23	OpenAndSend 32,2,0 (48203.01)
+                   	eth008=32,2,0 (48203.01)
+                   	WaitForReply=True (48203.02)
+                   	DoEvents  (48203.02)
+                   	DoEvents  (48203.03)
+                   	DataArrival=0 2  (48203.04)
+                   	ReplyWait=False (48203.04)
+                   	Click 1, True (48203.04)
+                   	RepliedBytes 01000000 (48203.04)
+                   	48203.74
+22/05/2015 13:23:24	OpenAndSend 33,2,0 (48204.03)
+                   	eth008=33,2,0 (48204.03)
+                   	WaitForReply=True (48204.03)
+                   	DoEvents  (48204.03)
+                   	DoEvents  (48204.04)
+                   	DataArrival=0 0  (48204.05)
+                   	ReplyWait=False (48204.05)
+                   	Click 0, True (48204.05)
+                   	RepliedBytes 00000000 (48204.05)
+                   	48204.73
+22/05/2015 13:23:25	OpenAndSend 32,2,0 (48205.05)
+                   	eth008=32,2,0 (48205.05)
+                   	WaitForReply=True (48205.05)
+                   	DoEvents  (48205.05)
+                   	DoEvents  (48205.06)
+                   	DataArrival=0 2  (48205.07)
+                   	ReplyWait=False (48205.08)
+                   	Click 1, True (48205.08)
+                   	RepliedBytes 01000000 (48205.08)
+                   	48205.73
+22/05/2015 13:23:26	OpenAndSend 33,2,0 (48206.08)
+                   	eth008=33,2,0 (48206.08)
+                   	WaitForReply=True (48206.08)
+                   	DoEvents  (48206.08)
+                   	DoEvents  (48206.09)
+                   	DataArrival=0 0  (48206.1)
+                   	ReplyWait=False (48206.1)
+                   	Click 0, True (48206.1)
+                   	RepliedBytes 00000000 (48206.1)
+                   	48206.73
+22/05/2015 13:23:27	OpenAndSend 32,2,0 (48207.09)
+                   	eth008=32,2,0 (48207.09)
+                   	WaitForReply=True (48207.09)
+                   	DoEvents  (48207.09)
+                   	DoEvents  (48207.11)
+                   	DataArrival=0 2  (48207.12)
+                   	ReplyWait=False (48207.12)
+                   	Click 1, True (48207.12)
+                   	RepliedBytes 01000000 (48207.12)
+                   	48207.73
+22/05/2015 13:23:28	OpenAndSend 33,2,0 (48208.12)
+                   	eth008=33,2,0 (48208.12)
+                   	WaitForReply=True (48208.12)
+                   	DoEvents  (48208.12)
+                   	DoEvents  (48208.13)
+                   	DataArrival=0 0  (48208.14)
+                   	ReplyWait=False (48208.14)
+                   	Click 0, True (48208.14)
+                   	RepliedBytes 00000000 (48208.14)
+                   	48208.74
+22/05/2015 13:23:29	OpenAndSend 32,2,0 (48209.14)
+                   	eth008=32,2,0 (48209.14)
+                   	WaitForReply=True (48209.14)
+                   	DoEvents  (48209.15)
+                   	DoEvents  (48209.16)
+                   	DataArrival=0 2  (48209.17)
+                   	ReplyWait=False (48209.17)
+                   	Click 1, True (48209.17)
+                   	RepliedBytes 01000000 (48209.17)
+                   	48209.74
+22/05/2015 13:23:30	OpenAndSend 33,2,0 (48210.17)
+                   	eth008=33,2,0 (48210.17)
+                   	WaitForReply=True (48210.17)
+                   	DoEvents  (48210.17)
+                   	DoEvents  (48210.18)
+                   	DataArrival=0 0  (48210.2)
+                   	ReplyWait=False (48210.2)
+                   	Click 0, True (48210.2)
+                   	RepliedBytes 00000000 (48210.2)
+                   	48210.74
+22/05/2015 13:23:31	OpenAndSend 32,2,0 (48211.2)
+                   	eth008=32,2,0 (48211.2)
+                   	WaitForReply=True (48211.2)
+                   	DoEvents  (48211.2)
+                   	DoEvents  (48211.21)
+                   	DataArrival=0 2  (48211.23)
+                   	ReplyWait=False (48211.23)
+                   	Click 1, True (48211.23)
+                   	RepliedBytes 01000000 (48211.23)
+                   	48211.74
+22/05/2015 13:23:32	OpenAndSend 33,2,0 (48212.23)
+                   	eth008=33,2,0 (48212.23)
+                   	WaitForReply=True (48212.23)
+                   	DoEvents  (48212.23)
+                   	DoEvents  (48212.24)
+                   	DataArrival=0 0  (48212.25)
+                   	ReplyWait=False (48212.25)
+                   	Click 0, True (48212.25)
+                   	RepliedBytes 00000000 (48212.25)
+                   	48212.74
+22/05/2015 13:23:33	OpenAndSend 32,2,0 (48213.25)
+                   	eth008=32,2,0 (48213.25)
+                   	WaitForReply=True (48213.26)
+                   	DoEvents  (48213.26)
+                   	DoEvents  (48213.27)
+                   	DataArrival=0 2  (48213.28)
+                   	ReplyWait=False (48213.28)
+                   	Click 1, True (48213.28)
+                   	RepliedBytes 01000000 (48213.28)
+                   	48213.73
+22/05/2015 13:23:34	OpenAndSend 33,2,0 (48214.28)
+                   	eth008=33,2,0 (48214.28)
+                   	WaitForReply=True (48214.29)
+                   	DoEvents  (48214.29)
+                   	DoEvents  (48214.3)
+                   	DataArrival=0 0  (48214.31)
+                   	ReplyWait=False (48214.31)
+                   	Click 0, True (48214.31)
+                   	RepliedBytes 00000000 (48214.31)
+                   	48214.74
+22/05/2015 13:23:35	OpenAndSend 32,2,0 (48215.31)
+                   	eth008=32,2,0 (48215.32)
+                   	WaitForReply=True (48215.32)
+                   	DoEvents  (48215.32)
+                   	DoEvents  (48215.33)
+                   	DataArrival=0 2  (48215.34)
+                   	ReplyWait=False (48215.34)
+                   	Click 1, True (48215.34)
+                   	RepliedBytes 01000000 (48215.34)
+                   	48215.73
+22/05/2015 13:23:36	OpenAndSend 33,2,0 (48216.35)
+                   	eth008=33,2,0 (48216.35)
+                   	WaitForReply=True (48216.35)
+                   	DoEvents  (48216.35)
+                   	DoEvents  (48216.36)
+                   	DataArrival=0 0  (48216.38)
+                   	ReplyWait=False (48216.38)
+                   	Click 0, True (48216.38)
+                   	RepliedBytes 00000000 (48216.38)
+                   	48216.74
+22/05/2015 13:23:37	OpenAndSend 32,2,0 (48217.38)
+                   	eth008=32,2,0 (48217.38)
+                   	WaitForReply=True (48217.38)
+                   	DoEvents  (48217.38)
+                   	DoEvents  (48217.39)
+                   	DataArrival=0 2  (48217.41)
+                   	ReplyWait=False (48217.41)
+                   	Click 1, True (48217.41)
+                   	RepliedBytes 01000000 (48217.41)
+                   	48217.74
+22/05/2015 13:23:38	OpenAndSend 33,2,0 (48218.41)
+                   	eth008=33,2,0 (48218.41)
+                   	WaitForReply=True (48218.41)
+                   	DoEvents  (48218.41)
+                   	DoEvents  (48218.43)
+                   	DataArrival=0 0  (48218.43)
+                   	ReplyWait=False (48218.43)
+                   	Click 0, True (48218.44)
+                   	RepliedBytes 00000000 (48218.44)
+                   	48218.74
+22/05/2015 13:23:39	OpenAndSend 32,2,0 (48219.44)
+                   	eth008=32,2,0 (48219.44)
+                   	WaitForReply=True (48219.44)
+                   	DoEvents  (48219.44)
+                   	DoEvents  (48219.45)
+                   	DataArrival=0 2  (48219.46)
+                   	ReplyWait=False (48219.46)
+                   	Click 1, True (48219.46)
+                   	RepliedBytes 01000000 (48219.46)
+                   	48219.74
+22/05/2015 13:23:40	OpenAndSend 33,2,0 (48220.47)
+                   	eth008=33,2,0 (48220.47)
+                   	WaitForReply=True (48220.47)
+                   	DoEvents  (48220.47)
+                   	DoEvents  (48220.48)
+                   	DataArrival=0 0  (48220.49)
+                   	ReplyWait=False (48220.49)
+                   	Click 0, True (48220.5)
+                   	RepliedBytes 00000000 (48220.5)
+                   	48220.73
+22/05/2015 13:23:41	OpenAndSend 32,2,0 (48221.5)
+                   	eth008=32,2,0 (48221.5)
+                   	WaitForReply=True (48221.5)
+                   	DoEvents  (48221.5)
+                   	DoEvents  (48221.51)
+                   	DataArrival=0 2  (48221.52)
+                   	ReplyWait=False (48221.52)
+                   	Click 1, True (48221.52)
+                   	RepliedBytes 01000000 (48221.52)
+                   	48221.73
+22/05/2015 13:23:42	OpenAndSend 33,2,0 (48222.51)
+                   	eth008=33,2,0 (48222.52)
+                   	WaitForReply=True (48222.52)
+                   	DoEvents  (48222.52)
+                   	DoEvents  (48222.53)
+                   	DataArrival=0 0  (48222.54)
+                   	ReplyWait=False (48222.54)
+                   	Click 0, True (48222.54)
+                   	RepliedBytes 00000000 (48222.54)
+                   	48222.74
+                   	eth008=35,0,0 (48222.89)
+                   	WaitForReply=True (48222.89)
+                   	DoEvents  (48222.89)
+                   	DoEvents  (48222.9)
+                   	DataArrival=0 0  (48222.91)
+                   	ReplyWait=False (48222.91)
+                   	RepliedBytes 00000000 (48222.91)
+                   	CreateWinsock ethrly16:17494
+                   	WinsockState = Resolving host
+22/05/2015 13:23:43	OpenAndSend 32,2,0 (48223.53)
+                   	48223.73
+22/05/2015 13:23:44	OpenAndSend 33,2,0 (48224.53)
+                   	48224.74
+22/05/2015 13:23:45	OpenAndSend 32,2,0 (48225.53)
+                   	CreateWinsock ethrly16:17494
+                   	WinsockState = Resolving host
+                   	48225.74
+22/05/2015 13:23:46	OpenAndSend 33,2,0 (48226.53)
+                   	48226.73
+22/05/2015 13:23:47	CreateWinsock eth008:17494
+                   	WinsockState = Resolving host
+                   	OpenAndSend 32,2,0 (48227.53)
+                   	48227.74
+                   	Connected 7 (48227.79)
+                   	eth008=35,0,0 (48227.79)
+                   	WaitForReply=True (48227.79)
+                   	DoEvents  (48227.79)
+                   	DoEvents  (48227.8)
+                   	DataArrival=0 0  (48227.81)
+                   	ReplyWait=False (48227.81)
+                   	RepliedBytes 00000000 (48227.82)
+                   	OpenAndSend 120 (48227.82)
+                   	eth008=120 (48227.82)
+                   	WaitForReply=False (48227.82)
+                   	ReplyWait=False (48227.82)
+                   	RepliedBytes 00000000 (48227.82)
+                   	Battery Voltage = 00.0 (48227.82)
+                   	DataArrival=144  (48227.82)
+22/05/2015 13:23:48	OpenAndSend 33,2,0 (48228.53)
+                   	eth008=33,2,0 (48228.53)
+                   	WaitForReply=True (48228.53)
+                   	DoEvents  (48228.53)
+                   	DoEvents  (48228.54)
+                   	DataArrival=0 0  (48228.55)
+                   	ReplyWait=False (48228.55)
+                   	RepliedBytes 00000000 (48228.55)
+                   	48228.73
+22/05/2015 13:23:49	OpenAndSend 32,2,0 (48229.55)
+                   	eth008=32,2,0 (48229.55)
+                   	WaitForReply=True (48229.55)
+                   	DoEvents  (48229.55)
+                   	DoEvents  (48229.57)
+                   	DataArrival=0 2  (48229.58)
+                   	ReplyWait=False (48229.58)
+                   	Click 1, True (48229.58)
+                   	RepliedBytes 01000000 (48229.58)
+                   	48229.73
+22/05/2015 13:23:50	OpenAndSend 33,2,0 (48230.58)
+                   	eth008=33,2,0 (48230.58)
+                   	WaitForReply=True (48230.58)
+                   	DoEvents  (48230.58)
+                   	DoEvents  (48230.59)
+                   	DataArrival=0 0  (48230.61)
+                   	ReplyWait=False (48230.61)
+                   	Click 0, True (48230.61)
+                   	RepliedBytes 00000000 (48230.61)
+                   	48230.73
+22/05/2015 13:23:51	OpenAndSend 32,2,0 (48231.61)
+                   	eth008=32,2,0 (48231.61)
+                   	WaitForReply=True (48231.61)
+                   	DoEvents  (48231.61)
+                   	DoEvents  (48231.63)
+                   	DataArrival=0 2  (48231.64)
+                   	ReplyWait=False (48231.64)
+                   	Click 1, True (48231.64)
+                   	RepliedBytes 01000000 (48231.64)
+                   	48231.73
+22/05/2015 13:23:52	OpenAndSend 33,2,0 (48232.64)
+                   	eth008=33,2,0 (48232.64)
+                   	WaitForReply=True (48232.64)
+                   	DoEvents  (48232.64)
+                   	DoEvents  (48232.65)
+                   	DataArrival=0 0  (48232.66)
+                   	ReplyWait=False (48232.66)
+                   	Click 0, True (48232.66)
+                   	RepliedBytes 00000000 (48232.66)
+                   	48232.74
+22/05/2015 13:23:53	OpenAndSend 32,2,0 (48233.65)
+                   	eth008=32,2,0 (48233.65)
+                   	WaitForReply=True (48233.66)
+                   	DoEvents  (48233.66)
+                   	DoEvents  (48233.67)
+                   	DataArrival=0 2  (48233.68)
+                   	ReplyWait=False (48233.68)
+                   	Click 1, True (48233.68)
+                   	RepliedBytes 01000000 (48233.68)
+                   	48233.73
+22/05/2015 13:23:54	OpenAndSend 33,2,0 (48234.68)
+                   	eth008=33,2,0 (48234.68)
+                   	WaitForReply=True (48234.68)
+                   	DoEvents  (48234.68)
+                   	DoEvents  (48234.7)
+                   	DataArrival=0 0  (48234.71)
+                   	ReplyWait=False (48234.71)
+                   	Click 0, True (48234.71)
+                   	RepliedBytes 00000000 (48234.71)
+                   	48234.74
+22/05/2015 13:23:55	OpenAndSend 32,2,0 (48235.71)
+                   	eth008=32,2,0 (48235.71)
+                   	WaitForReply=True (48235.71)
+                   	DoEvents  (48235.71)
+                   	DoEvents  (48235.72)
+                   	DataArrival=0 2  (48235.73)
+                   	ReplyWait=False (48235.73)
+                   	Click 1, True (48235.73)
+                   	RepliedBytes 01000000 (48235.74)
+                   	48235.74
+22/05/2015 13:23:56	48236.73
+                   	OpenAndSend 33,2,0 (48236.73)
+                   	eth008=33,2,0 (48236.74)
+                   	WaitForReply=True (48236.74)
+                   	DoEvents  (48236.74)
+                   	DoEvents  (48236.75)
+                   	DataArrival=0 0  (48236.76)
+                   	ReplyWait=False (48236.76)
+                   	Click 0, True (48236.76)
+                   	RepliedBytes 00000000 (48236.77)
+22/05/2015 13:23:57	48237.74
+                   	OpenAndSend 32,2,0 (48237.77)
+                   	eth008=32,2,0 (48237.77)
+                   	WaitForReply=True (48237.77)
+                   	DoEvents  (48237.77)
+                   	DoEvents  (48237.78)
+                   	DataArrival=0 2  (48237.79)
+                   	ReplyWait=False (48237.79)
+                   	Click 1, True (48237.79)
+                   	RepliedBytes 01000000 (48237.79)
+22/05/2015 13:23:58	48238.73
+                   	OpenAndSend 33,2,0 (48238.79)
+                   	eth008=33,2,0 (48238.79)
+                   	WaitForReply=True (48238.79)
+                   	DoEvents  (48238.79)
+                   	DoEvents  (48238.8)
+                   	DataArrival=0 0  (48238.82)
+                   	ReplyWait=False (48238.82)
+                   	Click 0, True (48238.82)
+                   	RepliedBytes 00000000 (48238.82)
+22/05/2015 13:23:59	48239.73
+                   	OpenAndSend 32,2,0 (48239.82)
+                   	eth008=32,2,0 (48239.82)
+                   	WaitForReply=True (48239.82)
+                   	DoEvents  (48239.82)
+                   	DoEvents  (48239.83)
+                   	DataArrival=0 2  (48239.84)
+                   	ReplyWait=False (48239.84)
+                   	Click 1, True (48239.84)
+                   	RepliedBytes 01000000 (48239.84)
+22/05/2015 13:24:00	48240.73
+                   	OpenAndSend 33,2,0 (48240.85)
+                   	eth008=33,2,0 (48240.85)
+                   	WaitForReply=True (48240.85)
+                   	DoEvents  (48240.85)
+                   	DoEvents  (48240.86)
+                   	DataArrival=0 0  (48240.87)
+                   	ReplyWait=False (48240.87)
+                   	Click 0, True (48240.87)
+                   	RepliedBytes 00000000 (48240.88)
+22/05/2015 13:24:01	48241.73
+                   	OpenAndSend 32,2,0 (48241.87)
+                   	eth008=32,2,0 (48241.88)
+                   	WaitForReply=True (48241.88)
+                   	DoEvents  (48241.88)
+                   	DoEvents  (48241.89)
+                   	DataArrival=0 2  (48241.9)
+                   	ReplyWait=False (48241.9)
+                   	Click 1, True (48241.9)
+                   	RepliedBytes 01000000 (48241.9)
+22/05/2015 13:24:02	48242.73
+                   	OpenAndSend 33,2,0 (48242.9)
+                   	eth008=33,2,0 (48242.9)
+                   	WaitForReply=True (48242.91)
+                   	DoEvents  (48242.91)
+                   	DoEvents  (48242.92)
+                   	DataArrival=0 0  (48242.93)
+                   	ReplyWait=False (48242.93)
+                   	Click 0, True (48242.93)
+                   	RepliedBytes 00000000 (48242.93)
+22/05/2015 13:24:03	48243.74
+                   	OpenAndSend 32,2,0 (48243.92)
+                   	eth008=32,2,0 (48243.92)
+                   	WaitForReply=True (48243.92)
+                   	DoEvents  (48243.92)
+                   	DoEvents  (48243.93)
+                   	DataArrival=0 2  (48243.94)
+                   	ReplyWait=False (48243.95)
+                   	Click 1, True (48243.95)
+                   	RepliedBytes 01000000 (48243.95)
+22/05/2015 13:24:04	Command Horn Short (48244.73)
+                   	OpenAndSend 32,1,0 (48244.73)
+                   	eth008=32,1,0 (48244.73)
+                   	WaitForReply=True (48244.73)
+                   	DoEvents  (48244.73)
+                   	48244.74
+                   	DoEvents  (48244.74)
+                   	DataArrival=0 3  (48244.75)
+                   	ReplyWait=False (48244.76)
+                   	Click 1, True (48244.76)
+                   	RepliedBytes 11000000 (48244.76)
+                   	OpenAndSend 33,2,0 (48244.93)
+                   	eth008=33,2,0 (48244.93)
+                   	WaitForReply=True (48244.93)
+                   	DoEvents  (48244.94)
+                   	DoEvents  (48244.95)
+                   	DataArrival=0 1  (48244.96)
+                   	ReplyWait=False (48244.96)
+                   	Click 0, True (48244.96)
+                   	RepliedBytes 10000000 (48244.96)
+22/05/2015 13:24:05	48245.73
+                   	OpenAndSend 33,1,0 (48245.75)
+                   	eth008=33,1,0 (48245.75)
+                   	WaitForReply=True (48245.76)
+                   	DoEvents  (48245.76)
+                   	DoEvents  (48245.77)
+                   	DataArrival=0 0  (48245.78)
+                   	ReplyWait=False (48245.78)
+                   	Click 0, True (48245.78)
+                   	RepliedBytes 00000000 (48245.78)
+                   	OpenAndSend 32,2,0 (48245.95)
+                   	eth008=32,2,0 (48245.95)
+                   	WaitForReply=True (48245.95)
+                   	DoEvents  (48245.95)
+                   	DoEvents  (48245.96)
+                   	DataArrival=0 2  (48245.98)
+                   	ReplyWait=False (48245.98)
+                   	Click 1, True (48245.98)
+                   	RepliedBytes 01000000 (48245.98)
+22/05/2015 13:24:06	48246.74
+                   	OpenAndSend 33,2,0 (48246.98)
+                   	eth008=33,2,0 (48246.98)
+                   	WaitForReply=True (48246.98)
+                   	DoEvents  (48246.98)
+                   	DoEvents  (48246.99)
+22/05/2015 13:24:07	DataArrival=0 0  (48247)
+                   	ReplyWait=False (48247)
+                   	Click 0, True (48247)
+                   	RepliedBytes 00000000 (48247)
+                   	48247.74
+                   	OpenAndSend 32,2,0 (48248)
+                   	eth008=32,2,0 (48248)
+                   	WaitForReply=True (48248)
+                   	DoEvents  (48248)
+22/05/2015 13:24:08	DoEvents  (48248.01)
+                   	DataArrival=0 2  (48248.02)
+                   	ReplyWait=False (48248.02)
+                   	Click 1, True (48248.02)
+                   	RepliedBytes 01000000 (48248.02)
+                   	48248.73
+22/05/2015 13:24:09	OpenAndSend 33,2,0 (48249.02)
+                   	eth008=33,2,0 (48249.02)
+                   	WaitForReply=True (48249.02)
+                   	DoEvents  (48249.02)
+                   	DoEvents  (48249.03)
+                   	DataArrival=0 0  (48249.04)
+                   	ReplyWait=False (48249.04)
+                   	Click 0, True (48249.04)
+                   	RepliedBytes 00000000 (48249.05)
+                   	48249.73
+22/05/2015 13:24:10	OpenAndSend 32,2,0 (48250.04)
+                   	eth008=32,2,0 (48250.04)
+                   	WaitForReply=True (48250.04)
+                   	DoEvents  (48250.04)
+                   	DoEvents  (48250.06)
+                   	DataArrival=0 2  (48250.07)
+                   	ReplyWait=False (48250.07)
+                   	Click 1, True (48250.07)
+                   	RepliedBytes 01000000 (48250.07)
+                   	48250.74
+22/05/2015 13:24:11	OpenAndSend 33,2,0 (48251.07)
+                   	eth008=33,2,0 (48251.07)
+                   	WaitForReply=True (48251.07)
+                   	DoEvents  (48251.07)
+                   	DoEvents  (48251.09)
+                   	DataArrival=0 0  (48251.1)
+                   	ReplyWait=False (48251.1)
+                   	Click 0, True (48251.1)
+                   	RepliedBytes 00000000 (48251.1)
+                   	48251.74
+22/05/2015 13:24:12	OpenAndSend 32,2,0 (48252.1)
+                   	eth008=32,2,0 (48252.1)
+                   	WaitForReply=True (48252.1)
+                   	DoEvents  (48252.1)
+                   	DoEvents  (48252.11)
+                   	DataArrival=0 2  (48252.12)
+                   	ReplyWait=False (48252.13)
+                   	Click 1, True (48252.13)
+                   	RepliedBytes 01000000 (48252.13)
+                   	48252.74
+22/05/2015 13:24:13	OpenAndSend 33,2,0 (48253.13)
+                   	eth008=33,2,0 (48253.13)
+                   	WaitForReply=True (48253.13)
+                   	DoEvents  (48253.13)
+                   	DoEvents  (48253.14)
+                   	DataArrival=0 0  (48253.15)
+                   	ReplyWait=False (48253.15)
+                   	Click 0, True (48253.15)
+                   	RepliedBytes 00000000 (48253.15)
+                   	48253.74
+22/05/2015 13:24:14	OpenAndSend 32,2,0 (48254.16)
+                   	eth008=32,2,0 (48254.16)
+                   	WaitForReply=True (48254.16)
+                   	DoEvents  (48254.16)
+                   	DoEvents  (48254.17)
+                   	DataArrival=0 2  (48254.18)
+                   	ReplyWait=False (48254.18)
+                   	Click 1, True (48254.18)
+                   	RepliedBytes 01000000 (48254.18)
+                   	48254.74
+22/05/2015 13:24:15	OpenAndSend 33,2,0 (48255.19)
+                   	eth008=33,2,0 (48255.19)
+                   	WaitForReply=True (48255.19)
+                   	DoEvents  (48255.19)
+                   	DoEvents  (48255.2)
+                   	DataArrival=0 0  (48255.21)
+                   	ReplyWait=False (48255.21)
+                   	Click 0, True (48255.21)
+                   	RepliedBytes 00000000 (48255.21)
+                   	48255.74
+22/05/2015 13:24:16	OpenAndSend 32,2,0 (48256.21)
+                   	eth008=32,2,0 (48256.21)
+                   	WaitForReply=True (48256.21)
+                   	DoEvents  (48256.21)
+                   	DoEvents  (48256.23)
+                   	DataArrival=0 2  (48256.24)
+                   	ReplyWait=False (48256.24)
+                   	Click 1, True (48256.24)
+                   	RepliedBytes 01000000 (48256.24)
+                   	48256.73
+22/05/2015 13:24:17	OpenAndSend 33,2,0 (48257.23)
+                   	eth008=33,2,0 (48257.23)
+                   	WaitForReply=True (48257.23)
+                   	DoEvents  (48257.23)
+                   	DoEvents  (48257.25)
+                   	DataArrival=0 0  (48257.26)
+                   	ReplyWait=False (48257.26)
+                   	Click 0, True (48257.26)
+                   	RepliedBytes 00000000 (48257.26)
+                   	48257.73
+22/05/2015 13:24:18	OpenAndSend 32,2,0 (48258.26)
+                   	eth008=32,2,0 (48258.26)
+                   	WaitForReply=True (48258.27)
+                   	DoEvents  (48258.27)
+                   	DoEvents  (48258.28)
+                   	DataArrival=0 2  (48258.29)
+                   	ReplyWait=False (48258.29)
+                   	Click 1, True (48258.29)
+                   	RepliedBytes 01000000 (48258.29)
+                   	48258.74
+22/05/2015 13:24:19	OpenAndSend 33,2,0 (48259.28)
+                   	eth008=33,2,0 (48259.28)
+                   	WaitForReply=True (48259.28)
+                   	DoEvents  (48259.28)
+                   	DoEvents  (48259.29)
+                   	DataArrival=0 0  (48259.3)
+                   	ReplyWait=False (48259.3)
+                   	Click 0, True (48259.3)
+                   	RepliedBytes 00000000 (48259.3)
+                   	48259.74
+22/05/2015 13:24:20	OpenAndSend 32,2,0 (48260.29)
+                   	eth008=32,2,0 (48260.29)
+                   	WaitForReply=True (48260.29)
+                   	DoEvents  (48260.29)
+                   	DoEvents  (48260.3)
+                   	DataArrival=0 2  (48260.32)
+                   	ReplyWait=False (48260.32)
+                   	Click 1, True (48260.32)
+                   	RepliedBytes 01000000 (48260.32)
+                   	48260.74
+22/05/2015 13:24:21	OpenAndSend 33,2,0 (48261.32)
+                   	eth008=33,2,0 (48261.32)
+                   	WaitForReply=True (48261.32)
+                   	DoEvents  (48261.32)
+                   	DoEvents  (48261.33)
+                   	DataArrival=0 0  (48261.34)
+                   	ReplyWait=False (48261.34)
+                   	Click 0, True (48261.34)
+                   	RepliedBytes 00000000 (48261.34)
+                   	48261.73
+22/05/2015 13:24:22	OpenAndSend 32,2,0 (48262.35)
+                   	eth008=32,2,0 (48262.35)
+                   	WaitForReply=True (48262.35)
+                   	DoEvents  (48262.35)
+                   	DoEvents  (48262.36)
+                   	DataArrival=0 2  (48262.37)
+                   	ReplyWait=False (48262.37)
+                   	Click 1, True (48262.37)
+                   	RepliedBytes 01000000 (48262.38)
+                   	48262.74
+22/05/2015 13:24:23	OpenAndSend 33,2,0 (48263.38)
+                   	eth008=33,2,0 (48263.38)
+                   	WaitForReply=True (48263.38)
+                   	DoEvents  (48263.38)
+                   	DoEvents  (48263.39)
+                   	DataArrival=0 0  (48263.4)
+                   	ReplyWait=False (48263.4)
+                   	Click 0, True (48263.4)
+                   	RepliedBytes 00000000 (48263.4)
+                   	48263.73
+22/05/2015 13:24:24	OpenAndSend 32,2,0 (48264.4)
+                   	eth008=32,2,0 (48264.4)
+                   	WaitForReply=True (48264.4)
+                   	DoEvents  (48264.4)
+                   	DoEvents  (48264.41)
+                   	DataArrival=0 2  (48264.43)
+                   	ReplyWait=False (48264.43)
+                   	Click 1, True (48264.43)
+                   	RepliedBytes 01000000 (48264.43)
+                   	48264.73
+22/05/2015 13:24:25	OpenAndSend 33,2,0 (48265.42)
+                   	eth008=33,2,0 (48265.42)
+                   	WaitForReply=True (48265.42)
+                   	DoEvents  (48265.42)
+                   	DoEvents  (48265.43)
+                   	DataArrival=0 0  (48265.44)
+                   	ReplyWait=False (48265.44)
+                   	Click 0, True (48265.45)
+                   	RepliedBytes 00000000 (48265.45)
+                   	48265.73
+22/05/2015 13:24:26	OpenAndSend 32,2,0 (48266.43)
+                   	eth008=32,2,0 (48266.43)
+                   	WaitForReply=True (48266.44)
+                   	DoEvents  (48266.44)
+                   	DoEvents  (48266.45)
+                   	DataArrival=0 2  (48266.46)
+                   	ReplyWait=False (48266.46)
+                   	Click 1, True (48266.46)
+                   	RepliedBytes 01000000 (48266.46)
+                   	48266.73
+22/05/2015 13:24:27	OpenAndSend 33,2,0 (48267.45)
+                   	eth008=33,2,0 (48267.45)
+                   	WaitForReply=True (48267.45)
+                   	DoEvents  (48267.45)
+                   	DoEvents  (48267.46)
+                   	DataArrival=0 0  (48267.48)
+                   	ReplyWait=False (48267.48)
+                   	Click 0, True (48267.48)
+                   	RepliedBytes 00000000 (48267.48)
+                   	48267.74
+22/05/2015 13:24:28	OpenAndSend 32,2,0 (48268.46)
+                   	eth008=32,2,0 (48268.46)
+                   	WaitForReply=True (48268.46)
+                   	DoEvents  (48268.47)
+                   	DoEvents  (48268.48)
+                   	DataArrival=0 2  (48268.49)
+                   	ReplyWait=False (48268.49)
+                   	Click 1, True (48268.49)
+                   	RepliedBytes 01000000 (48268.49)
+                   	48268.73
+22/05/2015 13:24:29	OpenAndSend 33,2,0 (48269.48)
+                   	eth008=33,2,0 (48269.48)
+                   	WaitForReply=True (48269.48)
+                   	DoEvents  (48269.48)
+                   	DoEvents  (48269.49)
+                   	DataArrival=0 0  (48269.51)
+                   	ReplyWait=False (48269.51)
+                   	Click 0, True (48269.51)
+                   	RepliedBytes 00000000 (48269.51)
+                   	48269.73
+22/05/2015 13:24:30	OpenAndSend 32,2,0 (48270.5)
+                   	eth008=32,2,0 (48270.5)
+                   	WaitForReply=True (48270.51)
+                   	DoEvents  (48270.51)
+                   	DoEvents  (48270.52)
+                   	DataArrival=0 2  (48270.53)
+                   	ReplyWait=False (48270.53)
+                   	Click 1, True (48270.53)
+                   	RepliedBytes 01000000 (48270.53)
+                   	48270.73
+22/05/2015 13:24:31	OpenAndSend 33,2,0 (48271.54)
+                   	eth008=33,2,0 (48271.54)
+                   	WaitForReply=True (48271.54)
+                   	DoEvents  (48271.54)
+                   	DoEvents  (48271.55)
+                   	DataArrival=0 0  (48271.56)
+                   	ReplyWait=False (48271.56)
+                   	Click 0, True (48271.56)
+                   	RepliedBytes 00000000 (48271.56)
+                   	48271.73
+22/05/2015 13:24:32	OpenAndSend 32,2,0 (48272.57)
+                   	eth008=32,2,0 (48272.57)
+                   	WaitForReply=True (48272.57)
+                   	DoEvents  (48272.57)
+                   	DoEvents  (48272.58)
+                   	DataArrival=0 2  (48272.59)
+                   	ReplyWait=False (48272.59)
+                   	Click 1, True (48272.59)
+                   	RepliedBytes 01000000 (48272.59)
+                   	48272.73
+22/05/2015 13:24:33	OpenAndSend 33,2,0 (48273.59)
+                   	eth008=33,2,0 (48273.59)
+                   	WaitForReply=True (48273.59)
+                   	DoEvents  (48273.59)
+                   	DoEvents  (48273.6)
+                   	DataArrival=0 0  (48273.61)
+                   	ReplyWait=False (48273.61)
+                   	Click 0, True (48273.62)
+                   	RepliedBytes 00000000 (48273.62)
+                   	48273.74
+22/05/2015 13:24:34	OpenAndSend 32,2,0 (48274.61)
+                   	eth008=32,2,0 (48274.61)
+                   	WaitForReply=True (48274.61)
+                   	DoEvents  (48274.61)
+                   	DoEvents  (48274.62)
+                   	DataArrival=0 2  (48274.63)
+                   	ReplyWait=False (48274.63)
+                   	Click 1, True (48274.63)
+                   	RepliedBytes 01000000 (48274.63)
+                   	48274.74
+22/05/2015 13:24:35	OpenAndSend 33,2,0 (48275.62)
+                   	eth008=33,2,0 (48275.62)
+                   	WaitForReply=True (48275.62)
+                   	DoEvents  (48275.62)
+                   	DoEvents  (48275.63)
+                   	DataArrival=0 0  (48275.64)
+                   	ReplyWait=False (48275.64)
+                   	Click 0, True (48275.64)
+                   	RepliedBytes 00000000 (48275.64)
+                   	48275.73
+22/05/2015 13:24:36	OpenAndSend 32,2,0 (48276.64)
+                   	eth008=32,2,0 (48276.64)
+                   	WaitForReply=True (48276.65)
+                   	DoEvents  (48276.65)
+                   	DoEvents  (48276.66)
+                   	DataArrival=0 2  (48276.67)
+                   	ReplyWait=False (48276.67)
+                   	Click 1, True (48276.67)
+                   	RepliedBytes 01000000 (48276.67)
+                   	48276.73
+22/05/2015 13:24:37	OpenAndSend 33,2,0 (48277.68)
+                   	eth008=33,2,0 (48277.68)
+                   	WaitForReply=True (48277.68)
+                   	DoEvents  (48277.68)
+                   	DoEvents  (48277.69)
+                   	DataArrival=0 0  (48277.7)
+                   	ReplyWait=False (48277.7)
+                   	Click 0, True (48277.7)
+                   	RepliedBytes 00000000 (48277.7)
+                   	48277.74
+22/05/2015 13:24:38	OpenAndSend 32,2,0 (48278.71)
+                   	eth008=32,2,0 (48278.71)
+                   	WaitForReply=True (48278.71)
+                   	DoEvents  (48278.71)
+                   	DoEvents  (48278.72)
+                   	DataArrival=0 2  (48278.73)
+                   	ReplyWait=False (48278.73)
+                   	Click 1, True (48278.73)
+                   	RepliedBytes 01000000 (48278.73)
+                   	48278.74
+22/05/2015 13:24:39	48279.73
+                   	OpenAndSend 33,2,0 (48279.74)
+                   	eth008=33,2,0 (48279.74)
+                   	WaitForReply=True (48279.74)
+                   	DoEvents  (48279.74)
+                   	DoEvents  (48279.75)
+                   	DataArrival=0 0  (48279.76)
+                   	ReplyWait=False (48279.76)
+                   	Click 0, True (48279.77)
+                   	RepliedBytes 00000000 (48279.77)
+22/05/2015 13:24:40	48280.73
+                   	OpenAndSend 32,2,0 (48280.77)
+                   	eth008=32,2,0 (48280.77)
+                   	WaitForReply=True (48280.77)
+                   	DoEvents  (48280.77)
+                   	DoEvents  (48280.78)
+                   	DataArrival=0 2  (48280.79)
+                   	ReplyWait=False (48280.79)
+                   	Click 1, True (48280.79)
+                   	RepliedBytes 01000000 (48280.79)
+22/05/2015 13:24:41	48281.81
+                   	OpenAndSend 33,2,0 (48281.81)
+                   	eth008=33,2,0 (48281.81)
+                   	WaitForReply=True (48281.81)
+                   	DoEvents  (48281.81)
+                   	DoEvents  (48281.82)
+                   	DataArrival=0 0  (48281.84)
+                   	ReplyWait=False (48281.84)
+                   	Click 0, True (48281.84)
+                   	RepliedBytes 00000000 (48281.84)
+22/05/2015 13:24:42	48282.82
+                   	OpenAndSend 32,2,0 (48282.84)
+                   	eth008=32,2,0 (48282.84)
+                   	WaitForReply=True (48282.84)
+                   	DoEvents  (48282.85)
+                   	DoEvents  (48282.86)
+                   	DataArrival=0 2  (48282.87)
+                   	ReplyWait=False (48282.87)
+                   	Click 1, True (48282.87)
+                   	RepliedBytes 01000000 (48282.87)
+22/05/2015 13:24:43	frmDaventech.unload 7 (48283.71)
+                   	eth008=35,0,0 (48283.71)
+                   	WaitForReply=True (48283.71)
+                   	DoEvents  (48283.71)
+                   	DoEvents  (48283.72)
+                   	DataArrival=0 0  (48283.73)
+                   	ReplyWait=False (48283.73)
+                   	Click 0, True (48283.73)
+                   	RepliedBytes 00000000 (48283.73)
+                   	eth008=35,0,0 (48283.73)
+                   	WaitForReply=True (48283.73)
+                   	DoEvents  (48283.73)
+                   	DoEvents  (48283.75)
+                   	DataArrival=0 0  (48283.76)
+                   	ReplyWait=False (48283.76)
+                   	RepliedBytes 00000000 (48283.76)

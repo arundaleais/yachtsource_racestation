@@ -1,0 +1,692 @@
+[Profile]   
+Name=ISAF
+Version=3
+GroupDefault=Sound,LastCol,Row1,Queue
+GroupDefault=Yellow,LastCol-1,Row1
+GroupDefault=Green,LastCol-1,Row2
+GroupDefault=Red,LastCol-1,Row3
+GroupDefault=White,LastCol-1,Row4,Queue
+GroupDefault=Recall,Queue
+Multiplier=10
+ButtonEvents=True
+[/Profile]
+
+[Controller=0]
+IpAddress=eth008
+On=32,1,0
+Off=33,1,0
+Connection=Horn		'Memo
+Sound=horn.wav
+[/Controller]
+
+[Controller=1]
+IpAddress=eth008
+On=32,2,0
+Off=33,2,0
+Connection=White Light	'Memo
+[/Controller]
+
+[Controller=2]
+IpAddress=eth008
+On=32,3,0
+Off=33,3,0
+Connection=Yellow Light	'Memo
+[/Controller]
+
+[Controller=3]
+IpAddress=eth008
+On=32,4,0
+Off=33,4,0
+Connection=Green Light	'Memo
+[/Controller]
+
+[Controller=4]
+IpAddress=eth008
+On=32,5,0
+Off=33,5,0
+Connection=Red Light	'Memo
+[/Controller]
+
+[Controller=5]
+IpAddress=eth008
+On=32,6,0
+Off=33,6,0
+Connection=Blue Light	'Memo
+[/Controller]
+
+
+'Set up mandatory command signals first
+[Signal=1]
+Type=Horn
+Name=Horn Short		'Caption on Command Button
+Group=Sound
+CommandVisible=True	'Make Command Button visible
+Flag=Horn1Short		'Name of Flag Image file
+TTL=500			'Millisecs TTL only applies on the UP
+Cycles=1		'How many up cycles
+Raised=True		'initially raise flag on load
+Controller=0		'Sound
+[/Signal]
+
+'Set up postponement signals
+[Signal=2]
+Type=Flag	
+Name=Postpone
+Group=Postpone	'Not defined if no Members of this Group
+CommandVisible=True
+Flag=ICS_Answer
+Raised=True
+UpLink=7,True		'2 Short
+DownLink=1,True		'1 short
+UpLink=32,True		'White Flash Continuous
+DownLink=32,False
+UpLink=19,True		'Postpone Class
+DownLink=19,False
+[/Signal]
+
+[Signal=3]
+Type=Recall	
+Name=Recall
+Group=Recall
+CommandVisible=True
+Flag=ICS_X-ray
+Raised=True
+UpLink=1,True		'Horn 1 Short
+UpLink=32,True		'White Flash
+DownLink=32,False
+UpLink=10,True		'Recall Class
+DownLink=10,False
+[/Signal]
+
+[Signal=4]
+Type=Recall	
+Name=General Recall
+Group=Recall
+CommandVisible=True
+Flag=ICS_Repeat_One
+Raised=True
+UpLink=7,True		'Horn 2 Short
+UpLink=32,True		'White Flash Continuous
+DownLink=32,False
+UpLink=10,True		'Recall Class
+DownLink=10,False
+DownLink=1,True		'Horn 1 Short
+[/Signal]
+
+[Signal=5]
+Type=Flag	
+Name=Finish
+Group=White
+CommandVisible=True
+Flag=TrafficLightWhite
+'Finish is always a downlink because there is visible flag
+DownLink=1,True		'Horn 1 Short
+DownLink=31,True	'White 1
+Controller=1		'White 1
+[/Signal]
+
+'End of pre-defined command buttons
+[Signal=6]
+Type=Flag
+Name=Horn Long
+Group=Sound
+CommandVisible=True
+Flag=Horn1Long		'Image,Fixed,Parent
+TTL=1000		'Millisecs TTL only applies on the UP
+Cycles=1		'How many up cycles
+Raised=True		'initially make visible on load
+Controller=0		'Sound
+[/Signal]
+
+[Signal=7]
+Type=Flag
+Name=Horn 2 Short
+Group=Sound
+CommandVisible=True
+Flag=Horn2Short		'Image,Fixed,Parent
+TTL=500			'Millisecs TTL only applies on the UP
+Cycles=2		'How many up cycles
+Raised=True		'initially Raise on load
+Controller=0		'Sound
+[/Signal]
+
+[Signal=8]
+Type=Flag
+Name=Horn 3 Short	
+Group=Sound
+CommandVisible=True
+Flag=Horn3Short		'Image,Fixed,Parent
+TTL=500			'Millisecs TTL only applies on the UP
+Cycles=3		'How many up cycles
+Raised=True		'initially Raise on load
+Controller=0		'Sound
+[/Signal]
+
+[Signal=9]
+Type=Flag
+Name=Horn -----	
+Group=Sound
+CommandVisible=True
+Flag=Horn1Long		'Image,Fixed,Parent
+TTL=2000		'Millisecs TTL only applies on the UP
+Cycles=0		'Continuous
+Raised=True		'initially Raise on load
+Controller=0		'Sound
+[/Signal]
+
+[Signal=10]
+Type=Recall	
+Name=Recall Class
+Group=Recall
+CommandVisible=False
+Raised=True
+[/Signal]
+
+'Set up Preparatory signals
+[Signal=11]
+Type=Flag	
+Name=Preparatory P
+Group=Preparatory
+CommandVisible=True
+Flag=ICS_Papa		'Image file for the flag
+Raised=True		'initially raise on load
+UpLink=1,True		'Silent for SYC
+DownLink=6,True	'Silent for SYC
+UpLink=33,True		'ISAF White Fixed
+DownLink=33,False
+[/Signal]
+
+[Signal=12]
+Type=Flag	
+Name=Perparatory I
+Group=Preparatory
+CommandVisible=True
+Flag=ICS_India		'Image file for the flag
+Raised=True		'initially raise on load
+UpLink=1,True		'Silent for SYC
+DownLink=6,True	'Silent for SYC
+[/Signal]
+
+[Signal=13]
+Type=Flag 	
+Name=Preparatory Z
+Group=Preparatory
+CommandVisible=True
+Flag=ICS_Zulu		'Image file for the flag
+Raised=True		'initially raise on load
+UpLink=1,True		'Silent for SYC
+DownLink=6,True	'Silent for SYC
+[/Signal]
+
+[Signal=14]
+Type=Flag	
+Name=Preparatory Black
+Group=Preparatory
+CommandVisible=True
+Flag=Black		'Image file for the flag
+Raised=True		'initially raise on load
+UpLink=1,True		'Silent for SYC
+DownLink=6,True	'Silent for SYC
+[/Signal]
+
+[Signal=15]
+Type=Flag	
+Name=1 Hour
+Group=Postpone
+CommandVisible=True
+Flag=ICS_Pennant_One
+Raised=True		'initially raise on load
+UpLink=7,True		'2 Short
+DownLink=1,True		'1 short
+[/Signal]
+
+[Signal=16]
+Type=Flag	
+Name=2 Hours
+Group=Postpone
+CommandVisible=True
+Flag=ICS_Pennant_Two
+Raised=True		'initially raise on load
+UpLink=7,True		'2 Short
+DownLink=1,True		'1 short
+[/Signal]
+
+[Signal=17]
+Type=Flag	
+Name=3 Hours
+Group=Postpone
+CommandVisible=True
+Flag=ICS_Pennant_Three
+'Parent=2
+Raised=True		'initially raise on load
+UpLink=7,True		'2 Short
+DownLink=1,True		'1 short
+[/Signal]
+
+'[Signal=18]	'RYA Alternative
+'Type=Flag	
+'Name=Postpone D
+'Group=Postpone	'Not defined if no Members of this Group
+'CommandVisible=True
+'Flag=ICS_Delta
+'Raised=True
+'UpLink=1,True		'1 Short
+'DownLink=1,True		'1 short
+'[/Signal]
+
+[Signal=19]
+Type=Postpone	
+Name=Postpone Class
+Group=Postpone
+CommandVisible=False
+Raised=True
+[/Signal]
+
+[Signal=21]
+Type=Flag	
+Name=Notice
+Group=Other
+CommandVisible=True
+Flag=ICS_Lima
+Raised=True		'initially raise on load
+UpLink=1,True		'1 Short
+[/Signal]
+
+[Signal=22]
+Type=Flag	
+Name=Floatation
+Group=Other
+CommandVisible=True
+Flag=ICS_Yankee
+Raised=True		'initially raise on load
+UpLink=1,True		'1 Short
+[/Signal]
+
+[Signal=25]
+Type=Flag	
+Name=Abandon Started
+Group=Abandon
+CommandVisible=True
+Flag=ICS_November
+Raised=True		'initially raise on load
+UpLink=8,True		'3 Short
+DownLink=1,True		'1 short
+[/Signal]
+
+[Signal=26]
+Type=Flag	
+Name=Abandon All
+Group=Abandon
+CommandVisible=True
+Flag=ICS_Hotel
+Raised=True		'initially raise on load
+UpLink=8,True		'1 Short
+[/Signal]
+
+[Signal=27]
+Type=Flag	
+Name=Abandon Info
+Group=Abandon
+CommandVisible=True
+Flag=ICS_Alpha
+Raised=True		'initially raise on load
+UpLink=8,True		'1 Short
+[/Signal]
+
+[Signal=31]
+Type=Flag	
+Name=White Short
+Group=White
+Row=4			'If as fixed position, Define after Group
+CommandVisible=True
+Flag=TrafficLightWhite
+Raised=True		'initially raise on load
+TTL=500		'Slow Flash
+Cycles=1
+Controller=1
+[/Signal]
+
+[Signal=32]
+Type=White		'Must be Recall to use Multiplier	
+Name=White Flash
+Group=White	
+'Row=4			'If as fixed position, Define after Group
+CommandVisible=True
+Flag=TrafficLightWhite
+Raised=True		'initially raise on load
+TTL=500			'Quick Flash
+Cycles=0		'Continuous
+Controller=1
+[/Signal]
+
+[Signal=33]
+Type=White		'Must be Recall to use Multiplier	
+Name=White Fixed
+Group=White	
+CommandVisible=True
+Flag=TrafficLightWhite
+Raised=True		'initially raise on load
+Controller=1
+[/Signal]
+
+[Signal=34]
+Type=Yellow		'Must be Recall to use Multiplier	
+Name=Yellow
+Group=Yellow	
+CommandVisible=True
+Flag=TrafficLightAmber
+Raised=True		'initially raise on load
+Controller=2
+[/Signal]
+
+[Signal=35]
+Type=Green		'Must be Recall to use Multiplier	
+Name=Green
+Group=Green	
+CommandVisible=True
+Flag=TrafficLightGreen
+Raised=True		'initially raise on load
+Controller=3
+[/Signal]
+
+[Signal=36]
+Type=Red		'Must be Recall to use Multiplier	
+Name=Red
+Group=Red	
+CommandVisible=True
+Flag=TrafficLightRed
+Raised=True		'initially raise on load
+Controller=4
+[/Signal]
+
+'Set up Class Signals Last as on initial load they will take all remaining free cols
+[Signal=41]
+Type=Flag	
+Name=Class 1
+Group=Class
+CommandVisible=True
+Flag=Generic_Class_One
+Raised=True		'initially raise on load
+UpLink=1,True
+DownLink=1,True
+UpLink=34,True		'Amber
+DownLink=34,False
+[/Signal]
+
+[Signal=42]
+Type=Flag	
+Name=Class 2
+Group=Class
+CommandVisible=True
+Flag=ICS_Pennant_Two
+Raised=True		'initially raise on load
+UpLink=1,True
+DownLink=1,True
+UpLink=35,True		'Green
+DownLink=35,False
+[/Signal]
+
+[Signal=43]
+Type=Flag	
+Name=Class 3
+Group=Class
+CommandVisible=True
+Flag=ICS_Pennant_Three
+Raised=True		'initially raise on load
+UpLink=1,True		'Silent for SYC
+DownLink=1,True
+UpLink=34,True		'Amber
+DownLink=34,False
+UpLink=35,True		'Green
+DownLink=35,False
+[/Signal]
+
+[Signal=44]
+Type=Flag	
+Name=Class 4
+Group=Class
+CommandVisible=True
+Flag=ICS_Pennant_Four
+Raised=True		'initially raise on load
+UpLink=1,True		'Silent for SYC
+DownLink=1,True
+UpLink=36,True		'Red
+DownLink=36,False
+[/Signal]
+
+[Signal=45]
+Type=Flag	
+Name=Class 5
+Group=Class
+CommandVisible=True
+Flag=ICS_Pennant_Five
+Raised=True		'initially raise on load
+UpLink=1,True		'Silent for SYC
+DownLink=1,True
+UpLink=34,True		'Amber
+DownLink=34,False
+UpLink=36,True		'Red
+DownLink=36,False
+[/Signal]
+
+[Signal=46]
+Type=Flag	
+Name=Class 6
+Group=Class
+CommandVisible=True
+Flag=ICS_Pennant_Six
+Raised=True		'initially raise on load
+UpLink=1,True
+DownLink=1,True
+UpLink=35,True		'Green
+DownLink=35,False
+UpLink=36,True		'Red
+DownLink=36,False
+[/Signal]
+
+[Signal=47]
+Type=Flag	
+Name=Class 7
+Group=Class
+CommandVisible=True
+Flag=ICS_Pennant_Seven
+Raised=True		'initially raise on load
+UpLink=1,True
+DownLink=1,True
+UpLink=34,True		'Amber
+DownLink=34,False
+UpLink=35,True		'Green
+DownLink=35,False
+UpLink=36,True		'Red
+DownLink=36,False
+[/Signal]
+
+[Signal=48]
+Type=Flag	
+Name=Class 8
+Group=Class
+CommandVisible=True
+Flag=ICS_Pennant_Eight
+Raised=True		'initially raise on load
+UpLink=1,True
+DownLink=1,True
+UpLink=33,True		'Blue
+DownLink=33,False
+[/Signal]
+
+[Signal=49]
+Type=Flag	
+Name=Class 9
+Group=Class
+CommandVisible=True
+Flag=ICS_Pennant_Niner
+Raised=True		'initially raise on load
+UpLink=1,True
+DownLink=1,True
+UpLink=34,True		'Amber
+DownLink=34,False
+UpLink=33,True		'Blue
+DownLink=33,False
+[/Signal]
+
+[Signal=51]
+Type=Flag	
+Name=Shorten
+Group=Shorten
+CommandVisible=True
+Flag=ICS_Sierra
+Raised=True		'initially raise on load
+UpLink=7,True
+[/Signal]
+
+[Signal=52]
+Type=Flag	
+Name=Change
+Group=Change
+CommandVisible=True
+Flag=ICS_Charlie
+Raised=True		'initially raise on load
+UpLink=9,True		'Continuous long
+DownLink=9,False		'Continuous long
+[/Signal]
+
+[Signal=53]
+Type=Flag	
+Name=Starboard
+Group=Change
+CommandVisible=True
+Flag=Starboard
+Raised=True		'initially raise on load
+[/Signal]
+
+[Signal=54]
+Type=Flag	
+Name=Port
+Group=Change
+CommandVisible=True
+Flag=Port
+Raised=True		'initially raise on load
+[/Signal]
+
+[Signal=55]
+Type=Flag	
+Name=Minus
+Group=Change
+CommandVisible=True
+Flag=Minus
+Raised=True		'initially raise on load
+[/Signal]
+
+[Signal=56]
+Type=Flag	
+Name=Plus
+Group=Change
+CommandVisible=True
+Flag=Plus
+Raised=True		'initially raise on load
+[/Signal]
+
+[Signal=57]
+Type=Flag	
+Name=Mark
+Group=Other
+CommandVisible=True
+Flag=ICS_Mike
+Raised=True		'initially raise on load
+UpLink=9,True		'Continuous long
+DownLink=9,False		'Continuous long
+[/Signal]
+
+[Signal=58]
+Type=Flag	
+Name=Blue
+Group=Other
+CommandVisible=True
+Flag=Blue
+Raised=True		'initially raise on load
+[/Signal]
+
+[Template=Class]
+'EventOffset=-360	'If Raised, Lower Postpone 1 min before Class Warning
+'[Event=<ElapsedTime>-<EventOffset>]
+'Message=Query Unload Postpone <ClassName>	'
+'FunctionCall=QueryUnloadPostpone	'Unload {ostpone - if not UP
+'Signal=Postpone
+'Message=Drop Postpone
+'Raised=False
+'[/Event]
+EventOffset=-300
+[Event=<ElapsedTime>-<EventOffset>]
+Signal=<ClassName>
+Message=Warning <ClassName>
+Raised=True
+'Button=Postpone,True
+[/Event]
+EventOffset=-240
+[Event=<ElapsedTime>-<EventOffset>]
+Signal=Preparatory P
+Message=Preparatory <ClassName>
+Raised=True
+[/Event]
+EventOffset=-60
+[Event=<ElapsedTime>-<EventOffset>]
+Signal=Preparatory P
+Message=Preparatory <ClassName>
+Raised=False
+[/Event]
+EventOffset=0
+[Event=<ElapsedTime>-<EventOffset>]
+'Signal=<ClassName>
+Message=<ClassName> Start
+'Raised=False
+FunctionCall=LoadStart		'Lowers start flag for current class
+'Button=Postpone,False
+[/Event]
+[/Template]
+
+[Template=Recall]
+EventOffset=0
+[Event=<ElapsedTime>-<EventOffset>]
+Message=Recall Enabled <ClassName>
+'Button=General Recall,True
+'Focus=Recall	'Will enable Recall
+[/Event]
+EventOffset=30
+[Event=<ElapsedTime>-<EventOffset>]
+Message=Query Recall Timeout <ClassName>	'
+FunctionCall=QueryRecallTimeout	'Unload Recall - if not UP
+'Button=Recall,False
+'Button=General Recall,False
+'Button=Postpone,True
+[/Event]
+EventOffset=240
+[Event=<ElapsedTime>-<EventOffset>]
+Message=Recall Timeout <ClassName>	'Unload Recall - if still UP
+FunctionCall=RecallTimeout		'Force Unload Recall (not General)
+'Signal=Recall
+'Raised=False
+'Signal=General Recall
+'Raised=False
+[/Event]
+[/Template]
+
+[Class=Class 1]
+ElapsedTime=0
+[/Class]
+
+'[Class=Class 2]
+'ElapsedTime=300
+'[/Class]
+
+'[Class=Class 3]
+'ElapsedTime=600
+'[/Class]
+
+'[Class=Class 4]
+'ElapsedTime=900
+'[/Class]
+
+'[Class=Class 5]
+'ElapsedTime=1200
+'[/Class]
+

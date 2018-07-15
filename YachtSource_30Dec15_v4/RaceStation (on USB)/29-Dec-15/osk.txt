@@ -1,0 +1,3 @@
+Dir %appdata%\arundale
+dir C:\ProgramData\Application Data\Arundale\RacingSignals\
+dir "C:\ProgramData\Application Data\Arundale\RacingSignals\Sequences\"

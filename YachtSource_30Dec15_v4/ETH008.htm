@@ -1,0 +1,450 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>ETH008</title>
+<meta http-equiv="Content-Language" content="en-gb">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta content="Microsoft FrontPage 4.0" name="GENERATOR">
+<meta content="FrontPage.Editor.Document" name="ProgId"></head>
+<body>
+<p align="center"><b><font size="6"><font face="Arial">&nbsp;</font>ETH008 - 8
+relay outputs&nbsp;at 16A&nbsp;<br></font></b><font size="4">Technical Documentation&nbsp;</font></p>
+<p align="center"><img src="ETH008_files/eth008-400.png" border="0" height="225" width="400"></p>
+<p align="left">&nbsp;</p>
+<p align="left"><b>Overview<br>
+</b>
+The ETH008 provides eight volt free contact relay outputs with a current
+rating of up to 16Amp each. The module is powered from a 12vdc supply which can be
+regulated or unregulated. The DC input jack
+is 2.1mm with positive core polarity, DC supplies are required to supply at
+least 500mA at 12vdc. The relays are SPCO (Single Pole Change Over) types. The normally
+open, normally closed and common pins are all available on the screw terminals.
+The ETH008 is fully compatible with the ETH-RLY16 and includes the legacy
+ETH-RLY16 command set.&nbsp;&nbsp;<br>
+The ETH008 has additional features over the ETH-RLY16:<br>
+1. Full Factory Reset, all ETH008 firmware and settings can be reset to the
+original state.&nbsp;<br>
+2. Firmware updates, firmware in the ETH008 is fully updateable by
+re-flashing the board with our custom windows program. This will be made
+available in the event of feature updates.&nbsp;<br>
+3. New Command Format, the new command format allows for consistent
+compatibility with future boards. New commands now allow for pulsed control of
+relays from 100mS to 25.5 seconds.&nbsp;<br>
+4. TCP/IP Password Protection, it is now possible to set a password for TCP/IP
+protection. This is independent of the configuration password.&nbsp;</p>
+
+<p align="center">
+<iframe src="ETH008_files/MZrargq_g7I.htm" allowfullscreen="" frameborder="0" height="315" width="420"></iframe>
+</p>
+
+<p align="left"><b>Operating Temperature</b><br>
+-40C to +70C</p>
+<p align="left"><b>LED Indication<br>
+</b>The ETH008 provides a red LED mounted immediately next to each relay to
+indicate whether it is in a powered state (LED on), there is also two LED's
+mounted in the Ethernet connector which will flash with Ethernet traffic. Finally there is
+green power LED just above the processor.<br>
+<br>
+<b>Relay Power Rating</b><font face="Times New Roman"><br>
+If the contact load voltage and current of the relay are in the region enclosed
+by the solid and dotted lines in the</font> <font face="Times New Roman">figure
+below, the relay can perform stable switching operation. If the relay is used at
+a voltage or current exceeding</font> <font face="Times New Roman">this region,
+the life of the contacts may be significantly shortened.</font>
+</p>
+<p align="center">&nbsp;</p>
+<div align="center">
+  <center>
+  <table border="1">
+    <tbody><tr>
+      <td align="center">&nbsp;load type&nbsp;</td>
+      <td align="center">&nbsp;Typical applications&nbsp;</td>
+      <td align="center">&nbsp;Rating&nbsp;</td>
+      <td rowspan="6" align="center">Max DC load capacity
+        <p><img src="ETH008_files/wpe1.gif" border="0" height="402" width="435"></p></td>
+    </tr>
+    <tr>
+      <td align="center">&nbsp;AC1</td>
+      <td align="center">&nbsp;Non inductive or<br>
+        &nbsp;slightly inductive loads&nbsp;</td>
+      <td align="center">&nbsp;16A @ 250V AC&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="center">&nbsp;AC15</td>
+      <td align="center">&nbsp;Control of&nbsp;<br>
+        &nbsp;electromagnetic load&nbsp;<br>
+        &nbsp;(&gt;72VA)</td>
+      <td align="center">&nbsp;3A @ 120V AC&nbsp;&nbsp;<br>
+        &nbsp;1.5A @ 240V AC&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="center">&nbsp;AC3</td>
+      <td align="center">&nbsp;Control of motor&nbsp;</td>
+      <td align="center">&nbsp;750W</td>
+    </tr>
+    <tr>
+      <td align="center">&nbsp;DC1</td>
+      <td align="center">&nbsp;Non inductive or<br>
+        &nbsp;slightly inductive loads</td>
+      <td align="center">&nbsp;16A @ 24V DC&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="center">&nbsp;DC13</td>
+      <td align="center">&nbsp;Control of electromagnetic&nbsp;<br>
+        &nbsp;loads</td>
+      <td align="center">&nbsp;0.22A @ 120V DC<br>
+        &nbsp;0.1A @ 250V DC</td>
+    </tr>
+  </tbody></table>
+  </center>
+</div>
+<p align="left">A full datasheet for the relays used on the ETH008 is here: <a href="http://www.robot-electronics.co.uk/datasheets/HF115FD.pdf">HF115FD
+datasheet</a></p>
+<p align="left"><b>First Test</b><br>
+Having plugged in your 12vdc power supply and Ethernet connection, start up your
+web browser and type <b>http://eth008</b> into the address bar, please note
+this only works in windows. You will be prompted for a password as shown below:
+</p>
+<p align="left">&nbsp;
+</p>
+<div align="center">
+  <center>
+  <table border="0" cellspacing="0">
+    <tbody><tr>
+      <td valign="middle">
+        <p align="center"><img src="ETH008_files/eth008logon.png" border="0" height="354" width="326"></p></td>
+      <td>&nbsp;&nbsp;The default login is:<br>
+        &nbsp;Username: admin<br>
+        &nbsp;Password: password<br>
+        <br>
+        &nbsp;The ability to change these<br>
+        &nbsp;settings is shown in the<br>
+        &nbsp;configuration section&nbsp;
+      </td>
+    </tr>
+  </tbody></table>
+  </center>
+</div>
+<p align="left">You should now see
+the following web page:
+</p>
+<p align="center"><img src="ETH008_files/eth008web1.png" border="0" height="349" width="745">
+</p>
+<p align="left">This web page will allow you to switch the relays on and off by
+clicking the relay buttons (the red/gray circles). It also contains a link to
+this technical documentation page.
+</p>
+<p align="left"><b>Configuration<br>
+</b>By clicking the configuration link it's possible to configure the ETH008 IP address and subnet mask
+together with the ability to set a password for entry to control screens. The
+ETH008 now also offers the option to set a password that will be required to
+change any of the relay states using TCP IP commands, this is explained in the
+TCP/IP password section.<br>
+All
+settings are saved to memory so be careful to remember the username and
+password! Default password settings are shown in the picture below.&nbsp;
+<br>
+Version 2 now offers a latched outputs option, this will automatically save any
+permanent
+output changes (not pulsed) and restore them following power loss.
+</p>
+<p align="center">
+<img src="ETH008_files/eth008config.png" border="0" height="486" width="503"></p>
+<p><b>Factory Reset<br>
+</b>Should it be necessary to reset the ETH008 to its shipped condition then the
+end two contacts of PL2 (the row of 5 holes near the large chip) on the side
+nearest the Ethernet connection must be shorted
+together at board power up. The green LED should then flash as the settings are
+reset, please wait until the LED finishes flashing and do not remove power
+during this period.&nbsp;
+</p>
+<p align="left"><b>Firmware Updates</b><br>
+The firmware is fully updateable by
+re-flashing the board using our custom windows program. The updates currently
+available are:
+<font size="3"><br>
+<a href="http://www.robot-electronics.co.uk/files/ETH008-V3.hex">V3 - 08/04/2014</a> - DNS and Gateway string
+lengths corrected in http config page, new latching function added to config and
+board name now appears correctly on NBNS (WINS) meaning routers display board
+name.<br>
+<a href="http://www.robot-electronics.co.uk/files/ETH008-V4.hex">V4 - 11/07/2014</a> - <font color="#000000">ASCII messages added in tcp, security now on all http pages, http set output commands added<br>
+<a href="http://www.robot-electronics.co.uk/files/ETH008-V5.hex">V5 -
+13/08/2014</a> - <font color="#000000">Fixed ASCII command buffer overruns</font></font></font></p>
+<p>Using the <a href="http://www.robot-electronics.co.uk/files/eth_update.zip">Ethernet module update</a>:</p>
+<p>First you need to connect to the board, the program will scan the local
+network and provide any boards in a list that it can see.</p>
+<p><img src="ETH008_files/ethernet_module_update.png" border="0" height="130" width="376"></p>
+<p>Next you will need to specify what port the board is located on, this will be
+17494 unless you have changed it in the settings.</p>
+<p><img src="ETH008_files/ethernet_module_update_port.png" border="0" height="187" width="378"></p>
+<p>If there is a TCP/IP password the program will require it to be entered by
+clicking the password button.</p>
+<p><img src="ETH008_files/ethernet_module_update_pass.png" border="0" height="130" width="382"></p>
+<p>Following a successful connection you will now be able to click the update
+button to select a file</p>
+<p><img src="ETH008_files/ethernet_module_update_found.png" border="0" height="130" width="376"></p>
+<p><img src="ETH008_files/ethernet_module_update_hex.png" border="0" height="543" width="964"></p>
+<p>Once the file has been opened the programming sequence will now begin, it's
+fairly short and following it's completion the board will reset (automatically)
+and the LED will flash quickly while the programming sequence completes. Do not
+turn the power off in this sequence.</p>
+<p><img src="ETH008_files/ethernet_module_update_prog.png" border="0" height="130" width="379"></p>
+<p align="left">&nbsp;</p>
+<p><b>ETH008 Command Set<br>
+</b>The ETH008 has a new and enhanced command set designed to provide consistent
+expansion and new features. They are sent over TCP/IP
+on port <span lang="EN-GB">17494 (0x4456). This is the default port, it can be
+changed in the configuration settings.
+</span></p>
+<div align="center">
+  <center>
+<table bgcolor="#ccffcc" border="1" cellpadding="2" cellspacing="0" width="70%">
+  <tbody><tr>
+    <td colspan="2" align="center" bgcolor="#66ffff" width="5%">Command</td>
+    <td rowspan="2" align="center" bgcolor="#66ffff" width="95%">
+      <p align="center"><font face="Times New Roman">Action</font></p></td>
+  </tr>
+  <tr>
+    <td align="center" bgcolor="#66ffff" width="2.5%"><font face="Times New Roman">dec</font></td>
+    <td align="center" bgcolor="#66ffff" width="2.5%"><font face="Times New Roman">hex</font></td>
+  </tr>
+  <tr>
+    <td align="center" bgcolor="#ffff00" width="2%">16</td>
+    <td align="center" bgcolor="#ffff00" width="2%">10</td>
+    <td align="center" width="95%">Get Module Info, returns 3 bytes. Module Id (19
+      for ETH008), Hardware version, Firmware version.</td>
+  </tr>
+  <tr>
+    <td align="center" bgcolor="#ffff00" width="2%">32</td>
+    <td align="center" bgcolor="#ffff00" width="2%">20</td>
+    <td align="center" width="95%">
+      Digital active - follow with 1-8 to set relay on, then a time for pulsed
+      output from 1-255 (100ms resolution) or 0 for permanent&nbsp;<br>
+      Board will return 0 for success, 1 for failure&nbsp;
+  </td>
+  </tr>
+  <tr>
+    <td align="center" bgcolor="#ffff00" width="2%">33</td>
+    <td align="center" bgcolor="#ffff00" width="2%">21</td>
+    <td align="center" width="95%">Digital inactive - follow with 1-8 to turn
+      relay off, then a time for pulsed output from 1-255 (100ms resolution) or
+      0 for permanent&nbsp;<br>
+      Board will return 0 for success, 1 for failure&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" bgcolor="#ffff00" width="3%">35</td>
+    <td align="center" bgcolor="#ffff00" width="2%">23</td>
+    <td align="center" width="95%">Digital set outputs <font face="Times New Roman"> -</font>
+      the next single byte will set all relays states, All on = 255 (11111111)
+      All off = 0<br>
+      Board will return 0 for success, 1 for failure&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" bgcolor="#ffff00" width="3%">36</td>
+    <td align="center" bgcolor="#ffff00" width="2%">24</td>
+    <td align="center" width="95%">Digital get outputs <font face="Times New Roman">- sends </font>a
+      single byte back to the controller, bit high meaning the corresponding relay is
+      powered</td>
+  </tr>
+  <tr>
+    <td align="center" bgcolor="#ffff00" width="3%">58</td>
+    <td align="center" bgcolor="#ffff00" width="2%">3A</td>
+    <td align="center" width="95%">ASCII text commands (V4+) - allows a text
+      string to switch outputs, see section below</td>
+  </tr>
+  <tr>
+    <td align="center" bgcolor="#ffff00" width="3%">119</td>
+    <td align="center" bgcolor="#ffff00" width="2%">77</td>
+    <td align="center" width="95%">Get serial number - Returns the unique 6 byte MAC
+      address of the module.</td>
+  </tr>
+  <tr>
+    <td align="center" bgcolor="#ffff00" width="3%">120</td>
+    <td align="center" bgcolor="#ffff00" width="2%">78</td>
+    <td align="center" width="95%">Get Volts - returns relay supply
+      voltage as byte, 125 being 12.5V DC</td>
+  </tr>
+  <tr>
+    <td align="center" bgcolor="#ffff00" width="3%">121</td>
+    <td align="center" bgcolor="#ffff00" width="2%">79</td>
+    <td align="center" width="95%">Password entry - see TCP/IP password </td>
+  </tr>
+  <tr>
+    <td align="center" bgcolor="#ffff00" width="3%">122</td>
+    <td align="center" bgcolor="#ffff00" width="2%">7A</td>
+    <td align="center" nowrap="nowrap" width="95%">Get unlock time - see section
+      below&nbsp; </td>
+  </tr>
+  <tr>
+    <td align="center" bgcolor="#ffff00" width="3%">123</td>
+    <td align="center" bgcolor="#ffff00" width="2%">7B</td>
+    <td align="center" width="95%">Log out - immediately re-enables TCP/IP
+      password protection</td>
+  </tr>
+  </tbody></table></center>
+</div>
+<p><b>Digital Active/Inactive<br>
+</b>This is a 3 byte command:<br>
+The first byte is the command, 32 (active means on) or 33 (inactive).<br>
+Second byte is the relay number (1-8).<br>
+Third byte is the on time. Set this to zero for un-timed operation, or 1-255 for
+a pulse in 100mS intervals (100mS to 25.5 seconds).&nbsp;<b><br>
+</b>For example:<b><br>
+</b>
+0x20 - turn the relay on command<br>
+0x03 - relay 3<br>
+0x32 (50) - 5 seconds (50 * 100ms)&nbsp;<br>
+Board will return 0 for success, 1 for failure&nbsp;<br>
+Note - All bytes in a command must be sent in one TCP/IP packet .</p>
+<p><b>TCP/IP Password<br>
+</b>If this option is enabled in the http configuration page then a password
+will be required to be entered before relay states can be changed. In the
+following example the password was set to "apple":<br>
+<br>
+0x79 - 1st byte in frame sent to ETH008 to indicate password entry<br>
+'a' (0x61) - 2nd byte in frame (ASCII hex equivalent in brackets, full table is
+available at <a href="http://www.asciitable.com/">http://www.asciitable.com/</a>)<br>
+'p' (0x70) - 3rd byte in frame<br>
+'p' (0x70) - 4th byte in frame<br>
+'l' (0x6C) - 5th byte in frame<br>
+'e' (0x65) - 6th byte in frame<br>
+<br>
+These 6 bytes are then transmitted in the same transaction to the ETH008 and if
+the password is correct then 1 will transmitted back, a failure will send 2.<br>
+The board will now accept changes from the device that entered the password. If
+communication becomes idle for more than 30 seconds then the password protection
+is
+re-enabled. There is also a log-out command of 0x7B to enable the protection immediately.</p>
+<p><b>Get Unlock Time<br>
+</b>Returns TCP/IP password protection status:<br>
+0 - password protection is enabled and password entry is required before changes can be made<br>
+1 to 30 - seconds until TCP/IP password protection is re-enabled. All authorised
+commands set the timer back to 30 seconds (including this one).&nbsp;<br>
+255 - TCP/IP password is not enabled.&nbsp;</p>
+<p><b>ASCII text commands DOA and DOI (V4+ firmware needed)<br>
+</b>Following customer request we have added a feature that allows the outputs
+to be switched using an ASCII string, devices like a Mobotix camera can now
+switch relays with simple strings.<br>
+The string for activating output1 for 5 seconds is formatted using comma
+seperated variables with the following syntax:<br>
+":DOA,1,50,password"<br>
+To break this down ":" (hex 3A) at the start of the string indicates
+that there is an ASCII message to follow, "DOA" is digital output
+active, "1" is the output number, then "50" for 5 seconds
+(50x100ms) and finally the TCP password (if applicable).<br>
+If I wanted to make output 2 inactive for 3 seconds I would use:<br>
+":DOI,2,30,password"&nbsp;<br>
+To break this down ":" (hex 3A) at the start of the string indicates
+that there is an ASCII message to follow, "DOI" is digital output
+inactive, "2" is the output number, then "30" for 3 seconds
+(30x100ms) and finally the TCP password (if applicable).<br>
+Assuming no password is used the previous command would simply be:<br>
+":DOI,2,30 "<br>
+<b><br>
+TCP/IP Legacy Commands</b><br>
+The ETH008 supports the full legacy ETH-RLY16 command set.</p>
+<p><b>HTML commands DOAx and DOIx (V4+ firmware needed)<br>
+</b>Another customer requested feature, allowing the digital outputs to be
+switched by the http get function such as used in some voice over ip phones (VOIP).
+You can use the http get function to write to the io.cgi file with the following
+syntax:<br>
+192.168.0.200/io.cgi?DOA2=10<br>
+This would use the default address (192.168.0.200) and make output 2 active for
+1 second.&nbsp;<br>
+Another example would be to set output 1 inactive for 10 seconds:<br>
+192.168.0.200/io.cgi?DOI1=10<br>
+You can test these functions by typing them directly into the address bar of
+most internet browsers. Also be aware that you may need to disable http
+authentication in the http configuration if your control device does not support
+it.</p>
+<p>&nbsp;
+</p>
+<p><b>IP Addresses &amp; DHCP Servers</b><br>
+The easiest way to use the ETH008 is to connect it to a network with a DHCP
+server. In this case the ETH002 will have its IP address assigned automatically
+by the DHCP server.</p>
+<p>If there is no DHCP server on the network, then a fixed IP address of
+192.168.0.200 is used.&nbsp; To control the ETH008 using this fixed IP address
+your computer MUST be on the same subnet.&nbsp;<br>
+The next step is to set your computers IP address to 192.168.0.x where x is in
+the range of 1 to 255 but not 200 (the ETH008 is there!) or any other used IP
+addresses on the network.<br>
+The subnet mask dictates what IP addresses the PC can communicate with, we set
+this to 255.255.255.0 so the PC can talk to any module with an IP address of
+192.168.0.x</p>
+<div align="center">
+  <center>
+  <table border="0">
+    <tbody><tr>
+      <td>
+        <table border="0" cellspacing="5">
+          <tbody><tr>
+            <td valign="middle"><img src="ETH008_files/LAC-windows7.png" border="0" height="474" width="378"></td>
+            <td valign="middle">
+              <p align="left">This image is for a PC running Windows 7.<br>
+              To get to the TCP/IP properties screen, go to:<br>
+              Control Panel-&gt;Network and Sharing Center-&gt;Local Area
+              Connection-&gt;Properties.<br>
+              Select Internet Protocol Version 4(TCP/IPv4) from the scroll box
+              and click Properties.</p>
+              <p align="left">That gets you to the dialog box shown left.</p></td>
+          </tr>
+        </tbody></table>
+      </td>
+    
+  </tr>
+  </tbody></table>
+</center></div>
+<p align="left">&nbsp;</p>
+<p align="left"><b>Test program and example source code<br>
+</b>To get the ETH008 up and running in the minimum amount of
+time we have put together an example program to demonstrate the functionality of
+the module.&nbsp;&nbsp;We provide the full source code for this program. You may
+examine this code to see how it works or use it as a starting point for your own
+application.</p>
+<p align="center"><img src="ETH008_files/eth008test.png" border="0" height="289" width="343"></p>
+<p align="left">Visual studio express C# examples
+<br>
+The test program is available as Visual C# express ready built installation files
+<a href="http://www.robot-electronics.co.uk/files/eth008inst.zip"> here</a>,&nbsp; or as Visual C# express project
+with source files <a href="http://www.robot-electronics.co.uk/files/eth008sc.zip">here</a>.<br>
+Visual studio express is provided free from Microsoft: <a href="http://www.microsoft.com/exPress/download/">http://www.microsoft.com/exPress/download/</a> </p>
+<p align="left"><b>Access from the Internet<br>
+</b>The ETH008 can be controlled over the internet almost as easily as on
+your local network. Your network will most likely be connected to the internet
+with a broadband router. This will provide NAT (Network Address Translation) and
+Firewall services. To access the ETH008 from the internet you will need to
+open up port <span lang="EN-GB">17494 (0x4456) to allow incoming TCP
+connections. Be careful not to open up any other ports. There are a wide variety
+of routers and we cannot give details for all of them. If in doubt ask your
+system administrator for assistance. The following shows how to open up a port
+on a Netgear DG834 router.&nbsp;
+</span></p>
+<p align="center"> <img src="ETH008_files/eth008service.png" border="0" height="232" width="333"></p>
+<p align="left"> <span lang="EN-GB">&nbsp;After logging on to your routers setup
+page, the first thing to do is create a new service. Click on the
+"Services" menu then "Add Custom Service". Enter a name for
+the service, select TCP and enter the ETH008's port address for both the
+start and finish ports. Click "Apply".</span></p>
+<p align="center"><img src="ETH008_files/eth008inbound.png" border="0" height="323" width="371"></p>
+<p align="left">Now go to the "Firewall Rules" menu and click&nbsp;
+"Add" in the Inbound services section. Select the ETH008 service
+and ALLOW always. The "Send to LAN Server" IP address is the ETH008's IP address,
+192.168.0.99 in the example above but check what it is
+on your network. Click "Apply" and that's it. The ETH008 is now accessible
+over the internet. Before you close the routers setup pages, go to the
+"Router Status" menu and make a note of&nbsp; its ADSL port IP
+address. This is the routers internet facing IP address. </p>
+<p align="center"><img src="ETH008_files/eth008test2.png" border="0" height="295" width="349"></p>
+<p align="left">To test this you will need a computer that has its own internet
+connection and is NOT connected to the same network as the ETH008. Download
+and run the test program above and select Custom IP. In the pop-up box enter
+your routers internet facing IP address. Click on "Try IP" and it will
+connect you to the ETH008 just as if it were on your own network.</p>
+<p align="left"><b>Android &amp; iPhone Apps</b>.<br>
+We have a free app <b>IO network</b> available for Android and iPhone to remotely control your relays, download from Google
+Play or iTunes.
+Search for "Devantech" and you will find the app.</p>
+<p><b>Board dimensions</b></p>
+<p align="center"><img src="ETH008_files/eth008dim.png" border="0" height="592" width="854"></p>
+<p align="left">&nbsp;</p>
+
+</body></html>

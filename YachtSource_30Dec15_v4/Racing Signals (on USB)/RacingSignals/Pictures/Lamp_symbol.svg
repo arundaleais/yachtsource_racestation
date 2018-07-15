@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="280" height="120">
+
+  <g id="line">
+    <line x1="20" y1="60" x2="104" y2="60" style="stroke:black;stroke-width:4;stroke-linecap:round" id="line_1"/>
+    <use transform="translate(156,0)" xlink:href="#line_1" id="line_2"/>
+  </g>
+
+  <circle cx="140" cy="60" r="36" style="fill:none;stroke:black;stroke-width:4" id="circle"/>    
+  
+  <g id="cross">
+    <line x1="165" y1="35" x2="115" y2="85" style="stroke:black;stroke-width:4;stroke-linecap:round" id="cross_1"/>
+    <use transform="matrix(-1,0,0,1,280,0)" xlink:href="#cross_1" id="cross_2"/>
+  </g>
+
+</svg>

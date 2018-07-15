@@ -1,0 +1,44 @@
+Edd
+
+Yes it will but I hope you know more about Windows 8 than I do.
+
+Eg The Laptop I got to try Windows 8.1 (x64)  after 10 mins switched on suddenly decides it's going to reboot to install a Windows update !!
+Obviously things like this need stopping. I'm finding Windows 8 VERY frustrating - having to continually use Help on my XP pc to find out how to do simple tasks.
+
+I set up https://www.meinbergglobal.com/english/sw/ntp.htm to be used as a time server as its much better than using Microsoft and is more accurate.
+It sync's each time the PC is switched on, what I don't want it doing is changing the time (even by a second) half way through a race.
+
+You should be able to access the controller board with http://eth008/ as long as the pc is on the 192.168.1 subnet. This will enable you to set up a fixed IP address. Please leave The default login as (case sensitive):
+ Username: admin
+ Password: password
+
+DNS1	8.8.8.8	(Google)
+DNS2	194.74.65.68 (BT)
+
+Router Gateway 192.168.1.254
+Race Station reserved IP addresses 192.168.1.243 to 253
+
+type %temp%\racingsignalslog.log
+
+See https://www.youtube.com/watch?v=GQubV1CzMdI
+This opens a YouTube tutorial (20 mins) on basic touch screen actions
+
+I have also attached the test program set-up
+
+regards
+
+Harry
+
+Edd wrote:
+> Hi Harry
+>
+> Forgot to ask Sunday. Will race station software run on Windows 8.1 64bit?
+>
+> Thanks.
+>
+> Edd
+>
+>
+>
+> .
+>

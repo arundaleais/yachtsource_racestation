@@ -1,0 +1,9 @@
+icrosoft Windows [Version 10.0.10240]
+(c) 2015 Microsoft Corporation. All rights reserved.
+
+C:\WINDOWS\system32>%windir%\syswow64\regsvr32.exe
+
+C:\WINDOWS\system32>%windir%\syswow64\regsvr32.exe %windir%\syswow64\comdlg32.ocx
+
+C:\WINDOWS\system32>
+

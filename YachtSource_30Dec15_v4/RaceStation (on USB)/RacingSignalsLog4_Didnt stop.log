@@ -1,0 +1,88 @@
+31/05/2015 16:04:56	57896.43
+31/05/2015 16:04:57	57897.43
+31/05/2015 16:04:58	57898.42
+                   	Command Finish (57898.62)
+                   	OpenAndSend 32,1,0 (57898.62)
+                   	eth008=32,1,0 (57898.62)
+                   	WaitForReply=True (57898.63)
+                   	DoEvents  (57898.63)
+                   	DataArrival=0 1  (57898.64)
+                   	ReplyWait=False (57898.64)
+                   	Click 1, True (57898.64)
+                   	RepliedBytes 10000000 (57898.64)
+                   	OpenAndSend 32,2,0 (57898.64)
+                   	eth008=32,2,0 (57898.64)
+                   	WaitForReply=True (57898.64)
+                   	DoEvents  (57898.65)
+                   	DoEvents  (57898.66)
+                   	DataArrival=0 3  (57898.67)
+                   	ReplyWait=False (57898.67)
+                   	Click 1, True (57898.67)
+                   	RepliedBytes 11000000 (57898.67)
+31/05/2015 16:04:59	57899.43
+                   	OpenAndSend 33,1,0 (57899.64)
+                   	eth008=33,1,0 (57899.64)
+                   	WaitForReply=True (57899.64)
+                   	DoEvents  (57899.64)
+                   	DoEvents  (57899.66)
+                   	DataArrival=0 2  (57899.67)
+                   	ReplyWait=False (57899.67)
+                   	Click 0, True (57899.67)
+                   	RepliedBytes 01000000 (57899.67)
+                   	OpenAndSend 33,2,0 (57899.67)
+                   	eth008=33,2,0 (57899.67)
+                   	WaitForReply=True (57899.68)
+                   	DoEvents  (57899.68)
+                   	DoEvents  (57899.69)
+                   	DataArrival=0 0  (57899.7)
+                   	ReplyWait=False (57899.7)
+                   	Click 0, True (57899.7)
+                   	RepliedBytes 00000000 (57899.7)
+31/05/2015 16:05:00	57900.43
+31/05/2015 16:05:01	57901.43
+31/05/2015 16:05:02	57902.43
+31/05/2015 16:05:03	57903.42
+31/05/2015 16:05:04	57904.43
+31/05/2015 16:05:05	57905.43
+31/05/2015 16:05:06	57906.43
+31/05/2015 16:05:07	Command Finish (57907.17)
+                   	OpenAndSend 32,1,0 (57907.17)
+                   	eth008=32,1,0 (57907.17)
+                   	WaitForReply=True (57907.18)
+                   	DoEvents  (57907.18)
+                   	DataArrival=0 1  (57907.19)
+                   	ReplyWait=False (57907.19)
+                   	Click 1, True (57907.19)
+                   	RepliedBytes 10000000 (57907.19)
+                   	OpenAndSend 32,2,0 (57907.2)
+                   	eth008=32,2,0 (57907.2)
+                   	WaitForReply=True (57907.2)
+                   	DoEvents  (57907.2)
+                   	DoEvents  (57907.21)
+                   	DataArrival=0 3  (57907.22)
+                   	ReplyWait=False (57907.22)
+                   	Click 1, True (57907.22)
+                   	RepliedBytes 11000000 (57907.22)
+                   	57907.43
+31/05/2015 16:05:08	OpenAndSend 33,1,0 (57908.2)
+                   	eth008=33,1,0 (57908.2)
+                   	WaitForReply=True (57908.2)
+                   	DoEvents  (57908.2)
+                   	DoEvents  (57908.21)
+                   	DataArrival=0 2  (57908.22)
+                   	ReplyWait=False (57908.23)
+                   	Click 0, True (57908.23)
+                   	RepliedBytes 01000000 (57908.23)
+                   	OpenAndSend 33,2,0 (57908.23)
+                   	eth008=33,2,0 (57908.23)
+                   	WaitForReply=True (57908.23)
+                   	DoEvents  (57908.23)
+                   	DoEvents  (57908.24)
+                   	DataArrival=0 0  (57908.25)
+                   	ReplyWait=False (57908.25)
+                   	Click 0, True (57908.25)
+                   	RepliedBytes 00000000 (57908.25)
+                   	57908.42
+31/05/2015 16:05:09	57909.43
+31/05/2015 16:05:10	57910.43
+31/05/2015 16:05:11	57911.43

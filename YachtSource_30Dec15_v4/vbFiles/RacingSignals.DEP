@@ -1,0 +1,29 @@
+[Version]
+Version=1.2.0.0
+
+[RacingSignals.exe <0009>]
+Dest=$(AppPath)
+Date=14/02/2014
+Time=13:31
+Version=1.2.0.0
+CABFilename=RacingSignals.CAB
+CABINFFile=RacingSignals.INF
+Uses1=msvbvm60.dll
+Uses2=OLEAUT32.DLL
+Uses3=OLEPRO32.DLL
+Uses4=ASYCFILT.DLL
+Uses5=STDOLE2.TLB
+Uses6=COMCAT.DLL
+Uses7=capicom.dll
+Uses8=MShflxgd.ocx
+Uses9=ComDlg32.OCX
+Uses10=mscomctl.OCX
+Uses11=MSWINSCK.ocx
+Uses12=MSINET.ocx
+Uses13=mci32.Ocx
+
+[capicom.dll <0009>]
+Dest=$(WinSysPath)
+Date=11/04/2007
+Time=10:11
+Version=2.1.0.2
